@@ -18,3 +18,14 @@ $lightred:#A62E5B;
   margin: 0;
   padding: 0;
 }
+
+// CSS des liens
+
+li {
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: $white;
+}
