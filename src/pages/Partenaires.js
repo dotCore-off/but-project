@@ -4,8 +4,8 @@ import Navigation from '../components/Navigation';
 const Partenaires = () => {
   return (
     <div>
-      partenaires
       <Navigation />
+      partenaires
     </div>
   );
 };

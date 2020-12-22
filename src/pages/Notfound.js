@@ -4,8 +4,8 @@ import Navigation from '../components/Navigation';
 const Notfound = () => {
   return (
     <div>
-      notfound
       <Navigation />
+      notfound
     </div>
   );
 };

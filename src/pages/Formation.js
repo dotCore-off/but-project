@@ -4,8 +4,8 @@ import Navigation from '../components/Navigation';
 const Formation = () => {
   return (
     <div>
-      Formation
       <Navigation />
+      Formation
     </div>
   );
 };

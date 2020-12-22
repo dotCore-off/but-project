@@ -4,8 +4,8 @@ import Navigation from '../components/Navigation';
 const Poursuiteetudes = () => {
   return (
     <div>
-      poursuiteetudes
       <Navigation />
+      poursuiteetudes
     </div>
   );
 };
