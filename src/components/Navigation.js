@@ -30,11 +30,6 @@ const Navigation = () => {
                 Nos partenaires
               </NavLink>
             </li>
-            <li>
-              <NavLink exact to="/Notfound" activeClassName="navActive">
-                Notfound
-              </NavLink>
-            </li>
         </ul>
       </div>
   );
