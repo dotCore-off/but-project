@@ -1,13 +1,13 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 
-const Notfound = () => {
+const Poursuiteetudes = () => {
   return (
     <div>
-      notfound
+      poursuiteetudes
       <Navigation />
     </div>
   );
 };
 
-export default Notfound;
+export default Poursuiteetudes;
