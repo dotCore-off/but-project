@@ -9,7 +9,7 @@ const Footer = () => {
             </div>
             <div className="central">
                 <div className="Logo">
-                    <img src={logo} />
+                    <img src={logo} alt="Logo IUT" className="image"/>
                 </div>
                 <div className="SiteIUT">
                     <a href="https://iut-roanne.univ-st-etienne.fr/fr/index.html">Site de l'IUT</a>
