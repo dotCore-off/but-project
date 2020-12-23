@@ -1,41 +1,51 @@
 import React from 'react';
-import { Slide } from 'react-slideshow-image';
+import { Splide, SplideSlide } from '@splidejs/react-splide';
 
-const slideImages = [
-    '../media/banniere/entree.jpg',
-    '../media/banniere/cablage.jpg',
-    '../media/banniere/signal.jpg',
-    '../media/banniere/ubuntu.png'
-  ];
+import { createSlides } from "@splidejs/react-splide/dist/js/utils/slides";
+
+import '@splidejs/splide/dist/css/themes/splide-default.min.css';
+
+import image1 from '../media/banniere/entree.jpg';
+import image2 from '../media/banniere/cablage.jpg';
+import image3 from '../media/banniere/signal.jpg';
+import image4 from '../media/banniere/ubuntu.png';
 
 const Banniere = () => {
     return (
+      <div className="slide">
+        <Splide
+				  options={ {
+					  type         : 'loop',
+					  gap          : '1rem',
+					  autoplay     : true,
+					  pauseOnHover : false,
+					  resetProgress: false,
+					  arrows       : 'slider',
+          } }
+        hasSliderWrapper
+				hasAutoplayControls
+				hasAutoplayProgress
+			>
 
-        <div className="slide-container">
-        <Slide>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
-              <span>Slide 1</span>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
-              <span>Slide 2</span>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-              <span>Slide 3</span>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[3]})`}}>
-              <span>Slide 4</span>
-            </div>
-          </div>
-        </Slide>
+     
+      <SplideSlide>
+        <img src={image1} alt="Image 1"/>
+      </SplideSlide>
+      <SplideSlide>
+        <img src={image2} alt="Image 2"/>
+      </SplideSlide>
+      <SplideSlide>
+        <img src={image3} alt="Image 3"/>
+      </SplideSlide>
+      <SplideSlide>
+        <img src={image4} alt="Image 4"/>
+      </SplideSlide>
+    </Splide>
+    
+    
       </div>
-    )
-}
+
+    );
+};
 
 export default Banniere;
