@@ -12,6 +12,7 @@ import image4 from '../media/banniere/ubuntu.png';
 
 const Banniere = () => {
     return (
+      <div className="background">
       <div className="slide">
           <Splide
 				    options={ {
@@ -23,11 +24,11 @@ const Banniere = () => {
             arrows       : 'slider',
             speed        : '2000',
             interval     : '25000'
-          } }
-        hasSliderWrapper
-			  //	hasAutoplayControls
-				hasAutoplayProgress
-			  >
+            } }
+            hasSliderWrapper
+            //	hasAutoplayControls
+            hasAutoplayProgress
+			    >
      
         <SplideSlide>
           <img src={image1} alt="IUT" className="imgbanniere"/>
@@ -44,7 +45,7 @@ const Banniere = () => {
       </Splide>
     
       </div>
-    
+      </div>
     );
 };
 
