@@ -1,7 +1,7 @@
 .choisirBUT{
-    color: white;
+    color: $white;
     width: 100%;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-family: $font-1;
     padding-top: 35px;
     padding-bottom: 35px;
@@ -14,16 +14,27 @@
     padding-right: 5%;
 }
 
-.choisirBUT h1{
-    text-decoration: white underline;
+.choisirBUT h2{
+    text-decoration: $white underline;
     text-align: center;
-    padding-bottom: 5%;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
 
 }
 
 .avantagesIUT{
     width: 30%;
 }
+
+.avantagesIUT ul li{
+    padding-bottom: 10px;
+}
+
+.avantagesBUT ul li{
+    padding-bottom: 5px;
+}
+
 
 .certifications{
     width: 30%;
@@ -34,12 +45,12 @@
     width: 30%;
 }
 
-.paragavantageBUT p{
-    padding-bottom: 50px;
+.choisirBUT p{
+    text-align: center;
 }
 
 .infoBUT{
-    text-decoration: underline white;
+    text-decoration: underline $white;
     text-align: center;
     padding-top: 20px;
 }
@@ -48,7 +59,6 @@
     width: 75%;
     height: auto;
     padding-top: 20px;
-    
 }
 
 .imgstormshield{
@@ -59,7 +69,7 @@
 
 @media screen and (max-width: 640px){
     .choisirBUT{
-        color: white;
+        color: $white;
     width: 100%;
     font-size: 0.8rem;
     font-family: $font-1;

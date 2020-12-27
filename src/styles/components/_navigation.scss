@@ -11,6 +11,10 @@
 
 }
 
+.navigationContent ul li{
+  list-style-type: none;
+}
+
 .navigationContent ul{
   display: flex;
   flex-wrap: nowrap;
