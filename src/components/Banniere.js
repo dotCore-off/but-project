@@ -1,7 +1,7 @@
 import React from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 
-import { createSlides } from "@splidejs/react-splide/dist/js/utils/slides";
+// import { createSlides } from "@splidejs/react-splide/dist/js/utils/slides";
 
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
@@ -30,16 +30,16 @@ const Banniere = () => {
 			  >
      
         <SplideSlide>
-          <img src={image1} alt="Image 1" className="imgbanniere"/>
+          <img src={image1} alt="IUT" className="imgbanniere"/>
         </SplideSlide>
         <SplideSlide>
-          <img src={image2} alt="Image 2" className="imgbanniere"/>
+          <img src={image2} alt="Baie de brassage" className="imgbanniere"/>
         </SplideSlide>
         <SplideSlide>
-          <img src={image3} alt="Image 3" className="imgbanniere"/>
+          <img src={image3} alt="Osciloscope" className="imgbanniere"/>
         </SplideSlide>
         <SplideSlide>
-          <img src={image4} alt="Image 4" className="imgbanniere"/>
+          <img src={image4} alt="Ubuntu" className="imgbanniere"/>
         </SplideSlide>
       </Splide>
     
