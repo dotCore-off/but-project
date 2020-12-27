@@ -60,62 +60,39 @@ a:active{
   .navigationContent ul{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: none;
   }
 
 }
 
 @media screen and (max-width: 540px){
-
   .navigationContent{
-    width: 100%;
     height: 80px;
-    padding-left: 0%;
-    padding-right: 0%;
-    font-size: 1rem;
-    padding-top: 20px;
+    padding-top: 30px;
   }
-  
-  .navigationContent ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: none;
-  }
+}
 
+@media screen and (max-width: 510px){
+  .navigationContent{
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 462px){
+  .navigationContent{
+    padding-top: 30px;
+  }
 }
 
 @media screen and (max-width: 280px){
-
   .navigationContent{
-    width: 100%;
-    height: 80px;
-    padding-left: 0%;
-    padding-right: 0%;
-    font-size: 0.9rem;
+    height: 76px;
     padding-top: 20px;
-  }
-  
-  .navigationContent ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: none;
   }
 }
 
 @media screen and (max-width: 240px){
-
   .navigationContent{
-    width: 100%;
-    height: 80px;
-    padding-left: 0%;
-    padding-right: 0%;
+    height: 68px;
     font-size: 0.8rem;
-    padding-top: 20px;
-  }
-  
-  .navigationContent ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: none;
   }
 }
