@@ -4,7 +4,6 @@ import { NavLink } from 'react-router-dom';
 const Navigation = () => {
   return (
       <div className="navigationContent">
-        <div id="menuToggle">
         <ul>
             <li>
               <NavLink exact to="/" activeClassName="navActive">
@@ -32,7 +31,6 @@ const Navigation = () => {
               </NavLink>
             </li>
         </ul>
-      </div>
       </div>
   );
 };
