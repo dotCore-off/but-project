@@ -64,3 +64,22 @@ a:active{
   }
 
 }
+
+@media screen and (max-width: 540px){
+
+  .navigationContent{
+    width: 100%;
+    height: 80px;
+    padding-left: 0%;
+    padding-right: 0%;
+    font-size: 1rem;
+    padding-top: 20px;
+  }
+  
+  .navigationContent ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: none;
+  }
+
+}
