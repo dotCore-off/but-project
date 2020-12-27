@@ -1,4 +1,6 @@
 import React from 'react';
+import { Button } from '@material-ui/core';
+
 import logo from '../media/logoIUT1.png';
 
 const Footer = () => {
@@ -16,7 +18,9 @@ const Footer = () => {
                 </a>
             </div>
             <div className="Connexion">
-                    <a href="https://iut-roanne.univ-st-etienne.fr/fr/index.html" target = "_blank" className="afooter">Se connecter</a>
+                <div className="bouton">
+                <Button>Se connecter</Button>
+                </div>
             </div>
             <div className="MentionLegales">
                     <a href="https://iut-roanne.univ-st-etienne.fr/fr/liens-de-bas-de-page/mentions-legales-2.html" target = "_blank" className="afooter">Mentions Légales</a>

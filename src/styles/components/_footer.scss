@@ -65,3 +65,38 @@
     text-align: center;
     grid-column-start: 3;
 }
+
+.MuiButton-label{
+    color: $white;
+    text-transform: none;
+    font-family: $font-1;
+    padding: none;
+}
+
+.MuiButtonBase-root MuiButton-root MuiButton-text{
+    padding: none;
+    align-items: initial;
+}
+
+.MuiButton-label{
+    display: none;
+    justify-content: none;
+    align-items: none;
+}
+
+.MuiButton-root{
+    line-height:none;
+    letter-spacing: none;
+    padding: none;
+}
+
+.MuiButton-text{
+    padding: none;
+}
+
+/*.afooter{
+    color: $white;
+    background: none;
+    text-decoration: none;
+    border: none;
+}*/
