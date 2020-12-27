@@ -1,13 +1,12 @@
 .choisirBUT{
     color: white;
     width: 100%;
-    font-size: 1.2vw;
+    font-size: 0.8rem;
     font-family: $font-1;
     padding-top: 35px;
     padding-bottom: 35px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-around;
     align-items: flex-start;
     align-content: flex-start;
@@ -56,4 +55,56 @@
     width: 75%;
     height: auto;
     padding-top: 20px;
+}
+
+@media screen and (max-width: 640px){
+    .choisirBUT{
+        color: white;
+    width: 100%;
+    font-size: 0.8rem;
+    font-family: $font-1;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-left: 5%;
+    padding-right: 5%;
+    }
+
+    .avantagesIUT{
+        width: 100%;  
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: 20px; 
+    }
+    
+    .certifications{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .avantagesBUT{
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .imgcisco{
+        width: 50%;
+        height: auto;
+        padding-top: 20px;
+        
+    }
+    
+    .imgstormshield{
+        width: 50%;
+        height: auto;
+        padding-top: 20px;
+    }
 }
