@@ -38,9 +38,11 @@ const ChoisirBUT = () => {
                     -Compétence dans le domaine des réseaux et télécoms<br />
                     -Filière avec beaucoup d'emploi-Stage de deux mois en 3e année<br />
                 </p>
-                <a href="https://iut-roanne.univ-st-etienne.fr/fr/tous-les-faits-marquants/annee-2020-2021-2/zoom-sur/but.html" target= "_blank" className="infoBUT">
+                <div className="infoBUT">
+                    <a href="https://iut-roanne.univ-st-etienne.fr/fr/tous-les-faits-marquants/annee-2020-2021-2/zoom-sur/but.html" target= "_blank">
                     Pour en savoir plus sur le BUT !
-                </a>
+                    </a>
+                </div>
             </div>
         </div>
     )
