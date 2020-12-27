@@ -11,10 +11,12 @@ const Footer = () => {
                 <a href="https://www.instagram.com/iutroanne/" target = "_blank" className="afooter"><i class="fab fa-instagram"></i></a>
             </div>
             <div className="Logo">
-                    <img src={logo} alt="Logo IUT" className="image"/>
+                <a href="https://iut-roanne.univ-st-etienne.fr/fr/index.html" target = "_blank" className="afooter">
+                    <img src={logo} alt="Logo IUT" className="image" href="https://iut-roanne.univ-st-etienne.fr/fr/index.html" target = "_blank"></img>
+                </a>
             </div>
-            <div className="SiteIUT">
-                    <a href="https://iut-roanne.univ-st-etienne.fr/fr/index.html" target = "_blank" className="afooter">Site de l'IUT</a>
+            <div className="Connexion">
+                    <a href="https://iut-roanne.univ-st-etienne.fr/fr/index.html" target = "_blank" className="afooter">Se connecter</a>
             </div>
             <div className="MentionLegales">
                     <a href="https://iut-roanne.univ-st-etienne.fr/fr/liens-de-bas-de-page/mentions-legales-2.html" target = "_blank" className="afooter">Mentions Légales</a>
