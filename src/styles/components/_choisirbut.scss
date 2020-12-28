@@ -6,10 +6,9 @@
     padding-top: 35px;
     padding-bottom: 35px;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    align-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -20,28 +19,17 @@
     text-transform: uppercase;
     font-size: 1.5rem;
     padding-bottom: 2rem;
-
+    letter-spacing: 1px;
+    list-style-type: none;
 }
 
-.avantagesIUT{
-    width: 30%;
+.IUTBUT{
+    width: 80%;
 }
 
-.avantagesIUT ul li{
+.IUTBUT ul li{
     padding-bottom: 10px;
-}
-
-.avantagesBUT ul li{
-    padding-bottom: 10px;
-}
-
-.certifications{
-    width: 30%;
-    text-align: center;
-}
-
-.avantagesBUT{
-    width: 30%;
+    list-style-type: none;
 }
 
 .choisirBUT p{
@@ -54,17 +42,6 @@
     padding-top: 20px;
 }
 
-.imgcisco{
-    width: 75%;
-    height: auto;
-    padding-top: 20px;
-}
-
-.imgstormshield{
-    width: 75%;
-    height: auto;
-    padding-top: 20px;
-}
 
 @media screen and (max-width: 640px){
     .choisirBUT{
@@ -83,37 +60,10 @@
     padding-right: 5%;
     }
 
-    .avantagesIUT{
+    .IUTBUT{
         width: 100%;  
         margin-left: 10%;
         margin-right: 10%;
         padding-bottom: 20px; 
-    }
-    
-    .certifications{
-        width: 100%;
-        text-align: center;
-        padding-bottom: 20px;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    
-    .avantagesBUT{
-        width: 100%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    .imgcisco{
-        width: 50%;
-        height: auto;
-        padding-top: 20px;
-        
-    }
-    
-    .imgstormshield{
-        width: 50%;
-        height: auto;
-        padding-top: 20px;
     }
 }

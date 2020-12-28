@@ -1,19 +1,20 @@
 import React from 'react';
 
-import cisco from '../media/certifications/ccna_cisco.png';
-import stormshield from '../media/certifications/logo-stormshield.png';
+
 
 const ChoisirBUT = () => {
     return (
         <div className="choisirBUT">
-            <div className="avantagesIUT">
-                <h2>Nos avantages</h2>
+            <div className="IUTBUT">
+                <h2>choisir l'IUT de Roanne</h2>
                     <ul>
                         <li>
-                        Formation en 3 ans
+                            <i class="fas fa-store"></i>
+                            Proche des commerces
                         </li>
                         <li>
-                        Proche des commerces et des habitats
+                            <i class="fas fa-home"></i>
+                            Proche des habitats
                         </li>
                         <li>
                         Transport en communs
@@ -38,16 +39,7 @@ const ChoisirBUT = () => {
                         </li>
                     </ul>
             </div>
-            <div className="certifications">
-                <h2>Nos certifications</h2>
-                <div className="cisco">
-                    <img src={cisco} alt="Cerfication CCNA cisco" className="imgcisco"></img>
-                </div>
-                <div className="stormshield">
-                    <img src={stormshield} alt="Certification Stormshield" className="imgstormshield"></img>
-                </div>
-            </div>
-            <div className="avantagesBUT">
+            <div className="IUTBUT">
                 <h2>Les avantages du BUT</h2>
                     <ul>
                         <li>
