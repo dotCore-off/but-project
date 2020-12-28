@@ -46,10 +46,13 @@
 
 .IUTBUT ul{
     display: flex;
+
+    justify-content: space-evenly;
+    align-items: center !important;
 }
 
 .IUTBUT ul li{
-    display: flex;
+    display: block !important;
 }
 
 
