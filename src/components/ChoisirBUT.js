@@ -8,34 +8,44 @@ const ChoisirBUT = () => {
             <div className="IUTBUT">
                 <h2>choisir l'IUT de Roanne</h2>
                     <ul>
+
+                        <li>
+                        <i class="fas fa-bus"></i>
+                        <span>Transport en communs</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-snowboarding"></i>
+                            <span>Associations sportives</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-utensils"></i>
+                            <span>Resto U - Bistro U (3.30€/repas)</span>
+                        </li>
                         <li>
                             <i class="fas fa-store"></i>
-                            Proche des commerces
+                            <span>Proche des commerces</span>
                         </li>
                         <li>
                             <i class="fas fa-home"></i>
-                            Proche des habitats
+                            <span>Proche des habitats</span>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <i class="fas fa-school"></i>
+                            <span>Bibliothèque Universitaire</span>
                         </li>
                         <li>
-                        Transport en communs
+                            <i class="fas fa-hands-helping"></i>
+                            <span>Soutien RT1 et RT2</span>
                         </li>
                         <li>
-                        Associations sportives/vie étudiante (maison des étudiants)
+                            <i class="fas fa-user-friends"></i>
+                            <span>Tutorat Élève/Professeur</span>
                         </li>
                         <li>
-                        Du soutien et une forte communication entre RT1 et RT2
-                        </li>
-                        <li>
-                        Un RestoU (3.30€/repas + qualité car il est relié à l'hôpital) et un BistroU (Crous) disponible pour les repas du midi.
-                        </li>
-                        <li>
-                        BU reliée avec Saint-Étienne et Lyon présente dans l'IUT
-                        </li>
-                        <li>
-                        Tutorat, chaque élève est suivi par un professeur pour sa réussite
-                        </li>
-                        <li>
-                        Beaucoup de matériel mis en place pour le RT (TP et TD)
+                            <i class="fas fa-tools"></i>
+                            <span>Équipements spécifiques</span>
                         </li>
                     </ul>
             </div>
@@ -43,19 +53,24 @@ const ChoisirBUT = () => {
                 <h2>Les avantages du BUT</h2>
                     <ul>
                         <li>
-                        Formation en 3 ans
+                            <i class="fas fa-business-time"></i>
+                            <span>Formation en 3 ans</span>
                         </li>
                         <li>
-                        Différents choix de parcours
+                            <i class="fas fa-medal"></i>
+                            <span>Niveau d'études : BAC +3</span>
                         </li>
                         <li>
-                        Filière avec beaucoup d'emploi-Stage de deux mois en 3e année
+                            <i class="fas fa-coins"></i>
+                            <span>180 Crédits ECTS</span>
                         </li>
                         <li>
-                        3 blocs de compétence communs et 5 additionnels
+                            <i class="fas fa-map-signs"></i>
+                            <span>Différents cursus possible</span>
                         </li>
                         <li>
-                        Compétence dans le domaine des réseaux et télécoms
+                            <i class="fas fa-star"></i>
+                            <span>Différentes spécialitées par Cursus</span>
                         </li>
                     </ul>
                 <div className="infoBUT">
