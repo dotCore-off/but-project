@@ -10,14 +10,6 @@
   border-bottom: #62253c solid 2px;     
 }
 
-.flexnav{
-  display: flex;
-}
-
-.navigationContent ul li{
-  list-style-type: none;
-}
-
 .navigationContent ul{
   display: flex;
   flex-wrap: nowrap;
@@ -25,6 +17,9 @@
   align-items: center !important;
 }
 
+.navigationContent ul li{
+  list-style-type: none;
+}
 
 a:hover{
   color: aqua;
@@ -32,7 +27,6 @@ a:hover{
 a:active{
   opacity: 0.3;
 }
-
 
 //responsiv navbar below 1200 px screen
 
@@ -73,19 +67,16 @@ a:active{
 
 @media screen and (max-width: 540px){
   .navigationContent{
-    height: 100px;
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .navigationContent ul{
+    flex-direction: column;
+    text-align: center;
   }
   .navigationContent ul a{
-    padding-right: 30px;
-  }
-}
-
-@media screen and (max-width: 360px){
-  .navigationContent{
-    height: 100px;
-  }
-  .navigationContent ul a{
-    padding-right: 10px;
+    padding-right: 0px;
   }
 }
 

@@ -1,103 +1,56 @@
 .footer{
     width: 100%;
     height: 80px;
-    display: grid;
-    grid-column-gap: 5%;
     font-family: $font-1;
-    font-size: 1.1rem;
-    justify-content: center;
     background-color: $darkred;
-    align-items: center;
-    align-content: center;  
     border-top: #62253c solid 2px;     
+    color: $white;
+    overflow: hidden;
 }
 
-.Facebook{
-    background-color:#3b5998;
-    text-align: center;
-    width: 8vw;
-    height: 35px;
-    line-height: 35px;
-    grid-column-start: 1;
-}
-
-.Connexion{
-    font-size : 0.8em;
-    text-align: center;
-    width: 8vw;
-    grid-column-start: 4;
-}
-
-.MentionLegales{
-    font-size: 0.8em;
-    text-align: center;
-    width: 8vw;    
-    grid-column-start: 5;
-}
-
-
-
-.Instagram{
-    height: 35px;
-    line-height: 35px;
-    width: 8vw;
-    text-align: center;
-    grid-column-start: 2;
+.footer ul{
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-}
-
-.image{
-    height: 50px;
-    width: auto;
-    align-self: center;
-    vertical-align: middle;
-    
-}
-
-.Logo{
-    
     width: 100%;
-    height: 50px;
-    flex-grow: 1;
-    align-self: baseline;
+    height: 100%;
+    flex-wrap: wrap;
     text-align: center;
-    grid-column-start: 3;
 }
 
-.MuiButton-label{
-    color: $white;
-    background: none;
-    text-transform: none;
-    font-family: $font-1;
-    padding: none;
+.footer ul li{
+    list-style-type: none;
+    letter-spacing: 1px;
 }
 
-.MuiButtonBase-root MuiButton-root MuiButton-text{
-    padding: none;
-    align-items: initial;
+.footer ul li img{
+    width: 100px;
+}
+.footer ul li i{
+    font-size: 50px;
 }
 
-.MuiButton-label{
-    display: none;
-    justify-content: none;
-    align-items: none;
+@media screen and (max-width: 640px){
+    #adminFooter{
+        display: none;
+    }
+    .footer ul li img{
+        width: 80px;
+    }
+    .footer ul li i{
+        font-size: 30px;
+    }
+    .footer ul li{
+        letter-spacing: 0px;
+        font-size: 0.9rem;
+    }
 }
 
-.MuiButton-root{
-    line-height:none;
-    letter-spacing: none;
-    padding: none;
+@media screen and (max-width: 300px){
+    #fbFooter{
+        display: none;
+    }
+    #instaFooter{
+        display: none;
+    }
 }
-
-.MuiButton-text{
-    padding: none;
-}
-
-/*.afooter{
-    color: $white;
-    background: none;
-    text-decoration: none;
-    border: none;
-}*/
