@@ -5,7 +5,7 @@
     width: 100%;
 }
 
-.Localisation{
+.coordonates{
     display: flex;
     justify-content: center ;
     align-items: center;
@@ -13,22 +13,37 @@
     margin-top: 20px;
 }
 
-.Localisation ul li{
+.coordonates ul li{
     padding-left: 30px;
     padding-right: 30px;
     list-style: none;
+    padding-bottom: 10px;
 }
 
-.Plans{
-    order: 3;
-    align-self: flex-end;
+.plans ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+.plans ul li {
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+.plans ul li a{
+    color: aqua;
 }
 
 .Map{
     width:50vw; 
     height:35vw;
     margin: auto;
-    
 }
 
 .Map iframe{
@@ -42,15 +57,12 @@
         height:60vw;
         margin: auto;
     }
-    .Localisation{
+    .coordonates{
         display: flex;
         flex-direction: column;
         justify-content: center ;
         align-items: center;
         flex-wrap: wrap;
         margin-top: 20px;
-    }
-
-    .Plans{
     }
 }

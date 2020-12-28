@@ -28,7 +28,7 @@ const ChoisirBUT = () => {
                             <i class="fas fa-home"></i>
                             <span>Proche des habitats</span>
                         </li>
-                    </ul>
+                    </ul> 
                     <ul>
                         <li>
                             <i class="fas fa-school"></i>
