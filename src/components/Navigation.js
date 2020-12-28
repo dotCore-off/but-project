@@ -12,7 +12,7 @@ const Navigation = () => {
             </li>
             <li>
               <NavLink exact to="/Formation" activeClassName="navActive">
-                Formation
+                Formation RT
               </NavLink>
             </li>
             <li>
