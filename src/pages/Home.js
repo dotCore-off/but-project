@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import Banniere from '../components/Banniere';
 import ChoisirBUT from '../components/ChoisirBUT';
 import Contacts from '../components/Contacts';
+import Newsletter from '../components/Newsletter';
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Banniere />
       <ChoisirBUT />
       <Contacts />
+      <Newsletter />
       </div>
       <Footer />
     </div>

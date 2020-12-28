@@ -1,0 +1,84 @@
+.newsletterWrapper{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-family: $font-1;
+}
+
+.newletterBox{
+    background: $greyred;
+    padding: 60px 30px;
+    border-radius: 50px 50px 50px 50px;
+    color: $white;
+}
+
+.newletterBox h2{
+    font-size: 1rem;
+    margin: 0 0 20px;
+}
+
+.newletterBox input[type="text"]{
+    width: calc(100% - 120px);
+    height: 50px;
+    float: left;
+    padding: 10px 15px;
+    line-height: 30px;
+    background: $white;
+    border: 2px solid transparent;
+    border-radius: 8px 0 0 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.newletterBox input[type="text"]:focus{
+    border-color: $red;
+}
+
+.newletterBox input[type="submit"]{
+    width: 120px;
+    height: 50px;
+    float: left;
+    padding: 10px 15px;
+    line-height: 30px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border: 2px solid transparent;
+    border-radius: 0 8px 8px 0;
+    background: $lightred;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.newletterBox input[type="submit"]:hover{
+    background: $red;
+    color: $white;
+}
+
+@media screen and (max-with: 1023px){
+    .newsletterWrapper{
+        align-items: center;
+        justify-content: space-around;
+        padding: 30px;
+    }
+
+    .newletterBox{
+        padding: 50px;
+        border-radius: 30px;
+        width: 100%;
+        text-align: center;
+    }
+}   
+
+@media screen and (max-with: 767px){
+    .newletterBox h2{
+        font-size: 0.8vw;
+    }
+
+    .newletterBox{
+        padding: 30px;
+    }
+}
