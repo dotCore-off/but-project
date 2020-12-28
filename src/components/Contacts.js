@@ -15,7 +15,7 @@ const Contacts = () => {
                     </ul>
                     <ul className="Telephones">
                         <li>Téléphone : 04 77 44 89 15</li>
-                        <li>iut-roanne-dutrt @ univ-st-etienne.fr</li>
+                        <li>iut-roanne-dutrt@univ-st-etienne.fr</li>
                         <li>Fax : 04 77 44 89 21</li>
                     </ul>
                 </div>

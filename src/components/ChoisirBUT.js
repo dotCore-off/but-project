@@ -47,6 +47,9 @@ const ChoisirBUT = () => {
                             <span>Équipements spécifiques</span>
                         </li>
                     </ul>
+                    <div className="videoPresentationIUT">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/3XWXfOtEfWs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
             </div>
             <div className="IUTBUT">
                 <h2 id="paddingTitleTop">Les avantages du BUT</h2>

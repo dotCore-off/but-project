@@ -11,13 +11,16 @@
     align-items: center;
     flex-wrap: wrap;
     margin-top: 20px;
+    flex-direction: column;
 }
 
 .coordonates ul li{
     padding-left: 30px;
     padding-right: 30px;
     list-style: none;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    flex-direction: column;
 }
 
 .plans ul{
