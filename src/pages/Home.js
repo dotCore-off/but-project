@@ -9,6 +9,7 @@ const Home = () => {
     <div className="home">
       <Navigation />
       <div className="homeContent">
+      <h1 id="homeTitle">B.U.T Réseaux et Télécomunnications à l'IUT de Roanne</h1>
       <Banniere />
       <ChoisirBUT />
       </div>
