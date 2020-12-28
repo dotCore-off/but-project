@@ -8,7 +8,6 @@ const ChoisirBUT = () => {
             <div className="IUTBUT">
                 <h2>choisir l'IUT de Roanne</h2>
                     <ul>
-
                         <li>
                         <i class="fas fa-bus"></i>
                         <span>Transport en communs</span>
@@ -50,7 +49,7 @@ const ChoisirBUT = () => {
                     </ul>
             </div>
             <div className="IUTBUT">
-                <h2>Les avantages du BUT</h2>
+                <h2 id="paddingTitleTop">Les avantages du BUT</h2>
                     <ul>
                         <li>
                             <i class="fas fa-business-time"></i>

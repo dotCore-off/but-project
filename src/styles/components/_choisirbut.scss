@@ -4,7 +4,7 @@
     font-size: 1rem;
     font-family: $font-1;
     padding-top: 35px;
-    padding-bottom: 35px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,17 +18,17 @@
     text-align: center;
     text-transform: uppercase;
     font-size: 1.5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
     letter-spacing: 1px;
     list-style-type: none;
 }
 
 .IUTBUT{
-    width: 80%;
+    width: 100%;
 }
 
 .IUTBUT ul li{
-    padding-bottom: 10px;
+    padding-bottom: 2.4rem;
     list-style-type: none;
 }
 
@@ -39,23 +39,33 @@
 .infoBUT{
     text-decoration: underline $white;
     text-align: center;
-    padding-top: 20px;
+}
+
+#paddingTitleTop{
+    padding-top: 1rem;
 }
 
 //icons CSS
 
 .IUTBUT ul{
     display: flex;
-
     justify-content: space-evenly;
     align-items: center !important;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
 }
 
-.IUTBUT ul li{
+.IUTBUT ul li i{
+    text-align: center;
     display: block !important;
+    font-size: 50px;
+    padding-bottom: 10px;
 }
 
-
+.IUTBUT ul li i i.fa-snowboarding:before {
+    content: "\f7ce";
+    width: 10px;
+}
 
 @media screen and (max-width: 640px){
     .choisirBUT{
