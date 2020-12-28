@@ -8,7 +8,10 @@
   padding-top: 35px;
   padding-bottom: 35px;
   border-bottom: #62253c solid 2px;     
+}
 
+.flexnav{
+  display: flex;
 }
 
 .navigationContent ul li{
@@ -63,40 +66,40 @@ a:active{
   
   .navigationContent ul{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
 
 }
 
 @media screen and (max-width: 540px){
   .navigationContent{
-    height: 80px;
-    padding-top: 30px;
+    height: 100px;
+  }
+  .navigationContent ul a{
+    padding-right: 30px;
   }
 }
 
-@media screen and (max-width: 510px){
+@media screen and (max-width: 360px){
   .navigationContent{
-    font-size: 0.9rem;
+    height: 100px;
+  }
+  .navigationContent ul a{
+    padding-right: 10px;
   }
 }
 
-@media screen and (max-width: 462px){
+@media screen and (max-width: 300px){
   .navigationContent{
-    padding-top: 30px;
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
-}
-
-@media screen and (max-width: 280px){
-  .navigationContent{
-    height: 76px;
-    padding-top: 20px;
+  .navigationContent ul{
+    flex-direction: column;
+    text-align: center;
   }
-}
-
-@media screen and (max-width: 240px){
-  .navigationContent{
-    height: 68px;
-    font-size: 0.8rem;
+  .navigationContent ul a{
+    padding: 0px;
   }
 }
