@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
+import Temoignages from '../components/Temoignages';
 import Footer from '../components/Footer';
 
 const Formation = () => {
@@ -7,6 +8,7 @@ const Formation = () => {
     <div>
       <Navigation />
       Formation
+      <Temoignages />
       <Footer />
     </div>
   );
