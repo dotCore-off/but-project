@@ -11,7 +11,7 @@
 
 .newletterBox {
   background: $greyred;
-  padding: 50px 30px;
+  padding: 30px 30px 30px 30px;
   border-radius: 50px 50px 50px 50px;
   color: $white;
 }
@@ -19,6 +19,10 @@
 .newletterBox h2 {
   font-size: 1rem;
   margin: 0 0 20px;
+}
+
+.newletterBox p {
+  padding-bottom: 20px;
 }
 
 .newletterBox input[type="email"] {
@@ -58,7 +62,7 @@
   color: $white;
 }
 
-@media screen and (max-with: 1023px) {
+@media screen and (max-width: 1023px) {
   .newsletterWrapper {
     align-items: center;
     justify-content: space-around;
@@ -73,12 +77,20 @@
   }
 }
 
-@media screen and (max-with: 767px) {
-  .newletterBox h2 {
-    font-size: 0.8vw;
-  }
-
+@media screen and (max-width: 767px) {
   .newletterBox {
     padding: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .newletterBox {
+    width: 100%;
+    background: none;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .newletterBox input[type="submit"] {
+    line-height: none;
   }
 }

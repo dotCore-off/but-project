@@ -10,7 +10,16 @@ const Newsletter = () => {
         </p>
         <form method="post">
           <div>
-            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Votre mail" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></input>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              aria-describedby="emailHelp"
+              placeholder="Votre mail"
+              name="email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              required
+            ></input>
             <input type="submit" value="S'inscrire" name=""></input>
           </div>
         </form>
