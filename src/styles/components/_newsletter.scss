@@ -47,11 +47,12 @@
   float: left;
   padding: 10px 15px;
   line-height: 30px;
+  color : $white;
   font-size: 0.8rem;
   font-weight: 700;
   border: 2px solid transparent;
   border-radius: 0 8px 8px 0;
-  background: $lightred;
+  background: #3E1122;
   cursor: pointer;
   text-transform: uppercase;
   transition: all 0.3s ease-in-out;
