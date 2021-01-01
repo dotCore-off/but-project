@@ -14,7 +14,7 @@ const ChoisirBUT = () => {
                         </li>
                         <li>
                             <i class="fas fa-snowboarding"></i>
-                            <span>Associations sportives</span>
+                            <a href="https://www.univ-st-etienne.fr/fr/suaps/suaps-roanne.html" target="_blank">Sport</a>
                         </li>
                         <li>
                             <i class="fas fa-utensils"></i>
@@ -52,7 +52,7 @@ const ChoisirBUT = () => {
                     </div>
             </div>
             <div className="IUTBUT">
-                <h2 id="paddingTitleTop">Les avantages du BUT</h2>
+                <h2 id="paddingTitleTop">Les caractéristiques du BUT</h2>
                     <ul>
                         <li>
                             <i class="fas fa-business-time"></i>
@@ -68,11 +68,11 @@ const ChoisirBUT = () => {
                         </li>
                         <li>
                             <i class="fas fa-map-signs"></i>
-                            <span>Différents cursus possible</span>
+                            <span>Différents cursus possibles</span>
                         </li>
                         <li>
                             <i class="fas fa-star"></i>
-                            <span>Différentes spécialitées par Cursus</span>
+                            <span>Différentes spécialités par Cursus</span>
                         </li>
                     </ul>
                 <div className="infoBUT">
