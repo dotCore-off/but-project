@@ -23,7 +23,7 @@ function App() {
           <Route path="/Partenaires" component={Partenaires} />
           <Route path="/Poursuiteetudes" component={Poursuiteetudes} />
           <Route path="/Vieetudiante" component={Vieetudiante} />
-          <Route path="/*" component={Notfound} />
+          <Route component={Notfound} />
         </Switch>
       </BrowserRouter>
     </>
