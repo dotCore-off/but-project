@@ -18,12 +18,16 @@ function App() {
     <>
       <BrowserRouter>
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/Formation" component={Formation} />
-          <Route path="/Partenaires" component={Partenaires} />
-          <Route path="/Poursuiteetudes" component={Poursuiteetudes} />
+          <Route exact path="/" component={Home} />
+          <Route path="/Formation" component={Formation} />c
+          <Route path="/Partenaires"component={Partenaires} />
+          <Route path="/Poursuiteetudes"component={Poursuiteetudes} />
           <Route path="/Vieetudiante" component={Vieetudiante} />
-          <Route component={Notfound} />
+          <Route path="/*" component={Notfound} />
+          <Route path="#/Formation" component={Formation} />c
+          <Route path="#/Partenaires"component={Partenaires} />
+          <Route path="#/Poursuiteetudes"component={Poursuiteetudes} />
+          <Route path="#/Vieetudiante" component={Vieetudiante} />
         </Switch>
       </BrowserRouter>
     </>

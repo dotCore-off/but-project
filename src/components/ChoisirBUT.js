@@ -14,7 +14,7 @@ const ChoisirBUT = () => {
                         </li>
                         <li>
                             <i class="fas fa-snowboarding"></i>
-                            <a href="https://www.univ-st-etienne.fr/fr/suaps/suaps-roanne.html" target="_blank">Sport</a>
+                            <a href="https://www.univ-st-etienne.fr/fr/suaps/suaps-roanne.html" target="_blank" rel="noreferrer">Sport</a>
                         </li>
                         <li>
                             <i class="fas fa-utensils"></i>
@@ -48,7 +48,7 @@ const ChoisirBUT = () => {
                         </li>
                     </ul>
                     <div className="videoPresentationIUT">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/3XWXfOtEfWs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe title="videoPresentation" width="560" height="315" src="https://www.youtube.com/embed/3XWXfOtEfWs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
             </div>
             <div className="IUTBUT">

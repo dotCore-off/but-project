@@ -7,6 +7,7 @@ const Temoignages = () => {
       <div className="video">
         <div className="video2017">
           <iframe
+            title="videotemoignage1"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/OAW1L-UTC9E"
@@ -18,6 +19,7 @@ const Temoignages = () => {
         </div>
         <div className="video2019">
           <iframe
+            title="videotemoignage2"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/Hkbr0lKJKzI"

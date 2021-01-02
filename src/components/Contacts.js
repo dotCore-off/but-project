@@ -6,7 +6,7 @@ const Contacts = () => {
       <h2>Où nous trouver</h2>
 
       <div className="Map">
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1rn1p3fQifjHESv2s4bhmSwbiohDkuQai"></iframe>
+        <iframe title="map" src="https://www.google.com/maps/d/u/0/embed?mid=1rn1p3fQifjHESv2s4bhmSwbiohDkuQai"></iframe>
       </div>
       <div className="coordonates">
         <ul className="Adresse">
@@ -18,7 +18,7 @@ const Contacts = () => {
           <li>Téléphone : 04 77 44 89 15</li>
           <li>
             {" "}
-            <a href="mailto:iut-roanne-dutrt@univ-st-etienne.fr">
+            <a href="mailto:iut-roanne-dutrt@univ-st-etienne.fr" rel="noreferrer">
               iut-roanne-dutrt@univ-st-etienne.fr
             </a>
           </li>
@@ -29,7 +29,7 @@ const Contacts = () => {
           <li>
             <a
               href="https://iut-roanne.univ-st-etienne.fr/_attachments/plan-d-acces-article/campus_pierre_mendes_france__roanne__plan_acces_1443604325884.pdf?download=true"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Plan D'accès
             </a>
@@ -37,7 +37,7 @@ const Contacts = () => {
           <li>
             <a
               href="https://iut-roanne.univ-st-etienne.fr/_attachments/plan-d-acces-article/campus_pierre_mendes_france__roanne__plan_site_1443603911697.pdf?download=true"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Plan du Campus
             </a>
