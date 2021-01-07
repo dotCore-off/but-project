@@ -1,3 +1,19 @@
+# Configuration Appache pour les pages not found
+
+Modifier le fichier de configuration des site de appache 
+`nano /etc/apache2/sites-available/000-default.conf`
+Modifier le fichier tel que :
+
+`<VirtualHost *:80>
+  <Directory /var/www/html>
+    Options Indexes FollowSymLinks MultiViews
+    AllowOverride All
+    Require all granted
+  </Directory>
+
+. . . (la suite de la configuration par defaut)
+</VirtualHost>`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
