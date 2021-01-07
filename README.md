@@ -4,7 +4,8 @@ Modifier le fichier de configuration des site de appache
 `nano /etc/apache2/sites-available/000-default.conf`
 Modifier le fichier tel que :
 
-`<VirtualHost *:80>
+```
+<VirtualHost *:80>
   <Directory /var/www/html>
     Options Indexes FollowSymLinks MultiViews
     AllowOverride All
@@ -12,7 +13,8 @@ Modifier le fichier tel que :
   </Directory>
 
 . . . (la suite de la configuration par defaut)
-</VirtualHost>`
+</VirtualHost>
+``` 
 
 # Getting Started with Create React App
 
