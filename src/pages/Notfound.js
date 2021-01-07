@@ -1,12 +1,15 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import Error404 from '../components/Error404';
 
 const Notfound = () => {
   return (
-    <div>
+    <div className="notFound">
       <Navigation />
-      notfound
+      <div className="notFoundContent">
+      <Error404 />
+      </div>
       <Footer />
     </div>
   );
