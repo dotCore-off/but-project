@@ -1,6 +1,6 @@
-# Configuration Appache pour les pages not found
+# Configuration Apache pour les pages not found
 
-Modifier le fichier de configuration des site de appache 
+Modifier le fichier de configuration des site de apache 
 `nano /etc/apache2/sites-available/000-default.conf`
 Modifier le fichier tel que :
 
@@ -15,6 +15,9 @@ Modifier le fichier tel que :
 . . . (la suite de la configuration par defaut)
 </VirtualHost>
 ``` 
+
+On restart ensuite apache
+`sudo /etc/init.d/apache2 restart`
 
 # Getting Started with Create React App
 
