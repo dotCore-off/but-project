@@ -8,25 +8,23 @@
   padding-top: 35px;
   padding-bottom: 35px;
   border-bottom: #62253c solid 2px;
+  ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center !important;
+    li{
+      list-style-type: none;
+      a:hover{
+        color: aqua;
+      }
+      a:active{
+        opacity: 0.3;
+      }
+    }
+  }
 }
 
-.navigationContent ul {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  align-items: center !important;
-}
-
-.navigationContent ul li {
-  list-style-type: none;
-}
-
-a:hover {
-  color: aqua;
-}
-a:active {
-  opacity: 0.3;
-}
 
 //responsiv navbar below 1200 px screen
 
@@ -55,11 +53,9 @@ a:active {
     padding-left: 0%;
     padding-right: 0%;
     font-size: 1rem;
-  }
-
-  .navigationContent ul {
-    display: flex;
-    flex-wrap: wrap;
+    ul{
+      flex-wrap: wrap;
+    }
   }
 }
 
@@ -68,13 +64,13 @@ a:active {
     height: auto;
     padding-top: 0px;
     padding-bottom: 0px;
-  }
-  .navigationContent ul {
-    flex-direction: column;
-    text-align: center;
-  }
-  .navigationContent ul a {
-    padding-right: 0px;
+    ul{
+      flex-direction: column;
+      text-align: center;
+      a{
+        padding-right: 0px;
+      }
+    }
   }
 }
 
@@ -83,12 +79,11 @@ a:active {
     height: auto;
     padding-top: 0px;
     padding-bottom: 0px;
-  }
-  .navigationContent ul {
-    flex-direction: column;
-    text-align: center;
-  }
-  .navigationContent ul a {
-    padding: 0px;
+    ul{
+      text-align: center;
+      a{
+        padding: 0px;
+      }
+    }
   }
 }
