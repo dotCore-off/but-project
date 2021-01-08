@@ -6,7 +6,7 @@ const Newsletter = () => {
       <div className="newletterBox">
         <h2>Inscrivez vous à notre Newsletter !</h2>
         <p>
-          Inscrivez-vous à notre Newsletter pour recevoir des nudes de l'IUT
+          Inscrivez-vous à notre Newsletter pour recevoir des infos de l'IUT
         </p>
         <form method="post">
           <div>
