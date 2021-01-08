@@ -14,53 +14,47 @@
   padding: 30px 30px 30px 30px;
   border-radius: 50px 50px 50px 50px;
   color: $white;
-}
-
-.newletterBox h2 {
-  font-size: 1rem;
-  margin: 0 0 20px;
-}
-
-.newletterBox p {
-  padding-bottom: 20px;
-}
-
-.newletterBox input[type="email"] {
-  width: calc(100% - 120px);
-  height: 50px;
-  float: left;
-  padding: 10px 15px;
-  line-height: 30px;
-  background: $white;
-  border: 2px solid transparent;
-  border-radius: 8px 0 0 8px;
-  transition: all 0.3s ease-in-out;
-}
-
-.newletterBox input[type="email"]:focus {
-  border-color: $red;
-}
-
-.newletterBox input[type="submit"] {
-  width: 120px;
-  height: 50px;
-  float: left;
-  padding: 10px 15px;
-  line-height: 30px;
-  color : $white;
-  font-size: 0.8rem;
-  font-weight: 700;
-  border: 2px solid transparent;
-  border-radius: 0 8px 8px 0;
-  background: #3E1122;
-  cursor: pointer;
-  text-transform: uppercase;
-  transition: all 0.3s ease-in-out;
-}
-
-.newletterBox input[type="submit"]:hover {
-  background: $red;
-  color: $white;
+  h2{
+    font-size: 1rem;
+    margin: 0 0 20px;
+  }
+  p{
+    padding-bottom: 20px;
+  }
+  input[type="email"] {
+    width: calc(100% - 120px);
+    height: 50px;
+    float: left;
+    padding: 10px 15px;
+    line-height: 30px;
+    background: $white;
+    border: 2px solid transparent;
+    border-radius: 8px 0 0 8px;
+    transition: all 0.3s ease-in-out;
+  }
+  input[type="email"]:focus {
+    border-color: $red;
+  }
+  input[type="submit"] {
+    width: 120px;
+    height: 50px;
+    float: left;
+    padding: 10px 15px;
+    line-height: 30px;
+    color : $white;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border: 2px solid transparent;
+    border-radius: 0 8px 8px 0;
+    background: #3E1122;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+  }
+  input[type="submit"]:hover {
+    background: $red;
+    color: $white;
+  }
 }
 
 @media screen and (max-width: 1023px) {
@@ -89,9 +83,8 @@
     width: 100%;
     background: none;
     padding: 10px 10px 10px 10px;
-  }
-
-  .newletterBox input[type="submit"] {
-    line-height: none;
+    input[type="submit"] {
+      line-height: none;
+    }
   }
 }

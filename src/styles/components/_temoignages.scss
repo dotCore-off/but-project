@@ -3,23 +3,20 @@
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-around;
+    span{
+        align-self: flex-end;
+    }
 }
-
-.video2017 span{
-    align-self: flex-end;
-}
-
 
 .video2017{
     text-align: center;
     overflow:hidden;
     padding-bottom: 20px;
     width: auto;
-}
-
-.video2017 iframe{
-    width: 560;
-    height: 315;
+    iframe{
+        width: 560;
+        height: 315;
+    }
 }
 
 .video2019{
