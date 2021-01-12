@@ -8,4 +8,8 @@
   RewriteCond %{REQUEST_FILENAME} !-l
   RewriteRule . /index.html [L]
 
+<<<<<<< Updated upstream
 </IfModule>
+=======
+</IfModule>
+>>>>>>> Stashed changes
