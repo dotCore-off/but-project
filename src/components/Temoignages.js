@@ -3,10 +3,11 @@ import React from "react";
 const Temoignages = () => {
   return (
     <div className="temoignages">
-      <h2>Les anciens témoignes !</h2>
+      <h2>Les anciens témoignent !</h2>
       <div className="video">
         <div className="video2017">
           <iframe
+            className="videoTemoignage"
             title="videotemoignage1"
             width="560"
             height="315"
@@ -26,6 +27,7 @@ const Temoignages = () => {
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
+            className="videoTemoignage"
           ></iframe>
           <span>Témoignages 2019</span>
         </div>

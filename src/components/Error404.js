@@ -2,7 +2,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 import error404 from "../media/error/error404.svg";
-import HomeIcon from '@material-ui/icons/Home';
 
 const Error404 = () => {
   return (
@@ -17,8 +16,9 @@ const Error404 = () => {
         address, or return to Home.
       </p>
       <NavLink exact to="/" activeClassName="navActive">
-        <a class="btn-flip" data-back="Home" data-front={<HomeIcon />} rel="noreferrer" />
-    <HomeIcon />
+        <div className="homeButton">
+        <spans className="buttonError">Home <i class="fas fa-home"></i></spans>
+        </div>
       </NavLink>
     </div>
   );

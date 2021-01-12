@@ -5,9 +5,9 @@ import Footer from '../components/Footer';
 
 const Formation = () => {
   return (
-    <div>
+    <div className="formationContent">
       <Navigation />
-      Formation
+      <h1 id="formationTitle">La formation Réseaux et télécommunications</h1>
       <Temoignages />
       <Footer />
     </div>
