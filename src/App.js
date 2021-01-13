@@ -12,6 +12,7 @@ import Formation from './pages/Formation';
 import Partenaires from './pages/Partenaires';
 import Poursuiteetudes from './pages/Poursuiteetudes';
 import Vieetudiante from './pages/Vieetudiante';
+import Mentionslegales from './pages/Mentionslegales';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/Partenaires"component={Partenaires} />
           <Route path="/Poursuiteetudes"component={Poursuiteetudes} />
           <Route path="/Vieetudiante" component={Vieetudiante} />
+          <Route path="/Mentionslegales" component={Mentionslegales} />
           <Route path="/*" component={Notfound} />
         </Switch>
       </BrowserRouter>
