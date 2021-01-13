@@ -1,15 +1,21 @@
-// Fonts
+/* //////////////////// */
+/* Settings style sheet */
+/* //////////////////// */
 
-//Title
+/* Style - Custom fonts */
+
+// Title
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 $font-1: 'Roboto', sans-serif;
 
-//text
+// Normal text
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300;400&display=swap');
 $font-2: 'Open Sans', sans-serif;
 
-// Colors
 
+/* Style - Vars */
+
+// Colors
 $white: rgb(255, 214, 214);
 $black: black;
 $darkred: #15090E;
@@ -17,17 +23,18 @@ $red: #a62149;
 $greyred: #62253c;
 $lightred:#A62E5B;
 
-// General CSS
 
-*{
+/* Style - Others */
+
+// General CSS
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-// CSS des liens
-
-a{
+// Links
+a {
   text-decoration: none;
   cursor: pointer;
   color: $white;
