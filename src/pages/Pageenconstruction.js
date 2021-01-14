@@ -5,9 +5,9 @@ import Construction from '../components/Construction';
 
 const Pageenconstruction = () => {
   return (
-    <div className="notFound">
+    <div className="pageConstruction">
       <Navigation />
-      <div className="notFoundContent">
+      <div className="pageConstructionContent">
       <Construction />
       </div>
       <Footer />
