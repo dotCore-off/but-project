@@ -7,17 +7,19 @@ const Error404 = () => {
   return (
     <div className="error404">
       <div className="divErrorLogo">
-        <img src={error404} alt="React Logo" className="errorLogo" />
+        <img src={error404} alt="Error 404 Logo" className="errorLogo" />
+        {/*Image de Pixeltrue provenant du site https://icones8.fr/illustrations/illustration/pixeltrue-error-1 */}
       </div>
-      <h2>Oops, you broke the internet</h2>
+      <h2>Pas de panique, vous n’avez rien cassé !</h2>
       <p className="textError">
-        Just kidding. But it seems Robo, your personal robot, can't find the
-        page you're looking for. Please make sure you've entered the correct
-        address, or return to Home.
+        La page que vous essayez de consulter est seulement inexistante,
+        retournez à la page d’accueil pour retrouver votre chemin.
       </p>
       <NavLink exact to="/" activeClassName="navActive">
         <div className="homeButton">
-        <spans className="buttonError">Home <i class="fas fa-home"></i></spans>
+          <spans className="buttonError">
+            Acceuil <i class="fas fa-home"></i>
+          </spans>
         </div>
       </NavLink>
     </div>

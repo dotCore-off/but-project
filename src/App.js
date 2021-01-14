@@ -13,6 +13,7 @@ import Partenaires from './pages/Partenaires';
 import Poursuiteetudes from './pages/Poursuiteetudes';
 import Vieetudiante from './pages/Vieetudiante';
 import Mentionslegales from './pages/Mentionslegales';
+import Pageenconstruction from './pages/Pageenconstruction';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/Poursuiteetudes"component={Poursuiteetudes} />
           <Route path="/Vieetudiante" component={Vieetudiante} />
           <Route path="/Mentionslegales" component={Mentionslegales} />
+          <Route path="/Pageenconstruction" component={Pageenconstruction} />
           <Route path="/*" component={Notfound} />
         </Switch>
       </BrowserRouter>

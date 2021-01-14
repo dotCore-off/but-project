@@ -10,7 +10,7 @@ const ChoisirBUT = () => {
                     <ul>
                         <li>
                         <i class="fas fa-bus"></i>
-                        <span>Transport en communs</span>
+                        <a href="https://www.bus-star.com" target="_blank" rel="noreferrer">Transport en communs</a>
                         </li>
                         <li>
                             <i class="fas fa-snowboarding"></i>
@@ -18,11 +18,11 @@ const ChoisirBUT = () => {
                         </li>
                         <li>
                             <i class="fas fa-utensils"></i>
-                            <span>Resto U - Bistro U (3.30€/repas)</span>
+                            <a href="https://www.aggloroanne.fr/enfance-jeunesse-education/enseignement-superieur-et-recherche/le-restaurant-universitaire-1281.html" target="_blank" rel="noreferrer">Resto U - Bistro U (3.30€/repas)</a>
                         </li>
                         <li>
                             <i class="fas fa-store"></i>
-                            <span>Proche des commerces</span>
+                            <a href="https://www.vitrinesderoanne.com/vos-commerces" target="_blank" rel="noreferrer">Proche des commerces</a>
                         </li>
                         <li>
                             <i class="fas fa-home"></i>
@@ -32,7 +32,7 @@ const ChoisirBUT = () => {
                     <ul>
                         <li>
                             <i class="fas fa-school"></i>
-                            <span>Bibliothèque Universitaire</span>
+                            <a href="https://scd.univ-st-etienne.fr/fr/tout-savoir-sur-mes-bu/bu-roanne.html" target="_blank" rel="noreferrer">Bibliothèque Universitaire</a>
                         </li>
                         <li>
                             <i class="fas fa-hands-helping"></i>
