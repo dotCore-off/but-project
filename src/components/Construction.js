@@ -6,6 +6,7 @@ import imgconstruct from "../media/construction/construction.svg";
 const Construction = () => {
   return (
     <div className="construction">
+      <h2>Cette page est en cours de création !</h2>
       <div className="divConstructionLogo">
         <img
           src={imgconstruct}
@@ -14,7 +15,7 @@ const Construction = () => {
         />
         {/*Image de Pixeltrue provenant du site https://icones8.fr/illustrations/illustration/pixeltrue-error-1 */}
       </div>
-      <h2>Cette page est en cours de création !</h2>
+
       <p className="textBuild">
         La page que vous essayez de consulter n’est pour l’instant pas
         disponible. En effet, nous sommes encore en train de travailler sur ce

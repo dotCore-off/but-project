@@ -16,17 +16,17 @@ const Navigation = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink exact to="/Vieetudiante" activeClassName="navActive">
+              <NavLink exact to="/Pageenconstruction" activeClassName="navActive"> {/* /Vieetudiante */}
                 Vie étudiante
               </NavLink>
             </li>
             <li>
-              <NavLink exact to="/Poursuiteetudes" activeClassName="navActive">
+              <NavLink exact to="/Pageenconstruction" activeClassName="navActive"> {/* /Poursuiteetudes */}
                 Poursuite d'études
               </NavLink>
             </li>
             <li>
-              <NavLink exact to="/Partenaires" activeClassName="navActive">
+              <NavLink exact to="/Pageenconstruction" activeClassName="navActive"> {/* /Partenaires */}
                 Nos partenaires
               </NavLink>
             </li>
