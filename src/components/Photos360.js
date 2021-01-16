@@ -2,29 +2,40 @@ import React from "react";
 
 import { Pannellum } from "pannellum-react";
 
-import G02 from "../media/photos360/G02.jpg";
-import G07 from "../media/photos360/G07.jpg";
-import G04 from "../media/photos360/G04.jpg";
+//import G02b from "../media/photos360/big/G02.jpg";
+//import G07b from "../media/photos360/big/G07.jpg";
+//import G04b from "../media/photos360/big/G04.jpg";
+
+import G02s from "../media/photos360/small/G02.jpg";
+import G07s from "../media/photos360/small/G07.jpg";
+import G04s from "../media/photos360/small/G04.jpg";
 
 const Photos360 = () => {
   return (
     <div className="photos360">
       <h2>Les photos 360 de l'IUT</h2>
-      <h3 className="text360"> Quelques photos en 360° qui ont été prise lors de TP de première année à l'IUT</h3>
-      <p>Pour les afficher, cliquez sur "Load panorama". Vous pouvez avoir certaine info en cliquant sur les <i class="fas fa-info-circle" /> présent sur les images</p>
+      <h3 className="text360">
+        {" "}
+        Quelques photos en 360° qui ont été prise lors de TP de première année à
+        l'IUT
+      </h3>
+      <p>
+        Pour les afficher, cliquez sur "Load panorama". Vous pouvez avoir
+        certaine info en cliquant sur les <i class="fas fa-info-circle" />{" "}
+        présent sur les images
+      </p>
       <div className="div360">
         <div className="G07">
           <Pannellum
             width="90%"
             height="500px"
-            image={G07}
+            image={G07s}
             pitch={10}
             yaw={180}
             hfov={110}
             previewTitle="Salle G07"
             title="Salle G07"
             orientationOnByDefault="true"
-            
             onLoad={() => {
               console.log("panorama loaded");
             }}
@@ -56,7 +67,7 @@ const Photos360 = () => {
           <Pannellum
             width="90%"
             height="500px"
-            image={G04}
+            image={G04s}
             pitch={10}
             yaw={180}
             hfov={110}
@@ -80,7 +91,7 @@ const Photos360 = () => {
           <Pannellum
             width="90%"
             height="500px"
-            image={G02}
+            image={G02s}
             pitch={10}
             yaw={180}
             hfov={110}
