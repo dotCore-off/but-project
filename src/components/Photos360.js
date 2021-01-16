@@ -10,7 +10,7 @@ const Photos360 = () => {
   return (
     <div className="photos360">
       <h2>Les photos 360 de l'IUT</h2>
-      <span className="text360"> Quelques photos en 360° qui ont été prise lors de TP de première année à l'IUT</span>
+      <h3 className="text360"> Quelques photos en 360° qui ont été prise lors de TP de première année à l'IUT</h3>
       <p>Pour les afficher, cliquez sur "Load panorama". Vous pouvez avoir certaine info en cliquant sur les <i class="fas fa-info-circle" /> présent sur les images</p>
       <div className="div360">
         <div className="G07">
@@ -23,6 +23,8 @@ const Photos360 = () => {
             hfov={110}
             previewTitle="Salle G07"
             title="Salle G07"
+            orientationOnByDefault="true"
+            
             onLoad={() => {
               console.log("panorama loaded");
             }}
@@ -60,6 +62,7 @@ const Photos360 = () => {
             hfov={110}
             previewTitle="Salle G04"
             title="Salle G04"
+            compass="true"
             onLoad={() => {
               console.log("panorama loaded");
             }}

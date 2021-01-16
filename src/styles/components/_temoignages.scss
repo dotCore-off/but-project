@@ -11,7 +11,7 @@
   align-items: center;
   padding-left: 5%;
   padding-right: 5%;
-  h2{
+  h2 {
     text-decoration: $white underline;
     text-align: center;
     text-transform: uppercase;
@@ -27,9 +27,7 @@
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-around;
-  span {
-    align-self: flex-end;
-  }
+
   .videoTemoignage {
     width: 100%;
   }
@@ -38,7 +36,6 @@
 .video2017 {
   text-align: center;
   overflow: hidden;
-  padding-bottom: 20px;
 }
 
 .video2019 {
@@ -47,16 +44,72 @@
   padding-bottom: 20px;
 }
 
-@media screen and (max-width: 480px) {
-    .video {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 100%;
-        justify-content: space-around;
-        .videoTemoignage {
-            width: 100%;
-            height: 100%;
-          }
+@media screen and (max-width: 990px) {
+  .video {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    .videoTemoignage {
+      width: 100%;
     }
+    span {
+      font-size: 0.9rem;
+    }
+    .video2017 {
+      text-align: center;
+      overflow: hidden;
+      padding-bottom: 20px;
+      width: 75%;
+      height: auto;
+    }
+
+    .video2019 {
+      text-align: center;
+      overflow: hidden;
+      padding-bottom: 20px;
+      width: 75%;
+      height: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .video {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .videoTemoignage {
+      width: 100%;
+      height: 100%;
+      align-self: center;
+    }
+    span {
+      font-size: 0.8rem;
+    }
+
+    .video2017 {
+      text-align: center;
+      overflow: hidden;
+      padding-bottom: 20px;
+      width: 90%;
+      height: auto;
+    }
+
+    .video2019 {
+      text-align: center;
+      overflow: hidden;
+      padding-bottom: 20px;
+      width: 90%;
+      height: auto;
+    }
+  }
 }

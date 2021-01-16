@@ -8,13 +8,19 @@
   color: $white;
   .text360 {
     text-decoration: underline;
+    font-size: 1rem;
   }
-  span{
+  h3{
+    width: 50%;
     font-family: $font-2;
-    padding-top: 20px;
+    margin : 20px auto;
+
   }
+
   p{
     margin-top: 20px;
+    width: 80%;
+    margin: 10px auto;
   }
 }
 
