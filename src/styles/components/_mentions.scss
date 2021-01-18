@@ -12,15 +12,34 @@
 }
 
 .enseignantRef {
-  padding-top: 20px;
-  li{
+  padding-top: 5%;
+  ul {
+    padding-top: 1%;
+  }
+  li {
     list-style-type: none;
   }
 }
 
 .elevesProj {
-  padding-top: 20px;
-  li{
+  padding-top: 5%;
+  ul {
+    padding-top: 1%;
+  }
+  li {
     list-style-type: none;
+  }
+}
+
+.Contacts {
+  padding-top: 5%;
+  li {
+    list-style-type: none;
+  }
+  .Adresse {
+    padding-top: 2%;
+  }
+  .Telephones {
+    padding-top: 2%;
   }
 }

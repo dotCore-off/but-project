@@ -11,7 +11,11 @@ const Mentions = () => {
       <div className="enseignantRef">
         <span>Enseignant référent :</span>
         <ul>
-          <li>Frédéreric Bonardo</li>
+          <li>
+            <a href="mailto:frederic.bonnardot@univ-st-etienne.fr">
+              Frédéreric Bonnardot
+            </a>
+          </li>
         </ul>
       </div>
       <div className="elevesProj">
@@ -21,6 +25,27 @@ const Mentions = () => {
           <li>RODET Nathan</li>
           <li>BADEL Alexis</li>
           <li>LARGERON Tom</li>
+        </ul>
+      </div>
+
+      <div className="Contacts">
+      <span>Nous contacter :</span>
+        <ul className="Adresse">
+          <li>IUT de Roanne</li>
+          <li>20 Avenue de Paris</li>
+          <li>42300 Roanne</li>
+        </ul>
+        <ul className="Telephones">
+          <li>Téléphone : 04 77 44 89 15</li>
+          <li>
+            {" "}
+            <a
+              href="mailto:iut-roanne-dutrt@univ-st-etienne.fr"
+              rel="noreferrer"
+            >
+              iut-roanne-dutrt@univ-st-etienne.fr
+            </a>
+          </li>
         </ul>
       </div>
     </div>
