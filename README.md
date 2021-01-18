@@ -1,7 +1,8 @@
 # Configuration Apache pour les pages not found
 
-Modifier le fichier de configuration des site de apache 
+Modifier le fichier de configuration des sites de Apache :
 `nano /etc/apache2/sites-available/000-default.conf`
+
 Modifier le fichier tel que :
 
 ```
@@ -16,7 +17,7 @@ Modifier le fichier tel que :
 </VirtualHost>
 ``` 
 
-On restart ensuite apache
+On restart ensuite Apache :
 `sudo /etc/init.d/apache2 restart`
 
 # Getting Started with Create React App
