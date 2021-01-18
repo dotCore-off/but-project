@@ -1,4 +1,5 @@
 import React from "react";
+import { WindowSize } from "react-fns";
 
 import { Pannellum } from "pannellum-react";
 
@@ -35,7 +36,6 @@ const Photos360 = () => {
             hfov={110}
             previewTitle="Salle G07"
             title="Salle G07"
-            orientationOnByDefault="true"
             onLoad={() => {
               console.log("panorama loaded");
             }}
@@ -73,7 +73,6 @@ const Photos360 = () => {
             hfov={110}
             previewTitle="Salle G04"
             title="Salle G04"
-            compass="true"
             onLoad={() => {
               console.log("panorama loaded");
             }}
