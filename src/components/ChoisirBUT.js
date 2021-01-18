@@ -13,7 +13,7 @@ const ChoisirBUT = () => {
                 <h2>Pourquoi choisir l'IUT de Roanne ?</h2>
                     <ul>
                         <li>
-                            <i class="fas fa-bus"></i>
+                            <i class="fas fa-bus" title="OUAHHHHH"></i>
                             <a href="https://www.bus-star.com" target="_blank" rel="noreferrer">Transport en commun</a>
                         </li>
                         <li>

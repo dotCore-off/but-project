@@ -30,10 +30,10 @@
   text-transform: uppercase;
   ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center !important;
     flex-wrap: wrap;
-    padding-bottom: 30px;
+
     li {
       padding-bottom: 2.4rem;
       list-style-type: none;
@@ -81,6 +81,10 @@
     justify-content: center;
     align-items: flex-start;
     align-content: flex-start;
+    ul{
+      display: flex;
+      flex-direction: column;
+    }
   }
   .IUTBUT {
     margin-left: 10%;
@@ -95,3 +99,5 @@
     }
   }
 }
+
+
