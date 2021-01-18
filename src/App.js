@@ -1,11 +1,9 @@
-//Import
-//Modules & librairies
-
+// Import
+// Modules & librairies
 import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
-//Pages
-
+// Pages import
 import Home from './pages/Home';
 import Notfound from './pages/Notfound';
 import Formation from './pages/Formation';
@@ -15,6 +13,7 @@ import Vieetudiante from './pages/Vieetudiante';
 import Mentionslegales from './pages/Mentionslegales';
 import Pageenconstruction from './pages/Pageenconstruction';
 
+// Main function - Path deployment
 function App() {
   return (
     <>
