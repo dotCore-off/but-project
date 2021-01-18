@@ -12,7 +12,10 @@ const Mentions = () => {
         <span>Enseignant référent :</span>
         <ul>
           <li>
-            <a href="mailto:frederic.bonnardot@univ-st-etienne.fr">
+            <a
+              href="mailto:frederic.bonnardot@univ-st-etienne.fr"
+              rel="noreferrer"
+            >
               BONNARDOT Frédéreric
             </a>
           </li>
@@ -36,6 +39,8 @@ const Mentions = () => {
             <a
               href="https://icones8.fr/illustrations/style--pixeltrue"
               className="link"
+              target="_blank"
+              rel="noreferrer"
             >
               Pixeltrue - icones8.fr
             </a>
