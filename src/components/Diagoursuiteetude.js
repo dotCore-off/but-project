@@ -15,12 +15,11 @@ export default function Diagoursuiteetude() {
               data: [19, 3, 5, 2],
               backgroundColor: [
                 "lightblue",
-                "Yellow",
+                "#FFFAFB",
                 "lightgreen",
-                "lightpurple",
-                "white",
+                "#668F80",
               ],
-              borderColor: ["lightblue", "Yellow", "lightgreen", "lightpurple"],
+              borderColor: ["lightblue", "#FFFAFB", "lightgreen", "#668F80"],
               borderWidth: 1
             }
           ]
