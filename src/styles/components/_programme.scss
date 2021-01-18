@@ -16,3 +16,13 @@
     list-style-type: none;
   }
 }
+
+.RRT__tab--collapsed {
+  background-color: $greyred;
+  border: none;
+  .RRT__tab--selected{
+    background-color: $red;
+    border : none;
+    color: black;
+  }
+}
