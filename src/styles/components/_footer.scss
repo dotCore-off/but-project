@@ -59,3 +59,18 @@
         display: none;
     }
 }
+
+.image {
+    text-align: center;
+    animation-name: floatingImg;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(.2, 0, .8, 1);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+    
+@keyframes floatingImg {
+    0% {
+        transform: translateY(5px);
+    }
+}

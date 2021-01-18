@@ -11,7 +11,7 @@ const Footer = () => {
             href="https://iut-roanne.univ-st-etienne.fr/fr/index.html"
             target="_blank"
             rel="noreferrer"
-            className="afooter"
+            className="aFoter"
           >
             <img
               src={logo}
