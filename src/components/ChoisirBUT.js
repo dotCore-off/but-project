@@ -81,7 +81,7 @@ const ChoisirBUT = () => {
                 </ul>
                 <div className="infoBUT">
                     <a href="https://iut-roanne.univ-st-etienne.fr/fr/tous-les-faits-marquants/annee-2020-2021-2/zoom-sur/but.html" target= "_blank" rel="noreferrer" >
-                    Pour en savoir plus sur le BUT !
+                    Pour en savoir plus sur le BUT
                     </a>
                 </div>
             </div>
