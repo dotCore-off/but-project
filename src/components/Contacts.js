@@ -3,7 +3,7 @@ import React from "react";
 const Contacts = () => {
   return (
     <div className="Contacts">
-      <h2>Où nous trouver</h2>
+      <h2>Où nous trouver ?</h2>
 
       <div className="Map">
         <iframe title="map" src="https://www.google.com/maps/d/u/0/embed?mid=1rn1p3fQifjHESv2s4bhmSwbiohDkuQai"></iframe>
