@@ -12,41 +12,41 @@ const ChoisirBUT = () => {
             <div className="IUTBUT">
                 <h2>Pourquoi choisir l'IUT de Roanne ?</h2>
                     <ul>
-                        <li>
-                            <i class="fas fa-bus" title="OUAHHHHH"></i>
+                        <li className="busAnim">
+                            <i class="fas fa-bus"></i>
                             <a href="https://www.bus-star.com" target="_blank" rel="noreferrer">Transport en commun</a>
                         </li>
-                        <li>
+                        <li className="sportAnim">
                             <i class="fas fa-snowboarding"></i>
                             <a href="https://www.univ-st-etienne.fr/fr/suaps/suaps-roanne.html" target="_blank" rel="noreferrer">Sport</a>
                         </li>
-                        <li>
+                        <li className="restoAnim">
                             <i class="fas fa-utensils"></i>
                             <a href="https://www.aggloroanne.fr/enfance-jeunesse-education/enseignement-superieur-et-recherche/le-restaurant-universitaire-1281.html" target="_blank" rel="noreferrer">Resto U / Bistro U</a>
                         </li>
-                        <li>
+                        <li className="comAnim">
                             <i class="fas fa-store"></i>
                             <a href="https://www.vitrinesderoanne.com/vos-commerces" target="_blank" rel="noreferrer">Proche des commerces</a>
                         </li>
-                        <li>
+                        <li className="habAnim">
                             <i class="fas fa-home"></i>
                             <span>Proche des habitats</span>
                         </li>
                     </ul> 
                     <ul>
-                        <li>
+                        <li className="buAnim">
                             <i class="fas fa-school"></i>
                             <a href="https://scd.univ-st-etienne.fr/fr/tout-savoir-sur-mes-bu/bu-roanne.html" target="_blank" rel="noreferrer">Bibliothèque Universitaire</a>
                         </li>
-                        <li>
+                        <li className="supAnim">
                             <i class="fas fa-hands-helping"></i>
                             <span>Soutien RT1 / RT2</span>
                         </li>
-                        <li>
+                        <li className="tutAnim">
                             <i class="fas fa-user-friends"></i>
                             <span>Tutorat Élève / Professeur</span>
                         </li>
-                        <li>
+                        <li className="stuffAnim">
                             <i class="fas fa-tools"></i>
                             <span>Équipements professionnels</span>
                         </li>
