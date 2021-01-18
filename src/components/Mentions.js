@@ -21,15 +21,31 @@ const Mentions = () => {
       <div className="elevesProj">
         <span>Équipe du projet :</span>
         <ul>
-          <li>COPIN François-Léonard</li>
+          <li>COPIN François-Léonard&emsp;[Chef de projet]</li>
           <li>RODET Nathan</li>
           <li>BADEL Alexis</li>
           <li>LARGERON Tom</li>
         </ul>
       </div>
 
+      <div className="creditPhoto">
+        <span>Crédit Photographique :</span>
+        <ul>
+          <li>Université Jean-Monnet - Saint-Étienne</li>
+          <li>
+            <a
+              href="https://icones8.fr/illustrations/style--pixeltrue"
+              className="link"
+            >
+              Pixeltrue - icones8.fr
+            </a>
+          </li>
+          <li>CARJOT - Eric</li>
+        </ul>
+      </div>
+
       <div className="Contacts">
-      <span>Nous contacter :</span>
+        <span>Nous contacter :</span>
         <ul className="Adresse">
           <li>IUT de Roanne</li>
           <li>20 Avenue de Paris</li>
@@ -47,13 +63,6 @@ const Mentions = () => {
             </a>
           </li>
         </ul>
-      </div>
-      <div className="creditPhoto">
-          <span>Crédit Photographique :</span>
-          <ul>
-              <li>Université Jean-Monnet - Saint-Étienne</li>
-              <li className="link"><a href="https://icones8.fr/illustrations/style--pixeltrue">Pixeltrue - icones8.fr</a></li>
-          </ul>
       </div>
     </div>
   );
