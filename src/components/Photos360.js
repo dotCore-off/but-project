@@ -1,9 +1,9 @@
 import React from "react";
 import { Pannellum } from "pannellum-react";
 
-//import G02b from "../media/photos360/big/G02.jpg";
-//import G07b from "../media/photos360/big/G07.jpg";
-//import G04b from "../media/photos360/big/G04.jpg";
+import G02b from "../media/photos360/big/G02.jpg";
+import G07b from "../media/photos360/big/G07.jpg";
+import G04b from "../media/photos360/big/G04.jpg";
 
 import G02s from "../media/photos360/small/G02.jpg";
 import G07s from "../media/photos360/small/G07.jpg";
@@ -28,7 +28,7 @@ const Photos360 = () => {
           <Pannellum
             width="90%"
             height="500px"
-            image={G07s}
+            image={G07b}
             pitch={10}
             yaw={180}
             hfov={110}
@@ -65,7 +65,7 @@ const Photos360 = () => {
           <Pannellum
             width="90%"
             height="500px"
-            image={G04s}
+            image={G04b}
             pitch={10}
             yaw={180}
             hfov={110}
@@ -88,7 +88,7 @@ const Photos360 = () => {
           <Pannellum
             width="90%"
             height="500px"
-            image={G02s}
+            image={G02b}
             pitch={10}
             yaw={180}
             hfov={110}
