@@ -5,10 +5,11 @@ import Diagoursuiteetude from '../components/Diagoursuiteetude';
 
 const Poursuiteetudes = () => {
   return (
-    <div>
+    <div className="poursuiteEtudes">
       <Navigation />
+      <div className="poursuiteEtudesContent">
       <Diagoursuiteetude />
-      poursuiteetudes
+      </div>
       <Footer />
     </div>
   );

@@ -18,6 +18,7 @@ export default function Diagoursuiteetude() {
                 "Yellow",
                 "lightgreen",
                 "lightpurple",
+                "white",
               ],
               borderColor: ["lightblue", "Yellow", "lightgreen", "lightpurple"],
               borderWidth: 1
@@ -27,8 +28,11 @@ export default function Diagoursuiteetude() {
       });
     });
     return (
-      <div className="App">
-        <canvas id="myChart" width="400" height="400" />
+      <div className="diagpoursuiteetude">
+        <h2>Pourcentages des différentes poursuites d'études des étudiants avant l'arrivé du BUT</h2>
+        <div className="diagramme">
+          <canvas id="myChart" width="400" height="400" />
+        </div>
       </div>
     );
 }
