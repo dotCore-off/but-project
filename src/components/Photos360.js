@@ -17,8 +17,8 @@ const Photos360 = () => {
       </h3>
       <p>
         Pour les afficher, cliquez sur "Load panorama". Vous pouvez avoir
-        certaine info en cliquant sur les <i class="fas fa-info-circle" />{" "}
-        présent sur les images
+        certaines informations en cliquant sur les <i class="fas fa-info-circle" />{" "}
+        présents dans les images
       </p>
       <div className="div360">
         <div className="G07">
