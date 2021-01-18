@@ -1,0 +1,30 @@
+.divBUT1 {
+  color: $white;
+  width: 100%;
+  font-size: 1rem;
+  font-family: $font-1;
+  p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  span {
+    text-decoration: underline;
+  }
+
+  .imgBUT1 {
+    width: 40%;
+    margin: auto;
+    .lan {
+      width: 80%;
+      height: auto;
+    }
+    .telephonie {
+        width: 100%;
+        height: auto;
+      }
+      .prograWeb{
+        width: 100%;
+        height: auto;
+      }
+  }
+}

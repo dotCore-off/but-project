@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import { render } from "react-dom";
 import Tabs from "react-responsive-tabs";
+import BUT1 from "./BUT1";
 
 // IMPORTANT you need to include the default styles
 import "react-responsive-tabs/styles.css";
 
 const année = [
-  { name: "BUT 1", contenu: "..." },
+  { name: "BUT 1", contenu: <BUT1/> },
   { name: "BUT 2", contenu: "..." },
   { name: "BUT 3", contenu: "..." },
   { name: "CYBER", contenu: "..." },
@@ -19,7 +19,7 @@ function getTabs() {
     tabClassName: "tab", // Optional
     panelClassName: "panel", // Optional
     title: année.name,
-    getContent: () => année.biography,
+    getContent: () => année.contenu,
   }));
 }
 
