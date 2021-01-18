@@ -1,6 +1,4 @@
 import React from "react";
-import { WindowSize } from "react-fns";
-
 import { Pannellum } from "pannellum-react";
 
 //import G02b from "../media/photos360/big/G02.jpg";
