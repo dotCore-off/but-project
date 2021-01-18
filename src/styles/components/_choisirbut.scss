@@ -145,9 +145,9 @@
   /*
     Ici, on peut mettre une valeur entre 0 et 100 qui détermine à quel moment de l'animation cette dernière s'initie.
     0 signifie que l'on commence le mouvement à 0% de l'animation.
-    100% signifique que l'on commence le mouvement à 100% de l'animation, quand elle est donc censée se finir.
+    100% signifie que que l'on commence le mouvement à 100% de l'animation, quand elle est donc censée se finir.
     On met 100% pour éviter que l'îcone soit immédiatement décalée vers le bas de plusieurs pixels (ce qui donne un mauvais rendu).
-    En mettant 100%, l'animation se fait de manière fluide et logique, sans téléporter l'icône et le texte.
+    En mettant 100%, l'animation se fait de manière fluide et logique, sans téléporter l'icône et le texte, puisqu'elle est censée se finir à la position originale.
     Vous pouvez toujours tester en changeant de valeur au cas où vous comprenez pas.
   */
   100% {
