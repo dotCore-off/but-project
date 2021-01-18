@@ -55,6 +55,9 @@ const ChoisirBUT = () => {
                         <iframe title="videoPresentation" width="560" height="315" src="https://www.youtube.com/embed/3XWXfOtEfWs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
+                <br></br>
+                <br></br>
+                <br></br>
             <div className="IUTBUT">
                 <h2 id="paddingTitleTop">Les caractéristiques du B.U.T</h2>
                 <ul>
@@ -79,6 +82,7 @@ const ChoisirBUT = () => {
                         <span>Différentes spécialités par Cursus</span>
                     </li>
                 </ul>
+                <br></br>
                 <div className="infoBUT">
                     <a href="https://iut-roanne.univ-st-etienne.fr/fr/tous-les-faits-marquants/annee-2020-2021-2/zoom-sur/but.html" target= "_blank" rel="noreferrer" >
                     Pour en savoir plus sur le BUT
@@ -87,7 +91,6 @@ const ChoisirBUT = () => {
             </div>
         </div>
     )
-
 }
 
 export default ChoisirBUT;
