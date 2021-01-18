@@ -17,6 +17,12 @@
   }
 }
 
+.RRT__tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .RRT__tab--collapsed {
   background-color: $greyred;
   border: none;
