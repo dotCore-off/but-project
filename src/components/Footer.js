@@ -22,11 +22,6 @@ const Footer = () => {
             ></img>
           </a>
         </li>
-        <li id="adminFooter">
-          <NavLink exact to="/" activeClassName="navActive">
-            Administration
-          </NavLink>
-        </li>
         <li id="fbFooter">
           <a
             href="https://www.facebook.com/IUTRoanne"
@@ -46,6 +41,11 @@ const Footer = () => {
           >
             <i class="fab fa-instagram"></i>
           </a>
+        </li>
+        <li id="adminFooter">
+          <NavLink exact to="/" activeClassName="navActive">
+            Administration
+          </NavLink>
         </li>
         <li>
           <NavLink exact to="/Mentionslegales" activeClassName="navActive" className="afooter">
