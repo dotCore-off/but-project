@@ -20,17 +20,23 @@
 .RRT__tab--collapsed {
   background-color: $greyred;
   border: none;
-  .RRT__tab:focus {
-    background-color: $red;
-    border : none;
-    color: $red;
-  }
-  
+}
+
+.RRT__tab:focus {
+  background-color: $red;
+  border: none;
+  color: $black;
+}
+
+.RRT__tab {
+  background: $greyred;
+  border-style: none;
+  border-color: none;
 }
 
 .RRT__tab--selected {
   background-color: $red;
-  border : none;
+  border: none;
   color: black;
 }
 .RRT__tab--selected:focus {
@@ -42,6 +48,7 @@
 
 .RRT__showmore {
   background-color: $red;
+  border: none;
 }
 
 .RRT__showmore--selected {
