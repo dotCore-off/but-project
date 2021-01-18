@@ -91,7 +91,6 @@ const ChoisirBUT = () => {
             </div>
         </div>
     )
-
 }
 
 export default ChoisirBUT;

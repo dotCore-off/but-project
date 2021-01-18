@@ -18,7 +18,7 @@ const Error404 = () => {
       <NavLink exact to="/" activeClassName="navActive">
         <div className="homeButton">
           <spans className="buttonError">
-            Acceuil <i class="fas fa-home"></i>
+            Accueil <i class="fas fa-home"></i>
           </spans>
         </div>
       </NavLink>
