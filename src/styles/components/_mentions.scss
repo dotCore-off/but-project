@@ -1,0 +1,26 @@
+.divMentions {
+  color: $white;
+  font-family: $font-1;
+  font-size: 1rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  span {
+    text-decoration: underline;
+  }
+}
+
+.enseignantRef {
+  padding-top: 20px;
+  li{
+    list-style-type: none;
+  }
+}
+
+.elevesProj {
+  padding-top: 20px;
+  li{
+    list-style-type: none;
+  }
+}
