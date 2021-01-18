@@ -13,7 +13,7 @@ const Mentions = () => {
         <ul>
           <li>
             <a href="mailto:frederic.bonnardot@univ-st-etienne.fr">
-              Frédéreric Bonnardot
+              BONNARDOT Frédéreric
             </a>
           </li>
         </ul>
@@ -29,7 +29,7 @@ const Mentions = () => {
       </div>
 
       <div className="creditPhoto">
-        <span>Crédit Photographique :</span>
+        <span>Crédit Photographique :x</span>
         <ul>
           <li>Université Jean-Monnet - Saint-Étienne</li>
           <li>
