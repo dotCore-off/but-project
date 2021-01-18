@@ -43,7 +43,7 @@ const Footer = () => {
           </a>
         </li>
         <li id="adminFooter">
-          <NavLink exact to="/" activeClassName="navActive">
+          <NavLink exact to="/Pageenconstruction" activeClassName="navActive">
             Administration
           </NavLink>
         </li>
