@@ -48,6 +48,13 @@ const Mentions = () => {
           </li>
         </ul>
       </div>
+      <div className="creditPhoto">
+          <span>Crédit Photographique :</span>
+          <ul>
+              <li>Université Jean-Monnet - Saint-Étienne</li>
+              <li className="link"><a href="https://icones8.fr/illustrations/style--pixeltrue">Pixeltrue - icones8.fr</a></li>
+          </ul>
+      </div>
     </div>
   );
 };

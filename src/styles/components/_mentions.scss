@@ -9,6 +9,9 @@
   span {
     text-decoration: underline;
   }
+  p{
+      font-weight: bold;
+  }
 }
 
 .enseignantRef {
@@ -43,3 +46,18 @@
     padding-top: 2%;
   }
 }
+
+.creditPhoto {
+    padding-top: 5%;
+    ul {
+      padding-top: 1%;
+    }
+    li {
+      list-style-type: none;
+    }
+    .link{
+        text-decoration: underline;
+        color:$blue;
+    }
+  }
+  
