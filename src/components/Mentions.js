@@ -46,6 +46,7 @@ const Mentions = () => {
             </a>
           </li>
           <li>CARJOT - Eric</li>
+          <li>THIESSE Didier</li>
         </ul>
       </div>
 
