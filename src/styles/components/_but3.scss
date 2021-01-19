@@ -29,3 +29,71 @@
     }
   }
 }
+
+@media screen and (max-width: 550px) {
+  .divBUT3 {
+    color: $white;
+    width: 100%;
+    font-size: 1rem;
+    font-family: $font-1;
+    p {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: left;
+    }
+    span {
+      text-decoration: underline;
+    }
+  
+    .imgBUT3 {
+      width: 80%;
+      margin: auto;
+      .infra {
+        width: 100%;
+        height: auto;
+      }
+      .gsm {
+          width: 100%;
+          height: auto;
+        }
+        .github{
+          width: 100%;
+          height: auto;
+        }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .divBUT3 {
+    color: $white;
+    width: 100%;
+    font-size: 1rem;
+    font-family: $font-1;
+    p {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: left;
+    }
+    span {
+      text-decoration: underline;
+    }
+  
+    .imgBUT3 {
+      width: 100%;
+      margin: auto;
+      .infra {
+        width: 100%;
+        height: auto;
+      }
+      .gsm {
+          width: 100%;
+          height: auto;
+        }
+        .github{
+          width: 100%;
+          height: auto;
+        }
+    }
+  }
+}
