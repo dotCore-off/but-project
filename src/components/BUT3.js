@@ -1,7 +1,7 @@
 import React from "react";
 import infra from "../media/programme/BUT3/infra.png";
 import gsm from "../media/programme/BUT3/gsm.png";
-import web from "../media/programme/BUT1/web.png";
+import github from "../media/programme/BUT3/github.PNG";
 
 const BUT3 = () => {
   return (
@@ -47,9 +47,9 @@ const BUT3 = () => {
       </p>
       <div className="imgBUT3">
         <img
-          src={web}
-          alt="Creation du site Web du BUT"
-          className="prograWeb"
+          src={github}
+          alt="Le github du projet tuteuré BUT"
+          className="github"
         ></img>
       </div>
     </div>
