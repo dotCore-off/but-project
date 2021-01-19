@@ -8,11 +8,11 @@ import BUT3 from './BUT3';
 import "react-responsive-tabs/styles.css";
 
 const année = [
-  { name: "BUT 1", contenu: <BUT1 /> },
-  { name: "BUT 2", contenu: <BUT2 /> },
-  { name: "BUT 3", contenu: <BUT3 /> },
-  { name: "CYBER", contenu: "..." },
-  { name: "ROM", contenu: "..." },
+  { name: "B.U.T - 1ère année", contenu: <BUT1 /> },
+  { name: "B.U.T - 2ème année", contenu: <BUT2 /> },
+  { name: "B.U.T - 3ème année", contenu: <BUT3 /> },
+  { name: "Spécialité - CYBER", contenu: "..." },
+  { name: "Spécialité - ROM", contenu: "..." },
 ];
 
 function getTabs() {
