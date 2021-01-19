@@ -3,16 +3,17 @@ import Tabs from "react-responsive-tabs";
 import BUT1 from "./BUT1";
 import BUT2 from "./BUT2";
 import BUT3 from './BUT3';
-
+import ROM from "./ROM";
 // IMPORTANT you need to include the default styles
 import "react-responsive-tabs/styles.css";
+
 
 const année = [
   { name: "B.U.T - 1ère année", contenu: <BUT1 /> },
   { name: "B.U.T - 2ème année", contenu: <BUT2 /> },
   { name: "B.U.T - 3ème année", contenu: <BUT3 /> },
   { name: "Spécialité - CYBER", contenu: "..." },
-  { name: "Spécialité - ROM", contenu: "..." },
+  { name: "Spécialité - ROM", contenu: <ROM /> },
 ];
 
 function getTabs() {

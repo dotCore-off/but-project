@@ -1,0 +1,18 @@
+.divROM {
+    color: $white;
+    width: 100%;
+    font-size: 1rem;
+    font-family: $font-1;
+    .introROM {
+      text-align: center;
+      h3 {
+        color: rgba(255, 255, 255, 1);
+        font-style: normal;
+      }
+    }
+    p {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: left;
+    }
+}
