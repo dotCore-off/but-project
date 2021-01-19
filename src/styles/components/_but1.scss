@@ -3,10 +3,11 @@
   width: 100%;
   font-size: 1rem;
   font-family: $font-1;
-  .introBUT1, h3 {
+  .introBUT1, .resBUT1 {
     text-align: center;
-    h5 {
-      color: rgba(255, 255, 255, 0.664);
+    h4 {
+      color: rgba(255, 255, 255, 1);
+      font-style: normal;
     }
   }
   p {
@@ -19,7 +20,7 @@
   }
 
   .imgBUT1 {
-    width: 60%;
+    width: 35%;
     margin: auto;
     .lan {
       width: 80%;
