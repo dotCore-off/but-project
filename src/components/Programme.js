@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Tabs from "react-responsive-tabs";
 import BUT1 from "./BUT1";
 import BUT2 from "./BUT2";
@@ -8,7 +8,7 @@ import BUT3 from './BUT3';
 import "react-responsive-tabs/styles.css";
 
 const année = [
-  { name: "BUT 1", contenu: <BUT1/> },
+  { name: "BUT 1", contenu: <BUT1 /> },
   { name: "BUT 2", contenu: <BUT2 /> },
   { name: "BUT 3", contenu: <BUT3 /> },
   { name: "CYBER", contenu: "..." },
