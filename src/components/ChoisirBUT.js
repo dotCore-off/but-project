@@ -12,15 +12,15 @@ const ChoisirBUT = () => {
             <div className="IUTBUT">
                 <h2>Pourquoi choisir l'IUT de Roanne ?</h2>
                     <ul>
-                        <li className="busAnim">
+                        <li className="busAnim"  title=">De nombreux transport en commun sont disponibles, à savoir un arrêt de bus juste devant l'IUT et la gare à 10 minutes à pied">
                         <a href="https://www.bus-star.com" target="_blank" rel="noreferrer"><i class="fas fa-bus"></i></a>
                             <a href="https://www.bus-star.com" target="_blank" rel="noreferrer">Transport en commun</a>
                         </li>
-                        <li className="sportAnim">
+                        <li className="sportAnim" title="De nombreuses activitées sont disponibles, allant du sport aux activitées en plein air.">
                         <a href="https://www.univ-st-etienne.fr/fr/suaps/suaps-roanne.html" target="_blank" rel="noreferrer"><i class="fas fa-snowboarding"></i></a>
                             <a href="https://www.univ-st-etienne.fr/fr/suaps/suaps-roanne.html" target="_blank" rel="noreferrer">Sport</a>
                         </li>
-                        <li className="restoAnim">
+                        <li className="restoAnim" title="Le RestoU est l'endroit préféré des étudiants">
                         <a href="https://www.aggloroanne.fr/enfance-jeunesse-education/enseignement-superieur-et-recherche/le-restaurant-universitaire-1281.html" target="_blank" rel="noreferrer"><i class="fas fa-utensils"></i></a>
                             <a href="https://www.aggloroanne.fr/enfance-jeunesse-education/enseignement-superieur-et-recherche/le-restaurant-universitaire-1281.html" target="_blank" rel="noreferrer">Resto U / Bistro U</a>
                         </li>
