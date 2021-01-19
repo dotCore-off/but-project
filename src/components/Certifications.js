@@ -7,7 +7,7 @@ const Certifications = () => {
     <div className="certifications">
     <h2>Nos certifications</h2>
       <div className="cisco">
-          <img src={cisco} alt="Cerfication CCNA cisco" className="imgcisco"></img>
+          <img src={cisco} alt="Certification CCNA cisco" className="imgcisco"></img>
       </div>
       <div className="stormshield">
           <img src={stormshield} alt="Certification Stormshield" className="imgstormshield"></img>
