@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import Tabs from "react-responsive-tabs";
 import BUT1 from "./BUT1";
+import BUT2 from "./BUT2";
 
 // IMPORTANT you need to include the default styles
 import "react-responsive-tabs/styles.css";
 
 const année = [
   { name: "BUT 1", contenu: <BUT1/> },
-  { name: "BUT 2", contenu: "..." },
+  { name: "BUT 2", contenu: <BUT2 /> },
   { name: "BUT 3", contenu: "..." },
   { name: "CYBER", contenu: "..." },
   { name: "ROM", contenu: "..." },

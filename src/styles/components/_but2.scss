@@ -1,4 +1,4 @@
-.divBUT1 {
+.divBUT2 {
   color: $white;
   width: 100%;
   font-size: 1rem;
@@ -12,20 +12,20 @@
     text-decoration: underline;
   }
 
-  .imgBUT1 {
-    width: 40%;
+  .imgBUT2 {
+    width: 60%;
     margin: auto;
-    .lan {
-      width: 80%;
+    .ldap {
+      width: 100%;
       height: auto;
     }
     .telephonie {
-        width: 100%;
-        height: auto;
-      }
-      .prograWeb{
-        width: 100%;
-        height: auto;
-      }
+      width: 100%;
+      height: auto;
+    }
+    .prograWeb {
+      width: 100%;
+      height: auto;
+    }
   }
 }

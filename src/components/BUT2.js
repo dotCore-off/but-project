@@ -1,37 +1,39 @@
 import React from "react";
-import lan from "../media/programme/BUT1/lan.png";
+import ldap from "../media/programme/BUT2/ldap.png";
 import telephonie from "../media/programme/BUT1/telephonie.png";
 import web from "../media/programme/BUT1/web.png";
 
 const BUT1 = () => {
   return (
-    <div className="divBUT1">
-      <h3>Le déroulement de la première année</h3>
+    <div className="divBUT2">
+      <h3>Le déroulement de la deuxième année</h3>
       <p>
-        La première année est une introduction au monde des réseaux et
-        télécommunication. Elle a pour but de vous introduire dans cette univers
-        en vous apprenant les bases.
+        La deuxième année est un approfondissement de la première année sur le
+        monde des réseaux et télécommunication.
       </p>
       <span>Partie Réseaux :</span>
       <p>
-        Dans la partie réseaux, vous allez apprendre ce qu'est un réseau,
-        comment ça fonctionne et comment configurer les différents appareil qui
-        composent un réseau local. <br />
-        Par exemple vous allez apprendre ce qu'est un serveur DNS, DHCP, comment
-        les pc peuvent communiquer entre eux, ...
+        Dans la partie réseaux, vous allez apprendre le fonctionnement des
+        réseaux opérateur, comment votre fournisseur d'accès internet vous
+        donnes accès à internet.
+        <br />
+        Vous allez par exemple apprendre à configurer des appareils opérateur, à
+        déployer des service réseaux avancés (configuration de windows serveur
+        2016).
       </p>
-      <div className="imgBUT1">
-        <img src={lan} alt="Réseau Local de base" className="lan"></img>
+      <div className="imgBUT2">
+        <img
+          src={ldap}
+          alt="Configuration d'un annuaire LDAP"
+          className="ldap"
+        ></img>
       </div>
       <span>Partie téléphonie/signal :</span>
       <p>
-        Dans cette partie, vous allez apprendre à mesurer et analyser des
-        signaux. Vous allez donc voir comment ce transmet une information à
-        travers un signal. <br />
-        Vous allez ensuite voir les différent support de transmission (cuivre,
-        fibre optique) et configurer des téléphones.
+        Dans cette partie, vous allez apprendre à configurer les réseaux
+        opérateur et à crééer des accès distants (par exemple à créer un VPN). <br />
       </p>
-      <div className="imgBUT1">
+      <div className="imgBUT2">
         <img
           src={telephonie}
           alt="Configuration de téléphonie  Alcatel"
@@ -51,7 +53,7 @@ const BUT1 = () => {
         <br /> Vous apprendrez aussi à créer des programmes en C dans un premier
         puis en C++.
       </p>
-      <div className="imgBUT1">
+      <div className="imgBUT2">
         <img
           src={web}
           alt="Creation du site Web du BUT"
