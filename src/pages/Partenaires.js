@@ -5,7 +5,7 @@ import PartenairesIUT from '../components/PartenairesIUT'
 
 const Partenaires = () => {
   return (
-    <div className="pageConstruction">
+    <div className="pagepartenaires">
       <Navigation />
       <div className="partenairesContent">
       <PartenairesIUT />
