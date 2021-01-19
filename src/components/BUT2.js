@@ -1,6 +1,6 @@
 import React from "react";
 import ldap from "../media/programme/BUT2/ldap.png";
-import telephonie from "../media/programme/BUT1/telephonie.png";
+import vpn from "../media/programme/BUT2/vpn.svg";
 import web from "../media/programme/BUT1/web.png";
 
 const BUT1 = () => {
@@ -35,9 +35,9 @@ const BUT1 = () => {
       </p>
       <div className="imgBUT2">
         <img
-          src={telephonie}
-          alt="Configuration de téléphonie  Alcatel"
-          className="telephonie"
+          src={vpn}
+          alt="tunnel vpn"
+          className="vpn"
         ></img>
       </div>
       <span>Partie Programmation :</span>
