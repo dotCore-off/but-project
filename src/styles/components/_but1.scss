@@ -3,8 +3,11 @@
   width: 100%;
   font-size: 1rem;
   font-family: $font-1;
-  h3 {
+  .introBUT1, h3 {
     text-align: center;
+    h5 {
+      color: rgba(255, 255, 255, 0.664);
+    }
   }
   p {
     padding-top: 15px;
