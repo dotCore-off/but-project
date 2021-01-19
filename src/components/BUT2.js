@@ -3,7 +3,7 @@ import ldap from "../media/programme/BUT2/ldap.png";
 import vpn from "../media/programme/BUT2/vpn.svg";
 import bdd from "../media/programme/BUT2/bdd.png";
 
-const BUT1 = () => {
+const BUT2 = () => {
   return (
     <div className="divBUT2">
       <h3>Le déroulement de la deuxième année</h3>
@@ -56,4 +56,4 @@ const BUT1 = () => {
   );
 };
 
-export default BUT1;
+export default BUT2;
