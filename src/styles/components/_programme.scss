@@ -21,7 +21,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   padding-inline: 10px;
 }
 
@@ -32,23 +32,25 @@
 .RRT__tab:focus {
   background-color: $red;
   border-style: solid;
-  color: white;
+  color: $blue;
 }
 
 .RRT__tab:hover {
   background-color: $red;
   border-style: solid;
-  color: white;
+  color: $blue;
 }
 
 .RRT__tab {
-  background: $greyred;
+  background-image: url("https://media.discordapp.net/attachments/485553077353578496/801226593065238559/test.jpg");
+  background-repeat: no-repeat;
   border-style: solid;
 }
 
 .RRT__tab--selected {
   background-color: $red;
   border-style: solid;
+  color: $blue;
 }
 
 .RRT__tab--selected:focus {
@@ -58,9 +60,12 @@
 }
 
 .RRT__panel {
-  border: none;
+  border-style: solid;
   border-radius: 5%;
-  background: #6e1e3c;
+  // background: #6e1e3c;
+  background-image: url("https://media.discordapp.net/attachments/485553077353578496/801226593065238559/test.jpg");
+  background-repeat: no-repeat;
+  color: white;
 }
 
 .RRT__showmore--selected {
