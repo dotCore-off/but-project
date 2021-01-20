@@ -142,8 +142,7 @@
 
 // Animation for third list of icons
 .formAnim:hover, .bacAnim:hover, .ectsAnim:hover, .cursAnim:hover, .speAnim:hover {
-  // Change type of cursor
-  cursor: pointer;
+  // Change text alignment
   text-align: center;
   // Change color of icon
   color: $blue;
