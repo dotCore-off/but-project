@@ -12,7 +12,7 @@ const année = [
   { name: "B.U.T - 1ère année", contenu: <BUT1 /> },
   { name: "B.U.T - 2ème année", contenu: <BUT2 /> },
   { name: "B.U.T - 3ème année", contenu: <BUT3 /> },
-  { name: "Spécialité - CYBER", contenu: "..." },
+  { name: "Spécialité - CYBER", contenu: "Wow, j'avais tah la flemme de le faire hier soir. Mais vasy, ça arrive. (Alexou 😘)" },
   { name: "Spécialité - ROM", contenu: <ROM /> },
 ];
 
