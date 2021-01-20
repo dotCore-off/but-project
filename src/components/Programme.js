@@ -29,7 +29,7 @@ function getTabs() {
 const Programme = () => {
   return (
     <div className="divProgramme">
-      <h2>Au programme !</h2>
+      <h2>Le programme du B.U.T</h2>
       <Tabs items={getTabs()}/>
     </div>
   );
