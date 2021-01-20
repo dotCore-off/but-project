@@ -10,6 +10,7 @@ import "react-responsive-tabs/styles.css";
 
 
 const année = [
+  { name: "Résumé", contenu: "..." },
   { name: "B.U.T - 1ère année", contenu: <BUT1 /> },
   { name: "B.U.T - 2ème année", contenu: <BUT2 /> },
   { name: "B.U.T - 3ème année", contenu: <BUT3 /> },
