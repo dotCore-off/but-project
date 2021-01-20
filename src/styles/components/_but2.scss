@@ -3,6 +3,14 @@
   width: 100%;
   font-size: 1rem;
   font-family: $font-1;
+  .introBUT2, .resBUT2, .telBUT2, .progBUT2 {
+    text-align: center;
+    h4 {
+      color: rgba(255, 255, 255, 1);
+      font-style: none;
+      text-decoration: none;  
+    }
+  }
   p {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -13,9 +21,8 @@
   }
 
   .imgBUT2 {
-    width: 60%;
+    width: 35%;
     margin: auto;
-    padding-bottom: 15px;
     .ldap {
       width: 100%;
       height: auto;
