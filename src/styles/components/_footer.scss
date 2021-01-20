@@ -60,17 +60,23 @@
     }
 }
 
-.image {
+// Animation for third list of icons
+.image:hover, #fbFooter:hover, #instaFooter:hover {
+    // Change type of cursor
+    cursor: pointer;
     text-align: center;
+    // Animation's properties
     animation-name: floatingImg;
     animation-duration: 2s;
+    // Check this property on internet if you want to know more about it (flemme d'expliquer mdrrr)
     animation-timing-function: cubic-bezier(.2, 0, .8, 1);
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-    
+
+// Animation movement
 @keyframes floatingImg {
-    0% {
+    100% {
         transform: translateY(5px);
     }
 }
