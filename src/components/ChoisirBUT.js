@@ -12,7 +12,7 @@ const ChoisirBUT = () => {
             <div className="IUTBUT">
                 <h2>Pourquoi choisir l'IUT de Roanne ?</h2>
                     <ul>
-                        <li className="busAnim"  title=">De nombreux transport en commun sont disponibles, à savoir un arrêt de bus juste devant l'IUT et la gare à 10 minutes à pied">
+                        <li className="busAnim"  title="De nombreux transport en commun sont disponibles, à savoir un arrêt de bus juste devant l'IUT et la gare à 10 minutes à pied">
                         <a href="https://www.bus-star.com" target="_blank" rel="noreferrer"><i class="fas fa-bus"></i></a>
                             <a href="https://www.bus-star.com" target="_blank" rel="noreferrer">Transport en commun</a>
                         </li>
@@ -35,19 +35,19 @@ const ChoisirBUT = () => {
                     </ul> 
                     <ul>
                         <li className="buAnim">
-                        <a href="https://scd.univ-st-etienne.fr/fr/tout-savoir-sur-mes-bu/bu-roanne.html" target="_blank" rel="noreferrer"><i class="fas fa-school"></i></a>
+                        <a href="https://scd.univ-st-etienne.fr/fr/tout-savoir-sur-mes-bu/bu-roanne.html" title="La Bu vous permet de réviser et de vous détendre facilement, entre midi et 2h par exemple." target="_blank" rel="noreferrer"><i class="fas fa-school"></i></a>
                             <a href="https://scd.univ-st-etienne.fr/fr/tout-savoir-sur-mes-bu/bu-roanne.html" target="_blank" rel="noreferrer">Bibliothèque Universitaire</a>
                         </li>
                         <li className="supAnim">
-                            <i class="fas fa-hands-helping"></i>
+                            <i class="fas fa-hands-helping" title="Un soutien entre les RT2 et les RT1 est mis en place, le jeudi après-midi ou sur le discord de la promotion."></i>
                             <span>Soutien RT1 / RT2</span>
                         </li>
                         <li className="tutAnim">
-                            <i class="fas fa-user-friends"></i>
+                            <i class="fas fa-user-friends" title="Chaque élève se voit attribuer un tuteur enseignant qui va le suivre durant toute sa première année et faire des points réguliers avec lui."></i>
                             <span>Tutorat Élève / Professeur</span>
                         </li>
                         <li className="stuffAnim">
-                            <i class="fas fa-tools"></i>
+                            <i class="fas fa-tools" title="De nombreux équipements de diverses marques sont mis en place pour les TP."></i>
                             <span>Équipements professionnels</span>
                         </li>
                     </ul>
