@@ -24,7 +24,7 @@
                 font-size: 50px;
             }
         }
-        a:hover {
+        .afooter:hover, .panfooter:hover {
             color: rgb(112, 182, 247);
         }
     }
@@ -65,6 +65,7 @@
     // Change type of cursor
     cursor: pointer;
     text-align: center;
+    // color: darkblue;
     // Animation's properties
     animation-name: floatingImg;
     animation-duration: 2s;
