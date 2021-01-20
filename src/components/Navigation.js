@@ -17,7 +17,7 @@ const Navigation = () => {
             </li>
             <li>
               <NavLink exact to="/IUTenaction" activeClassName="navActive"> {/* /Partenaires */}
-              l'IUT en action
+              L'IUT en action
               </NavLink>
             </li>
             <li>
