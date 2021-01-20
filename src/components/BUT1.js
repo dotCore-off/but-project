@@ -31,40 +31,46 @@ const BUT1 = () => {
           <img src={lan} alt="Réseau Local de base" className="lan"></img>
         </div>
       </div>
-      <span>Partie téléphonie/signal :</span>
-      <p>
-        Dans cette partie, vous allez apprendre à mesurer et analyser des
-        signaux. Vous allez donc voir comment ce transmet une information à
-        travers un signal. <br />
-        Vous allez ensuite voir les différent support de transmission (cuivre,
-        fibre optique) et configurer des téléphones.
-      </p>
-      <div className="imgBUT1">
-        <img
-          src={telephonie}
-          alt="Configuration de téléphonie  Alcatel"
-          className="telephonie"
-        ></img>
-      </div>
-      <span>Partie Programmation :</span>
-      <p>
-        Dans cette partie, vous allez apprendre les bases de la programmation
-        dans plusieurs langages. Dans la partie Linux, vous allez apprendre à
-        utiliser le système d’exploitation Ubuntu et notamment les commandes
-        principales du terminal.
+      <div className="telBUT1">
+        <br /><br />
+        <h3>La télécommunication</h3>
         <br />
-        Pour la partie Programmation Web, vous allez apprendre à concevoir votre
-        premier site web en HTML CSS puis à travailler avec les bases de données
-        (SQL).
-        <br /> Vous apprendrez aussi à créer des programmes en C dans un premier
-        puis en C++.
-      </p>
-      <div className="imgBUT1">
-        <img
-          src={web}
-          alt="Creation du site Web du BUT"
-          className="prograWeb"
-        ></img>
+        <h4>
+          Dans cette partie, vous allez apprendre à mesurer et analyser des
+          signaux. Vous allez donc voir comment se transmet une information au
+          travers de ces derniers. <br />
+          Par la suite, vous verrez les différents supports de transmission <i>(cuivre,
+          fibre optique)</i> et vous assimilerez leurs avantages et inconvénients.<br />
+          Enfin, vous passerez à la pratique en configurant un réseau téléphonique local
+          à l'aide de matériel spécialisé.
+        </h4>
+        <br />
+        <div className="imgBUT1">
+          <img
+            src={telephonie}
+            alt="Configuration de téléphonie  Alcatel"
+            className="telephonie"
+          ></img>
+        </div>
+      </div>
+      <div className="progBUT1">
+        <br /><br />
+        <h3>La programmation</h3>
+        <br />
+        <h4>
+          Dans cette dernière partie, vous allez apprendre les bases de la programmation dans plusieurs langages.<br />
+          En Linux, vous allez apprendre à utiliser le système d’exploitation Ubuntu et notamment les commandes principales du terminal.<br />
+          Pour ce qui est de la programmation web, vous allez concevoir votre premier site web en HTML / CSS et vous travaillerez ensuite avec les bases de données <i>(SQL)</i>.<br />
+          En parallèle de tout cela, vous apprendrez enfin à créer des programmes en C et en C++.
+        </h4>
+        <br />
+        <div className="imgBUT1">
+          <img
+            src={web}
+            alt="Creation du site Web du BUT"
+            className="prograWeb"
+          ></img>
+        </div>
       </div>
     </div>
   );

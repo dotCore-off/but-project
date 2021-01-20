@@ -3,11 +3,12 @@
   width: 100%;
   font-size: 1rem;
   font-family: $font-1;
-  .introBUT1, .resBUT1 {
+  .introBUT1, .resBUT1, .telBUT1, .progBUT1 {
     text-align: center;
     h4 {
       color: rgba(255, 255, 255, 1);
-      font-style: normal;
+      font-style: none;
+      text-decoration: none;  
     }
   }
   p {
