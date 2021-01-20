@@ -16,7 +16,7 @@ const Navigation = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink exact to="/Pageenconstruction" activeClassName="navActive"> {/* /Partenaires */}
+              <NavLink exact to="/IUTenaction" activeClassName="navActive"> {/* /Partenaires */}
               l'IUT en action
               </NavLink>
             </li>

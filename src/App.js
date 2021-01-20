@@ -12,6 +12,7 @@ import Poursuiteetudes from './pages/Poursuiteetudes';
 import Vieetudiante from './pages/Vieetudiante';
 import Mentionslegales from './pages/Mentionslegales';
 import Pageenconstruction from './pages/Pageenconstruction';
+import IUTenaction from './pages/IUTenaction';
 
 // Main function - Path deployment
 function App() {
@@ -20,12 +21,13 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/Formation" component={Formation} />c
+          <Route path="/Formation" component={Formation} />
           <Route path="/Partenaires"component={Partenaires} />
           <Route path="/Poursuiteetudes"component={Poursuiteetudes} />
           <Route path="/Vieetudiante" component={Vieetudiante} />
           <Route path="/Mentionslegales" component={Mentionslegales} />
           <Route path="/Pageenconstruction" component={Pageenconstruction} />
+          <Route path="/IUTenaction" component={IUTenaction} />
           <Route path="/*" component={Notfound} />
         </Switch>
       </BrowserRouter>
