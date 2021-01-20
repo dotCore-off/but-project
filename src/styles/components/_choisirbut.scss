@@ -140,6 +140,27 @@
   }
 }
 
+// Animation for third list of icons
+.formAnim:hover, .bacAnim:hover, .ectsAnim:hover, .cursAnim:hover, .speAnim:hover {
+  // Change type of cursor
+  cursor: pointer;
+  text-align: center;
+  // Change color of icon
+  color: $blue;
+  // Animation's properties
+  animation-name: floatingImg;
+  animation-duration: 2s;
+  // Check this property on internet if you want to know more about it (flemme d'expliquer mdrrr)
+  animation-timing-function: cubic-bezier(.2, 0, .8, 1);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  // Integrate the color to the link bellow
+  a {
+    color: $blue;
+  }
+}
+
+
 // Animation movement
 @keyframes floatingImg {
   /*

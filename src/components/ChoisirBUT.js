@@ -61,23 +61,23 @@ const ChoisirBUT = () => {
             <div className="IUTBUT">
                 <h2 id="paddingTitleTop">Les caractéristiques du B.U.T</h2>
                 <ul>
-                    <li>
+                    <li className="formAnim">
                         <i class="fas fa-business-time"></i>
                         <span>Formation en 3 ans</span>
                     </li>
-                    <li>
+                    <li className="bacAnim">
                         <i class="fas fa-medal"></i>
                         <span>Niveau d'études : BAC +3</span>
                     </li>
-                    <li>
+                    <li className="ectsAnim">
                         <i class="fas fa-coins"></i>
                         <span>180 Crédits ECTS</span>
                     </li>
-                    <li>
+                    <li className="cursAnim">
                         <i class="fas fa-map-signs"></i>
                         <span>Différents cursus possibles</span>
                     </li>
-                    <li>
+                    <li className="speAnim">
                         <i class="fas fa-star"></i>
                         <span>Différentes spécialités par Cursus</span>
                     </li>
