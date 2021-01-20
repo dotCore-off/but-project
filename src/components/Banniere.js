@@ -17,17 +17,17 @@ const Banniere = () => {
           <Splide
 				    options={ {
 					  type         : 'loop',
-					  gap          : '1rem',
+					  gap          : '10px',
 					  autoplay     : true,
 					  pauseOnHover : false,
-					  resetProgress: false,
+					  resetProgress: true,
             arrows       : 'slider',
             speed        : '2000',
-            interval     : '25000'
+            interval     : '5500'
             } }
             hasSliderWrapper
-            //	hasAutoplayControls
-            hasAutoplayProgress
+            // hasAutoplayControls
+            // hasAutoplayProgress
 			    >
      
         <SplideSlide>
