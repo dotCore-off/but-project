@@ -27,7 +27,7 @@ const Footer = () => {
             href="https://www.facebook.com/IUTRoanne"
             target="_blank"
             rel="noreferrer"
-            className="afooter"
+            className="fbFooter"
           >
             <i class="fab fa-facebook-f"></i>
           </a>
@@ -37,7 +37,7 @@ const Footer = () => {
             href="https://www.instagram.com/iutroanne/"
             target="_blank"
             rel="noreferrer"
-            className="afooter"
+            className="instaFooter"
           >
             <i class="fab fa-instagram"></i>
           </a>
