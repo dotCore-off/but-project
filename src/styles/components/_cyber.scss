@@ -1,0 +1,96 @@
+.divCYBER {
+  color: $white;
+  width: 100%;
+  font-size: 1rem;
+  font-family: $font-1;
+  .introCYBER, .adminCYBER, .surveilCYBER {
+    text-align: center;
+    h4 {
+      color: rgba(255, 255, 255, 1);
+      font-style: none;
+      text-decoration: none;  
+    }
+  }
+  p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+  }
+  span {
+    text-decoration: underline;
+  }
+
+  .imgCYBER {
+    width: 50%;
+    margin: auto;
+    .antispam {
+      width: 100%;
+      height: auto;
+    }
+    .snmp {
+        width: 100%;
+        height: auto;
+      }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .divCYBER {
+    color: $white;
+    width: 100%;
+    font-size: 1rem;
+    font-family: $font-1;
+    p {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: left;
+    }
+    span {
+      text-decoration: underline;
+    }
+  
+    .imgCYBER {
+      width: 80%;
+      margin: auto;
+      .antispam {
+        width: 100%;
+        height: auto;
+      }
+      .snmp {
+          width: 100%;
+          height: auto;
+        }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .divCYBER {
+    color: $white;
+    width: 100%;
+    font-size: 1rem;
+    font-family: $font-1;
+    p {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: left;
+    }
+    span {
+      text-decoration: underline;
+    }
+  
+    .imgCYBER {
+      width: 100%;
+      padding-bottom: 15px;
+      margin: auto;
+      .antispam {
+        width: 100%;
+        height: auto;
+      }
+      .snmp {
+          width: 100%;
+          height: auto;
+        }
+    }
+  }
+}

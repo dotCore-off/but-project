@@ -7,7 +7,7 @@ const ROM = () => {
     <div className="divROM">
       <div className="introROM">
         <h3>Qu'est ce que le spécialisation Réseaux Opérateurs et Multimédia (ROM) ?</h3>
-        <br></br>
+        
         <h4>
           Cette spécialisation a pour but d'affiner et d'approfondir vos connaissances
           précédemment acquises.<br />
