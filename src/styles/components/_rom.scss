@@ -1,18 +1,95 @@
 .divROM {
+  color: $white;
+  width: 100%;
+  font-size: 1rem;
+  font-family: $font-1;
+  .introROM {
+    text-align: center;
+    h3 {
+      color: rgba(255, 255, 255, 1);
+      font-style: normal;
+    }
+  }
+  p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+  }
+
+  .imgRom {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 15px;
+    .appliWeb {
+      width: 100%;
+      height: auto;
+      margin: auto;
+    }
+    .voip {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .divRom {
     color: $white;
     width: 100%;
     font-size: 1rem;
     font-family: $font-1;
-    .introROM {
-      text-align: center;
-      h3 {
-        color: rgba(255, 255, 255, 1);
-        font-style: normal;
-      }
-    }
     p {
       padding-top: 15px;
       padding-bottom: 15px;
       text-align: left;
     }
+    span {
+      text-decoration: underline;
+    }
+
+    .imgRom {
+      width: 80%;
+      margin: auto;
+      padding-bottom: 15px;
+      .appliWeb {
+        width: 100%;
+        height: auto;
+      }
+      .voip {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .divRom {
+    color: $white;
+    width: 100%;
+    font-size: 1rem;
+    font-family: $font-1;
+    p {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: left;
+    }
+    span {
+      text-decoration: underline;
+    }
+
+    .imgRom {
+      width: 100%;
+      padding-bottom: 15px;
+      margin: auto;
+      .appliWeb {
+        width: 100%;
+        height: auto;
+      }
+      .voip {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
 }

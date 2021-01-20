@@ -27,7 +27,7 @@
 
 //responsiv navbar below 1200 px screen
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
   .navigationContent {
     padding-left: 10%;
     padding-right: 10%;
@@ -36,7 +36,7 @@
 }
 //responsiv navbar below 900 px screen
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 930px) {
   .navigationContent {
     padding-left: 0%;
     padding-right: 0%;
@@ -45,7 +45,7 @@
 }
 //1200px
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 700px) {
   .navigationContent {
     width: 100%;
     height: 90px;
@@ -58,7 +58,7 @@
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 600px) {
   .navigationContent {
     height: auto;
     padding-top: 0px;

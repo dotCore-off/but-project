@@ -16,6 +16,11 @@ const Navigation = () => {
               </NavLink>
             </li>
             <li>
+              <NavLink exact to="/IUTenaction" activeClassName="navActive"> {/* /Partenaires */}
+              l'IUT en action
+              </NavLink>
+            </li>
+            <li>
               <NavLink exact to="/Pageenconstruction" activeClassName="navActive"> {/* /Vieetudiante */}
                 Vie étudiante
               </NavLink>
@@ -30,6 +35,7 @@ const Navigation = () => {
                 Nos partenaires
               </NavLink>
             </li>
+            
         </ul>
       </div>
   );
