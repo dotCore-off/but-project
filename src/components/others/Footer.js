@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../media/logoIUT1.png";
+import logo from "../../media/logoIUT1.png";
 
 const Footer = () => {
   return (

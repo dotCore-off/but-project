@@ -1,7 +1,7 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
-import Footer from '../components/Footer';
-import Error404 from '../components/Error404';
+import Navigation from '../components/others/Navigation';
+import Footer from '../components/others/Footer';
+import Error404 from '../components/others/Error404';
 
 const Notfound = () => {
   return (

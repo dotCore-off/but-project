@@ -1,8 +1,8 @@
 import React from "react";
 import { Pannellum } from "pannellum-react";
-import G02 from "../media/photos360/G02.jpg";
-import G07 from "../media/photos360/G07.jpg";
-import G04 from "../media/photos360/G04.jpg";
+import G02 from "../../../media/photos360/G02.jpg";
+import G07 from "../../../media/photos360/G07.jpg";
+import G04 from "../../../media/photos360/G04.jpg";
 
 
 const Photos360 = () => {

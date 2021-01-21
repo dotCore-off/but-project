@@ -1,9 +1,9 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
-import Footer from '../components/Footer';
-import Banniere from '../components/Banniere';
-import ChoisirBUT from '../components/ChoisirBUT';
-import Contacts from '../components/Contacts';
+import Navigation from '../components/others/Navigation';
+import Footer from '../components/others/Footer';
+import Banniere from '../components/pages/Home/Banniere';
+import ChoisirBUT from '../components/pages/Home/ChoisirBUT';
+import Contacts from '../components/pages/Home/Contacts';
 //import Newsletter from '../components/Newsletter';
 
 const Home = () => {

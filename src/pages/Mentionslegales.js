@@ -1,7 +1,7 @@
 import React from "react";
-import Navigation from "../components/Navigation";
-import Footer from "../components/Footer";
-import Mentions from "../components/Mentions";
+import Navigation from '../components/others/Navigation';
+import Footer from "../components/others/Footer";
+import Mentions from "../components/pages/Mentionlegales/Mentions";
 
 const Mentionslegales = () => {
   return (

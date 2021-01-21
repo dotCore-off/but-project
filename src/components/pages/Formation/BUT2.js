@@ -1,7 +1,7 @@
 import React from "react";
-import ldap from "../media/programme/BUT2/ldap.png";
-import vpn from "../media/programme/BUT2/vpn.svg";
-import bdd from "../media/programme/BUT2/bdd.png";
+import ldap from "../../../media/programme/BUT2/ldap.png";
+import vpn from "../../../media/programme/BUT2/vpn.svg";
+import bdd from "../../../media/programme/BUT2/bdd.png";
 
 const BUT2 = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import Navigation from "../components/Navigation";
-import Footer from "../components/Footer";
-import Diagoursuiteetude from "../components/Diagoursuiteetude";
+import Navigation from '../components/others/Navigation';
+import Footer from "../components/others/Footer";
+import Diagoursuiteetude from "../components/pages/Poursuitesetudes/Diagoursuiteetude";
 
 const Poursuiteetudes = () => {
   return (

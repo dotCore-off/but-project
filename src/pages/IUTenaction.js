@@ -1,8 +1,8 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
-import Temoignages from '../components/Temoignages';
-import Footer from '../components/Footer';
-import Photos360 from '../components/Photos360';
+import Navigation from '../components/others/Navigation';
+import Temoignages from '../components/pages/IUTenaction/Temoignages';
+import Footer from '../components/others/Footer';
+import Photos360 from '../components/pages/IUTenaction/Photos360';
 
 
 const IUTenaction = () => {

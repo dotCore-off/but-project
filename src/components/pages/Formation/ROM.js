@@ -1,6 +1,6 @@
 import React from "react";
-import appliweb from "../media/programme/ROM/appliweb.png";
-import VoIP from "../media/programme/ROM/VoIP.png";
+import appliweb from "../../../media/programme/ROM/appliweb.png";
+import VoIP from "../../../media/programme/ROM/VoIP.png";
 
 const ROM = () => {
   return (

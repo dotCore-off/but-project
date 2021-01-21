@@ -1,8 +1,8 @@
 import React from 'react';
-import SFR_logo from '../media/partenaires/SFR_logo.png';
-import Orange_logo from '../media/partenaires/Orange_logo.png';
-import CHR_logo from '../media/partenaires/CHR_logo.png';
-import CCJ_logo from '../media/partenaires/CCJ_logo.png';
+import SFR_logo from '../../../media/partenaires/SFR_logo.png';
+import Orange_logo from '../../../media/partenaires/Orange_logo.png';
+import CHR_logo from '../../../media/partenaires/CHR_logo.png';
+import CCJ_logo from '../../../media/partenaires/CCJ_logo.png';
 const PartenairesIUT = () => {
   return (
     <div className="partenairesiut">

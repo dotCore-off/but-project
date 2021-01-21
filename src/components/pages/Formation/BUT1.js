@@ -1,7 +1,7 @@
 import React from "react";
-import lan from "../media/programme/BUT1/lan.png";
-import telephonie from "../media/programme/BUT1/telephonie.png";
-import web from "../media/programme/BUT1/web.png";
+import lan from "../../../media/programme/BUT1/lan.png";
+import telephonie from "../../../media/programme/BUT1/telephonie.png";
+import web from "../../../media/programme/BUT1/web.png";
 
 const BUT1 = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import infra from "../media/programme/BUT3/infra.png";
-import gsm from "../media/programme/BUT3/gsm.png";
-import github from "../media/programme/BUT3/github.PNG";
+import infra from "../../../media/programme/BUT3/infra.png";
+import gsm from "../../../media/programme/BUT3/gsm.png";
+import github from "../../../media/programme/BUT3/github.PNG";
 
 const BUT3 = () => {
   return (

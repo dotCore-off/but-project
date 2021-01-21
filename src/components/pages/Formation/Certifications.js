@@ -1,6 +1,6 @@
 import React from 'react';
-import cisco from '../media/certifications/ccna_cisco.png';
-import stormshield from '../media/certifications/logo-stormshield.png';
+import cisco from '../../../media/certifications/ccna_cisco.png';
+import stormshield from '../../../media/certifications/logo-stormshield.png';
 
 const Certifications = () => {
   return (

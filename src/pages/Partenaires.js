@@ -1,7 +1,7 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
-import Footer from '../components/Footer';
-import PartenairesIUT from '../components/PartenairesIUT'
+import Navigation from '../components/others/Navigation';
+import Footer from '../components/others/Footer';
+import PartenairesIUT from '../components/pages/Partenaires/PartenairesIUT'
 
 const Partenaires = () => {
   return (

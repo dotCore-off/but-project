@@ -1,7 +1,7 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
-import Footer from '../components/Footer';
-import Construction from '../components/Construction';
+import Navigation from '../components/others/Navigation';
+import Footer from '../components/others/Footer';
+import Construction from '../components/others/Construction';
 
 const Pageenconstruction = () => {
   return (

@@ -5,10 +5,10 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
-import image1 from '../media/banniere/entree.jpg';
-import image2 from '../media/banniere/cablage.jpg';
-import image3 from '../media/banniere/signal.jpg';
-import image4 from '../media/banniere/ubuntu.png';
+import image1 from '../../../media/banniere/entree.jpg';
+import image2 from '../../../media/banniere/cablage.jpg';
+import image3 from '../../../media/banniere/signal.jpg';
+import image4 from '../../../media/banniere/ubuntu.png';
 
 const Banniere = () => {
     return (

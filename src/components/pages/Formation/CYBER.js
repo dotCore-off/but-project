@@ -1,6 +1,6 @@
 import React from "react";
-import antispam from "../media/programme/CYBER/antispam.png";
-import snmp from "../media/programme/CYBER/snmp.png";
+import antispam from "../../../media/programme/CYBER/antispam.png";
+import snmp from "../../../media/programme/CYBER/snmp.png";
 
 const CYBER = () => {
   return (

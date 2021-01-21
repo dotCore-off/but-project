@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import error404 from "../media/error/error404.svg";
+import error404 from "../../media/error/error404.svg";
 
 const Error404 = () => {
   return (

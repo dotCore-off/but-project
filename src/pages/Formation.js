@@ -1,7 +1,7 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
-import Footer from '../components/Footer';
-import Programme from '../components/Programme';
+import Navigation from '../components/others/Navigation';
+import Footer from '../components/others/Footer';
+import Programme from '../components/pages/Formation/Programme';
 
 const Formation = () => {
   return (
