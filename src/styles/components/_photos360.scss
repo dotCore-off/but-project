@@ -10,6 +10,16 @@
     text-decoration: underline;
     font-size: 1rem;
   }
+  .link360 {
+    text-decoration: underline;
+    font-size: 1rem;
+    a:hover {
+      color: $blue;
+    }
+    a:active {
+      opacity: 0.3;
+    }
+  }
   h3{
     width: 50%;
     font-family: $font-2;

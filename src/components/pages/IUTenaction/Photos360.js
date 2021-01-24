@@ -4,7 +4,6 @@ import G02 from "../../../media/photos360/G02.jpg";
 import G07 from "../../../media/photos360/G07.jpg";
 import G04 from "../../../media/photos360/G04.jpg";
 
-
 const Photos360 = () => {
   return (
     <div className="photos360">
@@ -16,8 +15,8 @@ const Photos360 = () => {
       </h3>
       <p>
         Pour les afficher, cliquez sur "Load panorama". Vous pouvez avoir
-        certaines informations en cliquant sur les <i class="fas fa-info-circle" />{" "}
-        présents dans les images
+        certaines informations en cliquant sur les{" "}
+        <i class="fas fa-info-circle" /> présents dans les images
       </p>
       <div className="div360">
         <div className="G07">
@@ -110,6 +109,15 @@ const Photos360 = () => {
           </Pannellum>
         </div>
       </div>
+      <h3 className="link360">
+        <a
+          href="https://dossier.univ-st-etienne.fr/roa-jpo/www/Visite_Virtuelle/index.htm"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Visiter la totalité de l'IUT en 360
+        </a>
+      </h3>
     </div>
   );
 };
