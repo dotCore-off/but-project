@@ -4,7 +4,6 @@
   font-size: 1rem;
   font-family: $font-1;
   padding-top: 35px;
-  padding-bottom: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,6 +57,23 @@
     color: $whiteblue;
     text-decoration: underline;
   }
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    flex-wrap: wrap;
+    li {
+      list-style-type: none;
+      padding-right: 20px;
+      padding-left: 20px;
+      i {
+        text-align: center;
+        display: block !important;
+        font-size: 30px;
+        color: $white;
+      }
+    }
+  }
 }
 
 #paddingTitleTop {
@@ -73,12 +89,11 @@
 @media screen and (max-width: 650px) {
   .choisirBUT {
     font-size: 0.8rem;
-    padding-bottom: 35px;
     flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;
     align-content: flex-start;
-    ul{
+    ul {
       display: flex;
       flex-direction: column;
     }
@@ -97,11 +112,14 @@
   }
 }
 
-
 /* Style - Animations */
 
 // Animation for first list icons
-.busAnim:hover, .sportAnim:hover, .restoAnim:hover, .comAnim:hover, .habAnim:hover {
+.busAnim:hover,
+.sportAnim:hover,
+.restoAnim:hover,
+.comAnim:hover,
+.habAnim:hover {
   // Change type of cursor
   cursor: pointer;
   text-align: center;
@@ -111,7 +129,7 @@
   animation-name: floatingImg;
   animation-duration: 1s;
   // Check this property on internet if you want to know more about it (flemme d'expliquer mdrrr)
-  animation-timing-function: cubic-bezier(.2, 0, .8, 1);
+  animation-timing-function: cubic-bezier(0.2, 0, 0.8, 1);
   animation-iteration-count: infinite;
   animation-direction: alternate;
   // Integrate the color to the link bellow
@@ -121,7 +139,10 @@
 }
 
 // Animation for second list of icons
-.buAnim:hover, .tutAnim:hover, .stuffAnim:hover, .supAnim:hover {
+.buAnim:hover,
+.tutAnim:hover,
+.stuffAnim:hover,
+.supAnim:hover {
   // Change type of cursor
   cursor: pointer;
   text-align: center;
@@ -131,7 +152,7 @@
   animation-name: floatingImg;
   animation-duration: 2s;
   // Check this property on internet if you want to know more about it (flemme d'expliquer mdrrr)
-  animation-timing-function: cubic-bezier(.2, 0, .8, 1);
+  animation-timing-function: cubic-bezier(0.2, 0, 0.8, 1);
   animation-iteration-count: infinite;
   animation-direction: alternate;
   // Integrate the color to the link bellow
@@ -141,7 +162,12 @@
 }
 
 // Animation for third list of icons
-.formAnim:hover, .bacAnim:hover, .ectsAnim:hover, .cursAnim:hover, .speAnim:hover {
+.formAnim:hover,
+.bacAnim:hover,
+.ectsAnim:hover,
+.cursAnim:hover,
+.speAnim:hover,
+.pdfAnim:hover {
   // Change text alignment
   text-align: center;
   // Change color of icon
@@ -150,7 +176,7 @@
   animation-name: floatingImg;
   animation-duration: 2s;
   // Check this property on internet if you want to know more about it (flemme d'expliquer mdrrr)
-  animation-timing-function: cubic-bezier(.2, 0, .8, 1);
+  animation-timing-function: cubic-bezier(0.2, 0, 0.8, 1);
   animation-iteration-count: infinite;
   animation-direction: alternate;
   // Integrate the color to the link bellow
@@ -158,7 +184,6 @@
     color: $blue;
   }
 }
-
 
 // Animation movement
 @keyframes floatingImg {
@@ -173,6 +198,6 @@
   100% {
     // We set the movement - Translate the class by 5px on vertical axe
     // Increase the value for bigger movement, decrease for lower ones
-    transform: translateY(5px);  
+    transform: translateY(5px);
   }
 }
