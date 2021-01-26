@@ -12,7 +12,7 @@ const Navigation = () => {
             </li>
             <li>
               <NavLink exact to="/Formation" activeClassName="navActive">
-                Formation R&T
+                Formation RT
               </NavLink>
             </li>
             <li>
