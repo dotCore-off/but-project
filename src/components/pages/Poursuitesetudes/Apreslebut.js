@@ -15,7 +15,10 @@ const Apreslebut = () => {
              <br></br>
              <br></br>
              Ces 18% n'auraient pas eu le besoin de continuer une année de plus s'ils avaient eu le DUT en 3 ans.
+             <br></br>
+             <br></br>
           </p>
+          <a href="/" target="_blank" rel="noreferrer" a>Cliquez ici pour être redirigé sur le site de l'IUT de Roanne et avoir plus d'informations</a>
         </div>
     </div>
   );
