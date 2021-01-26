@@ -1,0 +1,39 @@
+.divBDE {
+  color: $white;
+  padding-top: 20px;
+  width: 100%;
+  font-size: 1rem;
+  font-family: $font-1;
+  h2 {
+    text-align: center;
+    h4 {
+      color: rgba(255, 255, 255, 1);
+      font-style: none;
+      text-decoration: none;
+    }
+  }
+  p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+
+  .imgBDE {
+    width: 20%;
+    margin: auto;
+    margin-bottom: 20px;
+    .logoBDE {
+      width: 70%;
+      height: auto;
+      border-radius: 120px;
+    }
+  }
+  .reseauBDE {
+    text-align: center;
+    span {
+      text-decoration: underline;
+      font-size: 1rem;
+      padding-bottom: 5px;
+    }
+  }
+}
