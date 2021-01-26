@@ -16,6 +16,28 @@ const BDE = () => {
         </div>
         <div className="reseauBDE">
           <span>Leur réseaux sociaux</span>
+          <ul>
+          <li id="fbBDE">
+          <a
+            href="https://www.facebook.com/BdeRTdeRoanne"
+            target="_blank"
+            rel="noreferrer"
+            className="fbBDE"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li id="instaBDE">
+          <a
+            href="https://www.instagram.com/bde_rt_roanne/"
+            target="_blank"
+            rel="noreferrer"
+            className="instaBDE"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+          </ul>
         </div>
       </div>
     </div>

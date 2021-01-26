@@ -1,9 +1,12 @@
 .divBDE {
   color: $white;
   padding-top: 20px;
+  padding-bottom: 20px;
   width: 100%;
   font-size: 1rem;
   font-family: $font-1;
+  padding-left: 5%;
+  padding-right: 5%;
   h2 {
     text-align: center;
     h4 {
@@ -19,12 +22,14 @@
   }
 
   .imgBDE {
-    width: 20%;
+    width: 13%;
     margin: auto;
     margin-bottom: 20px;
+    align-content: center;
     .logoBDE {
-      width: 70%;
+      width: 100%;
       height: auto;
+      margin: auto;
       border-radius: 120px;
     }
   }
@@ -32,8 +37,97 @@
     text-align: center;
     span {
       text-decoration: underline;
-      font-size: 1rem;
+      font-size: 1.3rem;
       padding-bottom: 5px;
     }
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      flex-wrap: wrap;
+      text-align: center;
+      padding-top: 10px;
+      #instaBDE {
+        padding-left: 10px;
+      }
+      #fbBDE {
+        padding-right: 10px;
+      }
+      li {
+        list-style-type: none;
+        letter-spacing: 1px;
+        i {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .divBDE {
+    .imgBDE {
+      width: 20%;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+    .divBDE {
+      .imgBDE {
+        width: 25%;
+      }
+    }
+  }
+
+// Animation for facebook icon
+#fbBDE:hover {
+  // Change type of cursor
+  cursor: pointer;
+  text-align: center;
+  // Animation's properties
+  animation-name: floatingImg;
+  animation-duration: 2s;
+  // Check this property on internet if you want to know more about it (flemme d'expliquer mdrrr)
+  animation-timing-function: cubic-bezier(0.2, 0, 0.8, 1);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  .fbBDE {
+    color: $blue;
+  }
+}
+
+// Animation for Instagram icon
+#instaBDE:hover {
+  // Change type of cursor
+  cursor: pointer;
+  text-align: center;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  // Fixed webkit issue
+  background-clip: none;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  // Animation's properties
+  animation-name: floatingImg;
+  animation-duration: 2s;
+  // Check this property on internet if you want to know more about it (flemme d'expliquer mdrrr)
+  animation-timing-function: cubic-bezier(0.2, 0, 0.8, 1);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+// Animation movement
+@keyframes floatingImg {
+  100% {
+    transform: translateY(10px);
   }
 }
