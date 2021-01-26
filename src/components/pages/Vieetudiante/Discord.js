@@ -1,45 +1,26 @@
 import React from "react";
 
-import bde from "../../../media/vieetudiante/bde.jpg";
+import discord from "../../../media/vieetudiante/logodiscord.png";
 
 const Discord = () => {
   return (
-    <div className="divBDE">
-      <div className="textBDE">
-        <h2>Notre BDE</h2>
+    <div className="divDiscord">
+      <div className="textDiscord">
+        <h2>Le discord</h2>
         <p>
-          Le Bureau des Étudiants est là pour créer une cohésion entre les
-          étudiants.
-          <br /> Il organise des soirées, des animations, participe à la vente
-          de Sweat-shirt...
+          Ce discord permet aux RT1 de demander du soutien en plus des jeudis
+          après-midi quand ils en ont besoin. Il permet de créer une cohésion
+          entre les deux promos. <br />
+          Il est composé de nombreux salons de discussion regroupant l’ensemble
+          des modules de la formation et permettant l’échange entre les
+          différents étudiants !
         </p>
-        <div className="imgBDE">
-          <img src={bde} alt="logo BDE" className="logoBDE" />
-        </div>
-        <div className="reseauBDE">
-          <span>Leurs réseaux sociaux</span>
-          <ul>
-            <li id="fbBDE">
-              <a
-                href="https://www.facebook.com/BdeRTdeRoanne"
-                target="_blank"
-                rel="noreferrer"
-                className="fbBDE"
-              >
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li id="instaBDE">
-              <a
-                href="https://www.instagram.com/bde_rt_roanne/"
-                target="_blank"
-                rel="noreferrer"
-                className="instaBDE"
-              >
-                <i class="fab fa-instagram"></i>
-              </a>
-            </li>
-          </ul>
+        <div className="imgDiscord">
+          <img
+            src={discord}
+            alt="logo du serveur discord"
+            className="logoDiscord"
+          />
         </div>
       </div>
     </div>
