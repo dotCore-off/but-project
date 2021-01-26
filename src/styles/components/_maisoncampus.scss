@@ -19,12 +19,12 @@
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
-    a{
+    a {
       font-weight: bold;
       font-size: 1.2rem;
     }
-    a:hover{
-      color:$blue;
+    a:hover {
+      color: $blue;
     }
   }
 
@@ -63,7 +63,7 @@
       #fbMaisonCamp {
         padding-right: 10px;
       }
-      #siteMaisonCamp{
+      #siteMaisonCamp {
         padding-left: 10px;
       }
       li {
@@ -86,12 +86,12 @@
 }
 
 @media screen and (max-width: 450px) {
-    .divMaisonCamp {
-      .imgMaisonCamp {
-        width: 25%;
-      }
+  .divMaisonCamp {
+    .imgMaisonCamp {
+      width: 25%;
     }
   }
+}
 
 // Animation for facebook icon
 #fbMaisonCamp:hover {
@@ -149,10 +149,9 @@
   animation-iteration-count: infinite;
   animation-direction: alternate;
   .siteMaisonCamp {
-    color: #F68A29;
+    color: #f68a29;
   }
 }
-
 
 // Animation movement
 @keyframes floatingImg {
