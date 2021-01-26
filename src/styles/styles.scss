@@ -4,29 +4,47 @@
 
 @import './settings.scss';
 
-@import './components/navigation.scss';
-@import './components/footer.scss';
-@import './components/banniere.scss';
-@import './components/choisirbut.scss';
-@import './components/contacts.scss';
-@import './components/newsletter.scss';
-@import './components/temoignages.scss';
-@import './components/error404.scss';
-@import './components/construction.scss';
-@import './components/photos360.scss';
-@import './components/mentions.scss';
-@import './components/programme.scss';
-@import './components/diagpoursuiteetude.scss';
-@import './components/but1.scss';
-@import './components/but2.scss';
-@import './components/but3.scss';
-@import './components/partenairesiut.scss';
-@import './components/rom.scss';
-@import './components/cyber.scss';
-@import './components/apreslebut.scss';
-@import './components/bde.scss';
-@import './components/maisoncampus.scss';
+//Other
+@import './components/other/navigation.scss';
+@import './components/other/footer.scss';
+@import './components/other/error404.scss';
+@import './components/other/construction.scss';
 
+//Home
+@import './components/Home/banniere.scss';
+@import './components/Home/choisirbut.scss';
+@import './components/Home/contacts.scss';
+@import './components/Home/newsletter.scss';
+
+//Formation
+@import './components/Formation/but1.scss';
+@import './components/Formation/but2.scss';
+@import './components/Formation/but3.scss';
+@import './components/Formation/rom.scss';
+@import './components/Formation/cyber.scss';
+@import './components/Formation/programme.scss';
+
+//IUT en action
+@import './components/IUTenaction/temoignages.scss';
+@import './components/IUTenaction/photos360.scss';
+
+//mentions légales
+@import './components/Mentionlegales/mentions.scss';
+
+//Partenaires
+@import './components/Partenaires/partenairesiut.scss';
+
+//Poursuites d'etudes
+@import './components/Poursuitesetudes/diagpoursuiteetude.scss';
+@import './components/Poursuitesetudes/apreslebut.scss';
+
+//Vieetudiante
+@import './components/Vieetudiante/bde.scss';
+@import './components/Vieetudiante/maisoncampus.scss';
+@import './components/Vieetudiante/discord.scss';
+
+
+//Pages
 @import './pages/home.scss';
 @import './pages/notfound.scss';
 @import './pages/formation';
