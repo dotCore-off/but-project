@@ -1,0 +1,52 @@
+.divDiscord {
+  color: $white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  font-size: 1rem;
+  font-family: $font-1;
+  padding-left: 5%;
+  padding-right: 5%;
+  h2 {
+    text-align: center;
+    h4 {
+      color: rgba(255, 255, 255, 1);
+      font-style: none;
+      text-decoration: none;
+    }
+  }
+  p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+
+  .imgDiscord {
+    width: 13%;
+    margin: auto;
+    margin-bottom: 20px;
+    align-content: center;
+    .logoDiscord {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      border-radius: 120px;
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .divDiscord {
+    .imgDiscord {
+      width: 20%;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .divDiscord {
+    .imgDiscord {
+      width: 25%;
+    }
+  }
+}

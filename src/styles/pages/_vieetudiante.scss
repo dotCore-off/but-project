@@ -1,3 +1,35 @@
 /* ///////////////////// */
 /* Style - Vie étudiante */
 /* ///////////////////// */
+
+/* Style - Custom fonts */
+
+// Font title
+#etuTitle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: $font-1;
+    color: $white;
+    padding-top: 40px;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    overflow: hidden;
+  }
+  
+  // Font resizer
+  @media screen and (max-width: 430px){
+    #etuTitle{
+      font-size: 1.2rem;
+    }
+  }
+  
+  
+  /* Style - Properties */
+  
+  // Background
+  .etuContent{
+    background-color: $backgroundcolor;
+    background-image: $backgroundimg;
+  }

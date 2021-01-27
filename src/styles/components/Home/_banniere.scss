@@ -2,18 +2,26 @@
     width: 90%;
     height: 92%;
     border-radius: 10px;
+    margin: auto;
 }
 
 .background{
     width: 100%;
+    margin: auto;
     padding-top: 40px;
     padding-bottom: 30px;
 }
 
 .slide {
     margin : auto ;
+    text-align: center;
     align-items: center;
     text-align: center;
-    width: 80%;
+    width: 100%;
     height: auto;
+} 
+
+.splide{
+    margin: auto;
+    width: 100%;
 }
