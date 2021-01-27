@@ -21,20 +21,33 @@
   }
 
   .imgBUT1 {
+    // Zoom animation - Base properties
+    -webkit-transform: scale(1);
+    transform: scale(1);      
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
     width: 35%;
     margin: auto;
     .lan {
       width: 80%;
       height: auto;
+      :hover {
+        border-radius: 30%;
+      }
     }
     .telephonie {
-        width: 100%;
-        height: auto;
-      }
-      .prograWeb{
-        width: 100%;
-        height: auto;
-      }
+      width: 100%;
+      height: auto;
+    }
+    .prograWeb{
+      width: 100%;
+      height: auto;
+    }
+  }
+  .imgBUT1:hover{
+    // Launch Zoom animation
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
   }
 }
 

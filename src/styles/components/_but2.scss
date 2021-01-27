@@ -21,6 +21,11 @@
   }
 
   .imgBUT2 {
+    // Zoom animation - Base properties
+    -webkit-transform: scale(1);
+    transform: scale(1);      
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
     width: 35%;
     margin: auto;
     .ldap {
@@ -35,6 +40,11 @@
       width: 100%;
       height: auto;
     }
+  }
+  .imgBUT2:hover{
+    // Launch Zoom animation
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
   }
 }
 
