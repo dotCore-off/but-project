@@ -1,4 +1,4 @@
-.imgbanniere {
+.imgbanniere {  
     width: 90%;
     height: 92%;
     border-radius: 10px;
@@ -12,7 +12,7 @@
     padding-bottom: 30px;
 }
 
-.slide {
+.slide { 
     margin : auto ;
     text-align: center;
     align-items: center;
@@ -24,4 +24,8 @@
 .splide{
     margin: auto;
     width: 100%;
+}
+
+.splide__pagination__page:hover {
+    background-color: $blue;
 }

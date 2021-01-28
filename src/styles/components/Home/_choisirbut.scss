@@ -116,11 +116,7 @@
 /* Style - Animations */
 
 // Animation for first list icons
-.busAnim:hover,
-.sportAnim:hover,
-.restoAnim:hover,
-.comAnim:hover,
-.habAnim:hover {
+.busAnim:hover, .sportAnim:hover, .restoAnim:hover, .comAnim:hover, .habAnim:hover {
   // Change type of cursor
   cursor: pointer;
   text-align: center;
@@ -140,10 +136,7 @@
 }
 
 // Animation for second list of icons
-.buAnim:hover,
-.tutAnim:hover,
-.stuffAnim:hover,
-.supAnim:hover {
+.buAnim:hover, .tutAnim:hover, .stuffAnim:hover, .supAnim:hover {
   // Change type of cursor
   cursor: pointer;
   text-align: center;
@@ -163,12 +156,7 @@
 }
 
 // Animation for third list of icons
-.formAnim:hover,
-.bacAnim:hover,
-.ectsAnim:hover,
-.cursAnim:hover,
-.speAnim:hover,
-.pdfAnim:hover {
+.formAnim:hover, .bacAnim:hover, .ectsAnim:hover, .cursAnim:hover, .speAnim:hover, .pdfAnim:hover {
   // Change text alignment
   text-align: center;
   // Change color of icon
