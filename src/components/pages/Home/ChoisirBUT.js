@@ -25,7 +25,7 @@ const ChoisirBUT = () => {
           </li>
           <li
             className="sportAnim"
-            title="De nombreuses activitées sont disponibles, allant du sport aux activitées en plein air."
+            title="De nombreuses activités sont disponibles, allant du sport classique aux activités en plein air."
           >
             <a
               href="https://www.univ-st-etienne.fr/fr/suaps/suaps-roanne.html"
@@ -86,7 +86,7 @@ const ChoisirBUT = () => {
           <li className="buAnim">
             <a
               href="https://scd.univ-st-etienne.fr/fr/tout-savoir-sur-mes-bu/bu-roanne.html"
-              title="La Bu vous permet de réviser et de vous détendre facilement, entre midi et 2h par exemple."
+              title="La BU vous permet de réviser et de vous détendre facilement, entre 12h et 14h par exemple."
               target="_blank"
               rel="noreferrer"
             >
@@ -103,7 +103,7 @@ const ChoisirBUT = () => {
           <li className="supAnim">
             <i
               class="fas fa-hands-helping"
-              title="Un soutien entre les RT2 et les RT1 est mis en place, le jeudi après-midi ou sur le discord de la promotion."
+              title="Un soutien entre les RT2 et les RT1 est mis en place, le jeudi après-midi ou sur le serveur Discord de la promotion."
             ></i>
             <span>Soutien RT1 / RT2</span>
           </li>
@@ -117,7 +117,7 @@ const ChoisirBUT = () => {
           <li className="stuffAnim">
             <i
               class="fas fa-tools"
-              title="De nombreux équipements de diverses marques sont mis en place pour les TP."
+              title="De nombreux équipements propriétaires et professionnels sont mis en place pour la réalisation des TP."
             ></i>
             <span>Équipements professionnels</span>
           </li>
