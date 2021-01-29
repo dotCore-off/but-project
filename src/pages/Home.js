@@ -4,6 +4,10 @@ import Footer from '../components/others/Footer';
 import Banniere from '../components/pages/Home/Banniere';
 import ChoisirBUT from '../components/pages/Home/ChoisirBUT';
 import Contacts from '../components/pages/Home/Contacts';
+import Carousel from '../components/pages/Home/Carousel';
+import Banner from '../components/pages/Home/Banner';
+import ChoisirRoanne from '../components/pages/Home/ChoisirRoanne';
+import NosAvantages from '../components/pages/Home/NosAvantages';
 //import Newsletter from '../components/Newsletter';
 
 const Home = () => {
@@ -11,9 +15,9 @@ const Home = () => {
     <div className="home">
       <Navigation />
       <div className="homeContent">
-        <h1 id="homeTitle">B.U.T Réseaux et télécommunications à l'IUT de Roanne</h1>
-        <Banniere />
-        <ChoisirBUT />
+        <Banner />
+        <ChoisirRoanne />
+        <NosAvantages />
         <Contacts />
         {/*<Newsletter />*/}
       </div>

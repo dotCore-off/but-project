@@ -1,0 +1,43 @@
+import React from 'react';
+
+const NosAvantages = () => {
+  return (
+    <div className="BackgroundNosAvantages">
+      <div className="NosAvantagesContent">
+        <h1>NOS AVANTAGES</h1>
+        <div className="avantagesFlex">
+          <div className="case">
+            <div className="icon">
+              <h2>TRANSPORTS EN COMMUN</h2>
+               <i class="fas fa-bus"></i>
+            </div>
+            <a href="https://www.bus-star.com/fr/plans/89">Plus d'informations</a>
+          </div>
+          <div className="case">
+            <div className="icon">
+              <h2>PROXIMITÉ DES COMMERCES</h2>
+              <i class="fas fa-store"></i>
+            </div>
+            <a href="/">Plus d'informations</a>
+          </div>
+          <div className="case">
+            <div className="icon">
+              <h2>PROXIMITÉ DES HABITATS</h2>
+              <i class="fas fa-home"></i>
+            </div>
+            <a href="https://iut-roanne.univ-st-etienne.fr/fr/international/etudiants-etrangers/logement-et-vie-pratique.html">Plus d'informations</a>
+          </div>
+          <div className="case">
+          <div className="icon">
+            <h2>BIBLIOTHÈQUE UNIVERSITAIRE</h2>
+            <i class="fas fa-school"></i>
+          </div>
+          <a href="https://scd.univ-st-etienne.fr/fr/tout-savoir-sur-mes-bu/bu-roanne.html">Plus d'informations</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default NosAvantages;

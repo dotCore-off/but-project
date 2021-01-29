@@ -1,0 +1,56 @@
+.BackgroundNosAvantages{
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  overflow: hidden;
+  .NosAvantagesContent{
+    width: 100%;
+    color: black;
+    font-family: $font-1;
+    h1{
+      font-size: 2rem;
+      justify-content: flex-end;
+      padding-bottom: 60px;
+      letter-spacing: 0.01rem;
+      text-align: center;
+    }
+
+    p{
+      font-size: 1.3rem;
+      padding-top: 0;
+      text-align: start;
+    }
+    .avantagesFlex{
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      h2{
+        font-size: 1.1rem;
+        padding-bottom: 20px;
+        height: 40px;
+      }
+      .case{
+        width: 250px;
+        height: 250px;
+        background-color: white;
+        display: block;
+        padding-top: 10px;
+        text-align: center;
+        flex-wrap: nowrap;
+        a{
+          color: orangered;
+          text-decoration: underline;
+          text-transform: uppercase;
+
+        }
+        .icon{
+          i{
+            padding-bottom: 20px;
+            color: black;
+            font-size: 7rem;
+          }
+        }
+      }
+    }
+  }
+}
