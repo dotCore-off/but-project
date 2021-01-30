@@ -82,8 +82,10 @@
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1000px) {
   .divBDE {
+    width: 100%;
+    height: 500px;
     .imgBDE {
       width: 20%;
     }

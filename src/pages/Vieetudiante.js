@@ -11,13 +11,13 @@ const Vieetudiante = () => {
       <Navigation />
       <div className="etuContent">
         <div className="composantVieEtu">
-        <BDE />
-        <Maisoncampus />
-        <Discord />
+          <BDE />
+          <Maisoncampus />
+          <Discord />
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
-  </div>
   );
 };
 

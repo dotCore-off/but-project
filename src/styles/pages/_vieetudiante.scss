@@ -47,3 +47,14 @@
   i{
     margin-top: 20px;
   }
+
+@media screen and (max-width: 1000px) {
+  .composantVieEtu{
+    display: block;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+  }
+}
