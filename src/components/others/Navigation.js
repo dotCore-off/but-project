@@ -11,12 +11,12 @@ const Navigation = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink exact to="/Formation" activeClassName="navActive">
+              <NavLink exact to="/Pageenconstruction" activeClassName="navActive">
                 Formation RT
               </NavLink>
             </li>
             <li>
-              <NavLink exact to="/IUTenaction" activeClassName="navActive"> {/* /Partenaires */}
+              <NavLink exact to="/Pageenconstruction" activeClassName="navActive"> {/* /Partenaires */}
               L'IUT en action
               </NavLink>
             </li>
@@ -26,7 +26,7 @@ const Navigation = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink exact to="/Poursuiteetudes" activeClassName="navActive"> {/* /Poursuiteetudes */}
+              <NavLink exact to="/Pageenconstruction" activeClassName="navActive"> {/* /Poursuiteetudes */}
                 Poursuite d'études
               </NavLink>
             </li>
