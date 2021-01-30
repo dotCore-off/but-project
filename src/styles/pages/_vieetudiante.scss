@@ -11,7 +11,7 @@
     text-align: center;
     flex-wrap: wrap;
     font-family: $font-1;
-    color: $white;
+    color: black;
     padding-top: 40px;
     font-size: 1.7rem;
     text-transform: uppercase;
@@ -30,6 +30,20 @@
   
   // Background
   .etuContent{
-    background-color: $backgroundcolor;
-    background-image: $backgroundimg;
+    background-color: white;
+    //background-image: $backgroundimg;
+  }
+
+
+  .composantVieEtu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+  }
+
+  i{
+    margin-top: 20px;
   }

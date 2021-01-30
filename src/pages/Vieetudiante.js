@@ -10,13 +10,14 @@ const Vieetudiante = () => {
     <div className="vieEtudiante">
       <Navigation />
       <div className="etuContent">
-        <h1 id="etuTitle">La vie étudiante !</h1>
+        <div className="composantVieEtu">
         <BDE />
         <Maisoncampus />
         <Discord />
       </div>
       <Footer />
     </div>
+  </div>
   );
 };
 

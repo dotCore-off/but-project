@@ -1,12 +1,25 @@
 .divBDE {
-  color: $white;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 100%;
+  color: white;
+  width: 800px;
+  height: 500px;
+  display: block;
+  flex-grow: 1;
+  flex-basis: auto;
   font-size: 1rem;
   font-family: $font-1;
-  padding-left: 5%;
-  padding-right: 5%;
+  background-image: url('../../../media/vieetudiante/fondBDE.jpg');
+  //https://www.letemps.ch/societe/aperovideo-fete-distance-jeux-ligne-internet-sauve
+  //Image d'illustration. A Paris, 20 mars 2020. — © Cyril ENTZMANN
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .fondBde{
+    background-color:rgba(80, 80, 80, 0.5);
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
   h2 {
     text-align: center;
     h4 {
@@ -18,11 +31,14 @@
   p {
     padding-top: 15px;
     padding-bottom: 15px;
-    text-align: center;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 60px;
   }
 
   .imgBDE {
-    width: 13%;
+    width: 20%;
     margin: auto;
     margin-bottom: 20px;
     align-content: center;
@@ -83,6 +99,11 @@
 }
 
 // Animation for facebook icon
+#fbBDE {
+  .fbBDE {
+    color: white;
+  }
+}
 #fbBDE:hover {
   // Change type of cursor
   cursor: pointer;
@@ -100,6 +121,11 @@
 }
 
 // Animation for Instagram icon
+#instaBDE {
+  i {
+    color: white;
+  }
+}
 #instaBDE:hover {
   // Change type of cursor
   cursor: pointer;
