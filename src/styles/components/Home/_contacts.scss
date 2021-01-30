@@ -8,8 +8,8 @@
     width: 100%;
     color: $white;
     .Map {
-      width: 50vw;
-      height: 35vw;
+      width: 60vw;
+      height: 40vw;
       justify-content: flex-start;
       iframe{
         width: 100%;
@@ -25,7 +25,7 @@
         font-size: 2rem;
         text-transform: uppercase;
         letter-spacing: 0.01rem;
-        text-align: center;
+        text-align: start;
         padding-bottom: 40px;
       }
       h3{
@@ -55,6 +55,70 @@
   }
 }
 
+
+@media screen and (max-width: 1400px) {
+  .ContactsBackground{
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .ContactsContent {
+      display: block;
+      font-family: $font-1;
+      width: 100%;
+      color: $white;
+      .MapSize{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        .Map {
+          width: 80vw;
+          height: 50vw;
+          iframe{
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+      .ContactsText{
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-top: 100px;
+        display: block;
+        h2{
+          font-size: 2rem;
+          text-transform: uppercase;
+          letter-spacing: 0.01rem;
+          text-align: start;
+          padding-bottom: 40px;
+        }
+        h3{
+          font-size: 1.4rem;
+          text-transform: uppercase;
+          text-decoration: underline;
+          padding-bottom: 10px;
+        }
+        li{
+          list-style-type: none;
+          font-size: 1.3rem;
+          padding-top: 0;
+          text-align: start;
+        }
+        .Adresse{
+          padding-bottom: 20px;
+        }
+        .plans{
+          padding-top: 40px;
+          a{
+            color: orangered;
+            text-decoration: underline;
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}
 
 
 

@@ -4,8 +4,10 @@ const Contacts = () => {
   return (
     <div className="ContactsBackground">
       <div className="ContactsContent">
-        <div className="Map">
-          <iframe title="map" src="https://www.google.com/maps/d/u/0/embed?mid=1rn1p3fQifjHESv2s4bhmSwbiohDkuQai"></iframe>
+        <div className="MapSize">
+          <div className="Map">
+            <iframe title="map" src="https://www.google.com/maps/d/u/0/embed?mid=1rn1p3fQifjHESv2s4bhmSwbiohDkuQai"></iframe>
+          </div>
         </div>
         <div className="ContactsText">
           <h2>Où nous trouver ?</h2>
