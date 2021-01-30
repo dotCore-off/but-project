@@ -1,7 +1,6 @@
 import React from "react";
 
 import bde from "../../../media/vieetudiante/bde.jpg";
-import fond from "../../../media/vieetudiante/fondBDE.jpg";
 
 const BDE = () => {
   return (
@@ -11,8 +10,7 @@ const BDE = () => {
           <h2>Notre BDE</h2>
           <p>
             Le Bureau des Étudiants est là pour créer une cohésion entre les
-            étudiants en organisant des soirées, des animations et en
-            participant à la vente de Sweat-shirt.
+            étudiants en organisant des soirées, des animations, vente de Sweat-shirt...
           </p>
           <div className="imgBDE">
             <img src={bde} alt="logo BDE" className="logoBDE" />
