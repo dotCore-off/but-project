@@ -1,0 +1,176 @@
+.divMPU {
+  color: white;
+  display: block;
+  flex-grow: 1;
+  flex-basis: auto;
+  font-size: 1rem;
+  font-family: $font-1;
+  background-image: url("../../../media/vieetudiante/fondMPU.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 500px;
+  .fondMPU {
+    background-color: rgba(80, 80, 80, 0.5);
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  h2 {
+    text-align: center;
+    h4 {
+      color: black;
+      font-style: none;
+      text-decoration: none;
+    }
+  }
+  p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 60px;
+    em {
+      text-decoration: underline;
+      font-style: normal;
+    }
+  }
+  .liensMC {
+    text-align: center;
+    a {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    a:hover {
+      color: $blue;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+    .divMPU {
+      width: 100%;
+      height: 500px;
+    }
+}
+
+.divSUAPS {
+  color: white;
+  display: block;
+  flex-grow: 1;
+  flex-basis: auto;
+  font-size: 1rem;
+  font-family: $font-1;
+  background-image: url("../../../media/vieetudiante/fondSUAPS.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 500px;
+  .fondSUAPS {
+    background-color: rgba(80, 80, 80, 0.5);
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  h2 {
+    text-align: center;
+    h4 {
+      color: black;
+      font-style: none;
+      text-decoration: none;
+    }
+  }
+  p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 60px;
+    em {
+      text-decoration: underline;
+      font-style: normal;
+    }
+  }
+  .liensMC {
+    text-align: center;
+    a {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    a:hover {
+      color: $blue;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+    .divSUAPS {
+      width: 100%;
+      height: 500px;
+    }
+}
+
+.divCulture {
+  color: white;
+  display: block;
+  flex-grow: 1;
+  flex-basis: auto;
+  font-size: 1rem;
+  font-family: $font-1;
+  background-image: url("../../../media/vieetudiante/fondCulture.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 500px;
+  .fondCulture {
+    background-color: rgba(80, 80, 80, 0.5);
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  h2 {
+    text-align: center;
+    h4 {
+      color: black;
+      font-style: none;
+      text-decoration: none;
+    }
+  }
+  p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 60px;
+    em {
+      text-decoration: underline;
+      font-style: normal;
+    }
+  }
+  .liensMC {
+    text-align: center;
+    a {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    a:hover {
+      color: $blue;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+    .divCulture {
+      width: 100%;
+      height: 500px;
+    }
+}

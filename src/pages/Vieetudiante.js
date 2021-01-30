@@ -4,6 +4,9 @@ import Footer from "../components/others/Footer";
 import BDE from "../components/pages/Vieetudiante/BDE.js";
 import Maisoncampus from "../components/pages/Vieetudiante/Maisoncampus";
 import Discord from "../components/pages/Vieetudiante/Discord";
+import MPU from "../components/pages/Vieetudiante/MPU";
+import SUAPS from "../components/pages/Vieetudiante/SUAPS";
+import Culture from "../components/pages/Vieetudiante/Culture";
 
 const Vieetudiante = () => {
   return (
@@ -14,6 +17,12 @@ const Vieetudiante = () => {
           <BDE />
           <Maisoncampus />
           <Discord />
+        </div>
+        <h3 id="etuTitle">La maison du campus en détails !</h3>
+        <div className="composantVieEtu">
+          <MPU />
+          <SUAPS />
+          <Culture />
         </div>
         <Footer />
       </div>

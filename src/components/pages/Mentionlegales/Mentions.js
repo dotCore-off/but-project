@@ -46,7 +46,29 @@ const Mentions = () => {
             </a>
           </li>
           <li>CARJOT - Eric</li>
-          <li>THIESSE Didier</li>
+          <li>THIESSE - Didier</li>
+          <li>
+            <a
+              href="https://pixabay.com/fr/"
+              className="link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Pixabay.com
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.letemps.ch/societe/aperovideo-fete-distance-jeux-ligne-internet-sauve"
+              className="link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              ENTZMANN - Cyril
+            </a>
+          </li>
+          <li>aggloroanne.fr</li>
+          <li>vallorgesas.fr</li>
         </ul>
       </div>
 
