@@ -1,0 +1,238 @@
+.BackgroundIUT360{
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .IUT360Content{
+      overflow: hidden;
+      display: flex;
+      .section1{
+        #img360IUT{
+            width: 100%;
+            padding-left: 4rem;
+            padding-right: 4rem;
+        }
+
+        
+      }
+      .section2{
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-top: 60px;
+        width: 100%;
+        display: block;
+        article{
+          color: black;
+          font-family: $font-1;
+          h1{
+            font-size: 1.7rem;
+            justify-content: flex-end;
+            padding-bottom: 1.5rem;
+            letter-spacing: 0.01rem;
+          }
+          p{
+            font-size: 1.3rem;
+            padding-top: 0;
+            text-align: start;
+            padding-bottom: 40px;
+          }
+          a{
+            font-family: $font-1;
+          }
+        }
+      }
+    }
+  }
+
+.button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: orangered;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    
+    //C'est pour l'ombrage (perso je préfére sans) // 
+}
+
+.button:hover {
+    background-color:orangered;
+}
+
+.button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+@media screen and (max-width: 1400px) {
+  .BackgroundIUT360{
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .IUT360Content{
+      overflow: hidden;
+      display: block;
+      .section1{
+        display: flex;
+        justify-content: center;
+        #img360IUT{
+            width: 100%;
+            padding-left: 4rem;
+            padding-right: 4rem;
+            padding-top: 3rem;
+        }
+      }
+      .section2{
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-top: 60px;
+        width: 100%;
+        display: block;
+        article{
+          color: black;
+          font-family: $font-1;
+          h1{
+            font-size: 1.7rem;
+            justify-content: flex-end;
+            padding-bottom: 1.5rem;
+            letter-spacing: 0.01rem;
+            text-align: center;
+          }
+          p{
+            font-size: 1.3rem;
+            padding-top: 0;
+            padding-bottom: 40px;
+            text-align: center;
+          }
+          a{
+            font-family: $font-1;
+            text-align: center;
+            align-items: center;
+          }
+          .bodybutton{
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+.button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: orangered;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    
+    //C'est pour l'ombrage (perso je préfére sans) // 
+}
+
+.button:hover {
+    background-color:orangered;
+}
+
+.button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+@media screen and (max-width: 800px) {
+  .BackgroundIUT360{
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 100px;
+    .IUT360Content{
+      overflow: hidden;
+      display: block;
+      .section1{
+        display: flex;
+        justify-content: center;
+        #img360IUT{
+            width: 100%;
+            padding-left: 4rem;
+            padding-right: 4rem;
+            padding-top: 3rem;
+        }
+      }
+      .section2{
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-top: 60px;
+        width: 100%;
+        display: block;
+        article{
+          color: black;
+          font-family: $font-1;
+          h1{
+            font-size: 1.7rem;
+            justify-content: flex-end;
+            padding-bottom: 1.5rem;
+            letter-spacing: 0.01rem;
+            text-align: center;
+          }
+          p{
+            font-size: 1.3rem;
+            padding-top: 0;
+            padding-bottom: 40px;
+            text-align: center;
+          }
+          a{
+            font-family: $font-1;
+          }
+          .bodybutton{
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+.button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: orangered;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    
+    //C'est pour l'ombrage (perso je préfére sans) // 
+}
+
+.button:hover {
+    background-color:orangered;
+}
+
+.button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}

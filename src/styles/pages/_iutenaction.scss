@@ -18,18 +18,11 @@
   overflow: hidden;
 }
 
-// Font resizer
-@media screen and (max-width: 430px) {
-  #iutenactionTitle {
-    font-size: 1.2rem;
-  }
-}
-
-
 /* Style - Properties */
 
 // Background
 .iutenactionContent {
-  background-color: $backgroundcolor;
-  background-image: $backgroundimg;
+  background-color: black;
+  //background-color: $backgroundcolor;
+  //background-image: $backgroundimg;
 }

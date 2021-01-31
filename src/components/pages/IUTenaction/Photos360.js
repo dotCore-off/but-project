@@ -109,15 +109,6 @@ const Photos360 = () => {
           </Pannellum>
         </div>
       </div>
-      <h3 className="link360">
-        <a
-          href="https://dossier.univ-st-etienne.fr/roa-jpo/www/Visite_Virtuelle/index.htm"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Visiter la totalité de l'IUT en 360
-        </a>
-      </h3>
     </div>
   );
 };
