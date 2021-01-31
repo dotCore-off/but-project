@@ -11,8 +11,8 @@ const IUT360 = () => {
           <section className="section2">
             <article className="article">
                 <h1>VISITE DU CAMPUS EN 360</h1>
-                <p className="firstp">Nous vous proposont de faire le tour du campus en 360.</p>
-                <p>Pour ce faire rien de plus simple cliquer sur le bouton ci-dessous.</p>
+                <p>Nous vous proposons de faire le tour du campus en 360.</p>
+                <p>Pour ce faire rien de plus simple cliquer sur le bouton ci-dessous :</p>
                 <div className="bodybutton">
                 <a 
                 href="https://dossier.univ-st-etienne.fr/roa-jpo/www/Visite_Virtuelle/index.htm" 

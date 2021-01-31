@@ -3,7 +3,7 @@ import React from "react";
 const Temoignages = () => {
   return (
     <div className="temoignages">
-      <h2>Les anciens témoignent !</h2>
+      <h1>Les anciens témoignent !</h1>
       <div className="video">
         <div className="video2017">
           <iframe
