@@ -1,18 +1,23 @@
 .divDiscord {
   color: white;
+  width: 800px;
+  height: 500px;
   display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
   flex-grow: 1;
   flex-basis: auto;
   font-size: 1rem;
   font-family: $font-1;
-  width: 800px;
-  height: 500px;
-  background-image: url('../../../media/vieetudiante/fondDiscord.jpg'); //Changer le nom du fichier//
+  background-image: url("../../../media/vieetudiante/fondDiscord.jpg"); //Changer le nom du fichier//
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  .fondDiscord {
+    background-color: rgba(80, 80, 80, 0.5);
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
   h2 {
     text-align: center;
     h4 {
@@ -21,13 +26,14 @@
       text-decoration: none;
     }
   }
+
   p {
     padding-top: 15px;
-    padding-bottom: 15px;
     text-align: justify;
     margin-left: 5%;
     margin-right: 5%;
-    padding-bottom: 60px;
+    margin-bottom: 70px;
+    height: 110px;
   }
 
   .imgDiscord {
@@ -40,6 +46,32 @@
       height: auto;
       margin: auto;
       border-radius: 120px;
+    }
+  }
+  .reseauDiscord {
+    text-align: center;
+    color: white;
+    span {
+      text-decoration: underline;
+      font-size: 1.3rem;
+      padding-bottom: 5px;
+    }
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      flex-wrap: wrap;
+      text-align: center;
+      padding-top: 10px;
+      li {
+        list-style-type: none;
+        letter-spacing: 1px;
+        i {
+          font-size: 35px;
+        }
+      }
     }
   }
 }
@@ -59,5 +91,34 @@
     .imgDiscord {
       width: 30%;
     }
+  }
+}
+
+// Animation for website icon
+#discordBUT {
+  .discordBUT {
+    color: white;
+  }
+}
+#discordBUT:hover {
+  // Change type of cursor
+  cursor: pointer;
+  text-align: center;
+  // Animation's properties
+  animation-name: floatingImg;
+  animation-duration: 2s;
+  // Check this property on internet if you want to know more about it (flemme d'expliquer mdrrr)
+  animation-timing-function: cubic-bezier(0.2, 0, 0.8, 1);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  .discordBUT {
+    color: #2C2F33;
+  }
+}
+
+// Animation movement
+@keyframes floatingImg {
+  100% {
+    transform: translateY(10px);
   }
 }

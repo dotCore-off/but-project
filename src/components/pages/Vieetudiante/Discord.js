@@ -5,7 +5,7 @@ import discord from "../../../media/vieetudiante/logodiscord.png";
 const Discord = () => {
   return (
     <div className="divDiscord">
-      <div className="fondBde">
+      <div className="fondDiscord">
         <div className="textDiscord">
           <h2>Le discord</h2>
           <p>
@@ -19,6 +19,21 @@ const Discord = () => {
               alt="logo du serveur discord"
               className="logoDiscord"
             />
+          </div>
+          <div className="reseauDiscord">
+            <span>Venez nous poser vos questions</span>
+            <ul>
+              <li id="discordBUT">
+                <a
+                  href="https://discord.gg/zxpvQtUJqG"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="discordBUT"
+                >
+                  <i class="fab fa-discord"></i>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
