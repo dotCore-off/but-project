@@ -7,9 +7,9 @@ const Discord = () => {
     <div className="divDiscord">
       <div className="fondDiscord">
         <div className="textDiscord">
-          <h2>Le discord</h2>
+          <h2>Le Discord</h2>
           <p>
-            Ce discord permet aux RT1 de demander du soutien en plus des jeudis
+            Ce Discord permet aux RT1 de demander du soutien en plus des jeudis
             après-midi quand ils en ont besoin. Il permet de créer une cohésion
             entre les deux promos.
           </p>
