@@ -7,7 +7,7 @@ import G04 from "../../../media/photos360/G04.jpg";
 const Photos360 = () => {
   return (
     <div className="photos360">
-      <h2>Les photos 360 de l'IUT</h2>
+      <h2>LES PHOTOS 360 DE L'IUT</h2>
       <h3 className="text360">
         {" "}
         Quelques photos en 360° qui ont été prise lors de TP de première année à
