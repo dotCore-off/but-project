@@ -69,7 +69,7 @@ const MC = () => {
       </div>
       <div className="Culture">
       <div className="imgCulture">
-          <img src={Culture} alt="SUAPS" />
+          <img src={Culture} alt="Musée des beaux-arts et d'archéologie Joseph Déchelette de Roanne" />
         </div>
         <div className="textMC">
           <h2>La Culture</h2>
