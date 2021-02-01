@@ -43,37 +43,6 @@
     }
   }
 
-/* 
-.button {
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 3rem;
-    text-align: center;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
-    border-radius: 10px;
-    background-color: orangered;
-    background-image: linear-gradient(to top left,
-                                      rgba(0, 0, 0, .2),
-                                      rgba(0, 0, 0, .2) 30%,
-                                      rgba(0, 0, 0, 0));
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                inset -2px -2px 3px rgba(0, 0, 0, .6);
-    
-    //C'est pour l'ombrage (perso je préfére sans) // 
-}
-
-.button:hover {
-    background-color:orangered;
-}
-
-.button:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6);
-}
-*/
-
 @media screen and (max-width: 1400px) {
   .BackgroundIUT360{
     background-color: white;
@@ -131,37 +100,6 @@
   }
 }
 
-/*
-.button {
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 3rem;
-    text-align: center;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
-    border-radius: 10px;
-    background-color: orangered;
-    background-image: linear-gradient(to top left,
-                                      rgba(0, 0, 0, .2),
-                                      rgba(0, 0, 0, .2) 30%,
-                                      rgba(0, 0, 0, 0));
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                inset -2px -2px 3px rgba(0, 0, 0, .6);
-    
-    //C'est pour l'ombrage (perso je préfére sans) // 
-}
-
-.button:hover {
-    background-color:orangered;
-}
-
-.button:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6);
-}
-
-*/
 @media screen and (max-width: 800px) {
   .BackgroundIUT360{
     background-color: white;
@@ -218,34 +156,3 @@
     }
   }
 }
-
-/*
-.button {
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 3rem;
-    text-align: center;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
-    border-radius: 10px;
-    background-color: orangered;
-    background-image: linear-gradient(to top left,
-                                      rgba(0, 0, 0, .2),
-                                      rgba(0, 0, 0, .2) 30%,
-                                      rgba(0, 0, 0, 0));
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                inset -2px -2px 3px rgba(0, 0, 0, .6);
-    
-    //C'est pour l'ombrage (perso je préfére sans) // 
-}
-
-.button:hover {
-    background-color:orangered;
-}
-
-.button:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6);
-}
-*/
