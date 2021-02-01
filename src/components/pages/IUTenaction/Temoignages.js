@@ -14,6 +14,7 @@ const Temoignages = () => {
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
+            className="videoTemoignage"
           ></iframe>
           <h2>Témoignages 2017</h2>
         </div>
@@ -26,6 +27,7 @@ const Temoignages = () => {
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
+            className="videoTemoignage"
           ></iframe>
           <h2>Témoignages 2019</h2>
         </div>

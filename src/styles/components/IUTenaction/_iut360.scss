@@ -8,8 +8,6 @@
       .section1{
         #img360IUT{
             width: 100%;
-            padding-left: 4rem;
-            padding-right: 4rem;
         }
       }
       .section2{
@@ -35,12 +33,17 @@
           }
           a{
             font-family: $font-1;
+            text-align: center;
+            align-items: center;
+            color: orangered;
+            text-decoration: underline;
           }
         }
       }
     }
   }
 
+/* 
 .button {
     border: 0;
     line-height: 2.5;
@@ -69,7 +72,7 @@
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
-
+*/
 
 @media screen and (max-width: 1400px) {
   .BackgroundIUT360{
@@ -84,9 +87,7 @@
         justify-content: center;
         #img360IUT{
             width: 100%;
-            padding-left: 4rem;
-            padding-right: 4rem;
-            padding-top: 3rem;
+            padding-top: 2rem;
         }
       }
       .section2{
@@ -105,6 +106,9 @@
             letter-spacing: 0.01rem;
             text-align: center;
           }
+          .link360{
+            text-align: center;
+          }
           p{
             font-size: 1.3rem;
             padding-top: 0;
@@ -115,6 +119,8 @@
             font-family: $font-1;
             text-align: center;
             align-items: center;
+            color: orangered;
+            text-decoration: underline;
           }
           .bodybutton{
             text-align: center;
@@ -125,6 +131,7 @@
   }
 }
 
+/*
 .button {
     border: 0;
     line-height: 2.5;
@@ -154,6 +161,7 @@
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
+*/
 @media screen and (max-width: 800px) {
   .BackgroundIUT360{
     background-color: white;
@@ -167,9 +175,7 @@
         justify-content: center;
         #img360IUT{
             width: 100%;
-            padding-left: 4rem;
-            padding-right: 4rem;
-            padding-top: 3rem;
+            padding-top: 2rem;
         }
       }
       .section2{
@@ -188,6 +194,9 @@
             letter-spacing: 0.01rem;
             text-align: center;
           }
+          .link360{
+            text-align: center;
+          }
           p{
             font-size: 1.3rem;
             padding-top: 0;
@@ -196,6 +205,10 @@
           }
           a{
             font-family: $font-1;
+            text-align: center;
+            align-items: center;
+            color: orangered;
+            text-decoration: underline;
           }
           .bodybutton{
             text-align: center;
@@ -206,6 +219,7 @@
   }
 }
 
+/*
 .button {
     border: 0;
     line-height: 2.5;
@@ -234,3 +248,4 @@
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
+*/
