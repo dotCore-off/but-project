@@ -91,6 +91,12 @@
   }
 }
 
+@media screen and (min-width: 1800px){
+  .divMaisonCamp {
+    height: 560px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .divMaisonCamp {
   width: 100%;

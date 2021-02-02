@@ -76,6 +76,12 @@
   }
 }
 
+@media screen and (min-width: 1800px){
+  .divDiscord {
+    height: 560px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .divDiscord {
     width: 100%;
