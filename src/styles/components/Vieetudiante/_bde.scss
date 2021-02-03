@@ -1,7 +1,7 @@
 .divBDE {
   color: white;
   width: 800px;
-  height: 500px;
+  height: 700px;
   display: block;
   flex-grow: 1;
   flex-basis: auto;
@@ -33,7 +33,7 @@
     text-align: justify;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 100px;
+    margin-bottom: 240px;
     height: 110px;
   }
 
@@ -89,12 +89,9 @@
     .imgBDE {
       width: 20%;
     }
-  }
-}
-
-@media screen and (min-width: 1800px){
-  .divBDE {
-    height: 560px;
+    p {
+      margin-bottom: 100px;
+    }
   }
 }
 

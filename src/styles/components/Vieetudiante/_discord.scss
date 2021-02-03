@@ -1,7 +1,7 @@
 .divDiscord {
   color: white;
   width: 800px;
-  height: 500px;
+  height: 700px;
   display: block;
   flex-grow: 1;
   flex-basis: auto;
@@ -32,7 +32,7 @@
     text-align: justify;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 100px;
+    margin-bottom: 240px;
     height: 110px;
   }
 
@@ -76,11 +76,6 @@
   }
 }
 
-@media screen and (min-width: 1800px){
-  .divDiscord {
-    height: 560px;
-  }
-}
 
 @media screen and (max-width: 1000px) {
   .divDiscord {
@@ -88,6 +83,9 @@
     height: 600px;
     .imgDiscord {
       width: 20%;
+    }
+    p {
+      margin-bottom: 100px;
     }
   }
 }
