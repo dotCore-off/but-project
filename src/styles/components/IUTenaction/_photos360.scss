@@ -3,7 +3,6 @@
   width: 100%;
   text-align: center;
   padding-top: 2rem;
-  padding-bottom: 2rem;
   font-family: $font-1;
   color: $white;
   .text360 {
@@ -20,57 +19,155 @@
       opacity: 0.3;
     }
   }
-  h3{
+  h3 {
     width: 50%;
     font-family: $font-2;
-    margin : 20px auto;
-
+    margin: 20px auto;
   }
 
-  p{
+  p {
     margin-top: 20px;
     width: 80%;
     margin: 10px auto;
   }
-}
 
-.div360 {
-  display: inline-flex;
-  text-align: left;
-  width: 100%;
-  margin: 0 auto;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  .div360 {
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
 
-  .G02 {
-    order: 1;
-    width: 80%;
-    padding-top: 30px;
-    align-items: center;
-    .pnlm-container {
-      margin: 0 auto;
+    .G02 {
+      width: 100;
+      align-items: center;
+      .pnlm-container {
+        margin: auto;
+      }
     }
-  }
 
-  .G04 {
-    order: 2;
-    width: 80%;
-    padding-top: 30px;
-    height: auto;
-    .pnlm-container {
-      margin: 0 auto;
+    .G04 {
+      width: 100%;
+      height: auto;
+      .pnlm-container {
+        margin: auto;
+      }
     }
-  }
 
-  .G07 {
-    order: 3;
-    width: 80%;
-    padding-top: 30px;
-    height: auto;
-    .pnlm-container {
-      margin: 0 auto;
+    .G07 {
+      width: 100%;
+      height: auto;
+      .pnlm-container {
+        margin: auto;
+      }
+    }
+
+    .RRT__tabs {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .RRT__tab--collapsed {
+      background-color: $greyred;
+    }
+
+    .RRT__tab:focus {
+      background-color: $red;
+      border-style: solid;
+      color: $blue;
+    }
+
+    .RRT__tab:hover {
+      background-color: $red;
+      color: $blue;
+    }
+
+    .RRT__tab {
+      background-position: center;
+      background-repeat: no-repeat;
+      background: $red;
+    }
+
+    .RRT__tab--selected {
+      background-color: $greyred;
+      color: $blue;
+    }
+
+    .RRT__tab--selected:focus {
+      background-color: $greyred;
+    }
+
+    .RRT__panel {
+      border-radius: 5%;
+      border: none;
+      // background: #6e1e3c;
+      background-color: transparent;
+      margin-bottom: 5%;
+      margin-top: 1%;
+      padding-bottom: 2%;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .RRT__showmore--selected {
+      background: $red;
+    }
+
+    .RRT__showmore-label--selected {
+      background-color: $red;
+    }
+    #tab-0 {
+      background-image: url('../../../media/photos360/preview_G02.jpg');
+      background-repeat:no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 20%;
+      height: 80px;
+      color: white;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: underline;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      border: $greyred solid 3px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    #tab-1 {
+      background-image: url('../../../media/photos360/preview_G04.jpg');
+      background-repeat:no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 20%;
+      height: 80px;
+      color: white;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: underline;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      border: $greyred solid 3px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    #tab-2 {
+      background-image: url('../../../media/photos360/preview_G07.jpg');
+      background-repeat:no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 20%;
+      height: 80px;
+      color: white;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: underline;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      border: $greyred solid 3px;
+      margin-left: 10px;
+      margin-right: 10px;
     }
   }
 }
@@ -105,6 +202,31 @@
     .pnlm-container {
       margin: 0 auto;
       max-height: 300px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .photos360 {
+    padding-bottom: 2rem;
+    .div360 {
+      #tab-0 {
+        width: 100%;
+        margin-left : 0px;
+        margin-right : 0px;
+      }
+      #tab-1 {
+        width: 100%;
+        margin-left : 0px;
+        margin-right : 0px;
+      
+      }
+      #tab-2 {
+        width: 100%;
+        margin-left : 0px;
+        margin-right : 0px;
+        
+      }
     }
   }
 }
