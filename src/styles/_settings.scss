@@ -41,6 +41,9 @@ $backgroundcolor : #15090e;
 // Links
 a {
   text-decoration: none;
-  cursor: pointer;
-  color: $white;
+  color: white;
+  :hover {
+    color: orange;
+    cursor: pointer;
+  }
 }
