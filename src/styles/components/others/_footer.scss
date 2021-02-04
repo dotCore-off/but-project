@@ -69,7 +69,7 @@
     animation-timing-function: cubic-bezier(.2, 0, .8, 1);
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    .fbFooter {
+    .fbFooter, a, i {
         color: $blue;
     }
 }
