@@ -6,27 +6,4 @@
   font-family: $font-1;
   color: $white;
   overflow: hidden;
-  background-color: $backgroundcolor;
-  background-image: $backgroundimg;
-  h1{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-  }
-}
-
-.Content{
-  display: flex;
-  justify-content: space-evenly;
-  padding-bottom: 40px;
-  height: 650px;
-}
-
-@media screen and (max-width: 1000px){
-  .Content{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-self: center;
-  }
 }
