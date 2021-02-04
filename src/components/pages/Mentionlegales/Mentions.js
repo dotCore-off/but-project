@@ -32,7 +32,7 @@ const Mentions = () => {
       </div>
 
       <div className="creditPhoto">
-        <span>Crédit Photographique :x</span>
+        <span>Crédit Photographique :</span>
         <ul>
           <li>Université Jean-Monnet - Saint-Étienne</li>
           <li>

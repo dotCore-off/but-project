@@ -1,5 +1,5 @@
 .divMentions {
-  color: $white;
+  color: black;
   font-family: $font-1;
   font-size: 1rem;
   padding-left: 5%;
@@ -8,6 +8,7 @@
   padding-bottom: 50px;
   span {
     text-decoration: underline;
+    font-weight: bold;
   }
   p{
       font-weight: bold;
@@ -22,6 +23,9 @@
   }
   li {
     list-style-type: none;
+    a{
+      color : black;
+    }
   }
 }
 
@@ -46,6 +50,13 @@
   .Telephones {
     padding-top: 2%;
   }
+  a{
+    color: black;
+  }
+  a:hover{
+    color: orangered;
+    text-decoration: underline orangered 2px;
+  }
 }
 
 .creditPhoto {
@@ -58,7 +69,7 @@
     }
     .link{
         text-decoration: underline;
-        color:$blue;
+        color:orangered;
     }
   }
   

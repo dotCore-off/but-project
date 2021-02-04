@@ -11,11 +11,16 @@
   text-align: center;
   flex-wrap: wrap;
   font-family: $font-1;
-  color: $white;
+  color: black;
+  width: 40%;
+  margin: auto;
+  padding-bottom: 15px;
   padding-top: 40px;
   font-size: 1.7rem;
   text-transform: uppercase;
   overflow: hidden;
+  //text-decoration: underline orangered 5px;
+  border-bottom: orangered 5px solid;
 }
 
 // Resizer
@@ -30,6 +35,5 @@
 
 // Background
 .mentionsContent{
-  background-color: $backgroundcolor;
-  background-image: $backgroundimg;
+  background-color: white;
 }
