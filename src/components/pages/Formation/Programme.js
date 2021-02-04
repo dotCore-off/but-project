@@ -10,7 +10,7 @@ import "react-responsive-tabs/styles.css";
 
 
 const année = [
-  { name: "Résumé", contenu: "..." },
+  //{ name: "Résumé", contenu: "..." },
   { name: "B.U.T - 1ère année", contenu: <BUT1 /> },
   { name: "B.U.T - 2ème année", contenu: <BUT2 /> },
   { name: "B.U.T - 3ème année", contenu: <BUT3 /> },
@@ -24,6 +24,7 @@ function getTabs() {
     tabClassName: "tab", // Optional
     panelClassName: "panel", // Optional
     title: année.name,
+    showMore : false,
     getContent: () => année.contenu,
   }));
 }
