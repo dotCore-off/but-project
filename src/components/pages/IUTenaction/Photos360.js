@@ -128,7 +128,7 @@ function getTabs() {
     tabClassName: "tab", // Optional
     panelClassName: "panel", // Optional
     title: salle.name,
-    showMore : true,
+    showMore : false,
     getContent: () => salle.contenu,
   }));
 }
