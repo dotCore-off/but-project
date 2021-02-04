@@ -1,5 +1,5 @@
 import React from "react";
-import imageIUT360 from "../../../media/iut360/IUT360.PNG";
+import imageIUT360 from "../../../media/iut360/IUT360.jpg";
 
 const IUT360 = () => {
     return (
