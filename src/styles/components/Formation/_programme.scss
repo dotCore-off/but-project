@@ -1,6 +1,6 @@
 .divProgramme {
   color: white;
-  background-color: black;
+  background-color: white;
   width: 100%;
   font-family: $font-1;
   padding-left: 5%;
@@ -9,75 +9,81 @@
   padding-bottom: 100px;
   h2 {
     text-align: center;
+    color: black;
     text-transform: uppercase;
     padding-bottom: 4rem;
     letter-spacing: 1px;
     list-style-type: none;
   }
 
+  .RRT__tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10px;
+    margin-top: -40px;
+  }
 
-.RRT__tabs {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-bottom: 10px;
-  margin-top: -40px;
-}
+  .RRT__tab--collapsed {
+    background-color: #303030;
+  }
 
-.RRT__tab--collapsed {
-  background-color: $greyred;
-}
+  .RRT__tab:focus {
+    background-color: #303030;
+    border-style: solid;
+    color: lighten(orangered, 20%);
+  }
 
-.RRT__tab:focus {
-  background-color: $red;
-  border-style: solid;
-  color: $blue;
-}
+  .RRT__tab:hover {
+    background-color: lighten(#303030, 12%);
+    border-style: solid;
+    color: lighten(orangered, 20%);
+  }
 
-.RRT__tab:hover {
-  background-color: $red;
-  border-style: solid;
-  color: $blue;
-}
+  .RRT__tab, .RRT__showmore, .RRT__showmore-label--selected {
+    background-position: center;
+    background-color: lighten(#303030, 12%);
+    background-repeat: no-repeat;
+    border-style: solid;
+  }
 
-.RRT__tab {
-  background-position: center;
-  background-repeat: no-repeat;
-  border-style: solid;
-}
+  .RRT__tab--selected, .RRT__showmore--selected {
+    background-color: #303030;
+    border-style: solid;
+    color: lighten(orangered, 20%);
+  }
 
-.RRT__tab--selected {
-  background-color: $red;
-  border-style: solid;
-  color: $blue;
-}
+  .RRT__tab--selected:focus {
+    background-color: #303030;
+    border-color: white;
+    border-style: solid;
+  }
 
-.RRT__tab--selected:focus {
-  background-color: $red;
-  border-color: white;
-  border-style: solid;
-}
+  .RRT__panel {
+    border-style: solid;
+    border-radius: 5%;
+    border: $greyred solid 3px;
+    background-color: #303030;
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 1%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
 
-.RRT__panel {
-  border-style: solid;
-  border-radius: 5%;
-  // background: #6e1e3c;
-  background-repeat: no-repeat;
-  color: white;
-  margin-bottom: 5%;
-  margin-top: 1%;
-  padding-top: 1.8%;
-  padding-bottom: 2%;
-}
-
-.RRT__showmore--selected {
-  background: $red;
-  border-color: white;
-  border-style: solid;
-}
-
-.RRT__showmore-label--selected {
-  background-color: $red;
-  border-color: white;
-}
+  #tab-0, #tab-1, #tab-2, #tab-3, #tab-4, .RRT__showmore{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: $greyred solid 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }

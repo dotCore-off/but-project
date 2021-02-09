@@ -81,9 +81,9 @@ function G7() {
         width="90%"
         height="500px"
         image={G07}
-        pitch={10}
-        yaw={180}
-        hfov={110}
+        pitch={0}
+        yaw={150}
+        hfov={114}
         previewTitle="Salle G07"
         preview={pG07}
         title="Salle G07"
@@ -143,7 +143,7 @@ const Photos360 = () => {
         l'IUT
       </h3>
       <p>
-        Pour les afficher, cliquez sur "Load panorama". Vous pouvez avoir
+        Pour les afficher, cliquez sur "Load Panorama". Vous pouvez avoir
         certaines informations en cliquant sur les{" "}
         <i class="fas fa-info-circle" /> présents dans les images
       </p>

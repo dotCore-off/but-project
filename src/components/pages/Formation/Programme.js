@@ -24,8 +24,8 @@ function getTabs() {
     tabClassName: "tab", // Optional
     panelClassName: "panel", // Optional
     title: année.name,
-    showMore : false,
     getContent: () => année.contenu,
+    showMore : false,
   }));
 }
 
