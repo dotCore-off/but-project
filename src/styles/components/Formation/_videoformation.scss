@@ -1,5 +1,5 @@
 .BackgroundvideoFormation{
-    background-color: white;
+    background-color: black;
     padding-top: 100px;
     padding-bottom: 100px;
     .videoFormationContent{
@@ -22,7 +22,7 @@
         width: 100%;
         display: block;
         article{
-          color: black;
+          color: white;
           font-family: $font-1;
           h1{
             font-size: 1.7rem;
@@ -43,7 +43,7 @@
   
   @media screen and (max-width: 1400px) {
     .BackgroundvideoFormation{
-      background-color: white;
+      background-color: black;
       padding-top: 100px;
       padding-bottom: 100px;
       .videoFormationContent{
@@ -69,7 +69,7 @@
           width: 100%;
           display: block;
           article{
-            color: black;
+            color: white;
             font-family: $font-1;
             h1{
               font-size: 1.7rem;

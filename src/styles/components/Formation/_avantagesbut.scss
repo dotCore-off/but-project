@@ -1,0 +1,148 @@
+.AvantagesBUT {
+  background-color: white;
+  color: black;
+  width: 100%;
+  font-size: 1rem;
+  font-family: $font-1;
+  padding-top: 35px;
+  padding-left: 5%;
+  padding-right: 5%;
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding-bottom: 4rem;
+    letter-spacing: 1px;
+    list-style-type: none;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center !important;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+    li {
+      padding-bottom: 2.4rem;
+      list-style-type: none;
+      padding-right: 10px;
+      padding-left: 10px;
+      i {
+        text-align: center;
+        display: block !important;
+        font-size: 7rem;
+        padding-bottom: 10px;
+      }
+    }
+  }
+
+  .infoBUT {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+    a {
+      color: black;
+    }
+    a:hover {
+      color: orangered;
+      text-decoration: underline;
+    }
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center !important;
+      flex-wrap: wrap;
+      margin-top: 1.2rem;
+
+      li {
+        list-style-type: none;
+        color: black;
+        padding-right: 25px;
+        padding-left: 25px;
+        
+        i {
+          text-align: center;
+          display: block !important;
+          font-size: 7rem;
+          color: $white;
+        }
+      }
+      .pdfAnim{
+        width: auto;
+        height: auto;
+        color: black;
+        i{
+          color: black;
+          font-size: 7rem;
+        }
+        a:hover{
+          color: orangered;
+          i:hover{
+            color: orangered;
+          }
+        }
+      }
+    }
+  }
+}
+#paddingTitleTop {
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 650px) {
+  .AvantagesBUT {
+    font-size: 0.8rem;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    ul {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+/* Style - Animations */
+// Animation for third list of icons
+.formAnim:hover,
+.bacAnim:hover,
+.ectsAnim:hover,
+.cursAnim:hover,
+.speAnim:hover,
+.pdfAnim:hover {
+  // Change text alignment
+  text-align: center;
+  // Change color of icon
+  //color: orangered;
+  // Animation's properties
+  animation-name: floatingImg;
+  animation-duration: 2s;
+  // Check this property on internet if you want to know more about it (flemme d'expliquer mdrrr)
+  animation-timing-function: cubic-bezier(0.2, 0, 0.8, 1);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  // Integrate the color to the link bellow
+  a {
+    color: orangered;
+  }
+}
+
+// Animation movement
+@keyframes floatingImg {
+  /*
+    Ici, on peut mettre une valeur entre 0 et 100 qui détermine à quel moment de l'animation cette dernière s'initie.
+    0 signifie que l'on commence le mouvement à 0% de l'animation.
+    100% signifie que que l'on commence le mouvement à 100% de l'animation, quand elle est donc censée se finir.
+    On met 100% pour éviter que l'îcone soit immédiatement décalée vers le bas de plusieurs pixels (ce qui donne un mauvais rendu).
+    En mettant 100%, l'animation se fait de manière fluide et logique, sans téléporter l'icône et le texte, puisqu'elle est censée se finir à la position originale.
+    Vous pouvez toujours tester en changeant de valeur au cas où vous comprenez pas.
+  */
+  100% {
+    // We set the movement - Translate the class by 5px on vertical axe
+    // Increase the value for bigger movement, decrease for lower ones
+    transform: translateY(5px);
+  }
+}

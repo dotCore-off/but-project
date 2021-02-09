@@ -2,7 +2,6 @@ import React from 'react';
 import Navigation from '../components/others/Navigation';
 import Footer from '../components/others/Footer';
 // import Banniere from '../components/pages/Home/Banniere';
-// import ChoisirBUT from '../components/pages/Home/ChoisirBUT';
 import Contacts from '../components/pages/Home/Contacts';
 // import Carousel from '../components/pages/Home/Carousel';
 import Banner from '../components/pages/Home/Banner';
