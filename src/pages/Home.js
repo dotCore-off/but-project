@@ -8,6 +8,7 @@ import Banner from '../components/pages/Home/Banner';
 import ChoisirRoanne from '../components/pages/Home/ChoisirRoanne';
 import NosAvantages from '../components/pages/Home/NosAvantages';
 //import Newsletter from '../components/Newsletter';
+import Popup from '../components/others/Popup';
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         <NosAvantages />
         <Contacts />
         {/*<Newsletter />*/}
+        <Popup />
       </div>
       <Footer />
     </div>
