@@ -2,6 +2,10 @@ import React from "react";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
 
+function newsletter() {
+  alert("Merci pour votre inscription !");
+}
+
 const popup = () => (
   <div className="divPopup">
     <div className="divNewsletter">
@@ -20,32 +24,46 @@ const popup = () => (
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="header"> Notre Newsletter </div>
-            <div className="content">
+            <div className="header">
               {" "}
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, a
-              nostrum. Dolorem, repellat quidem ut, minima sint vel eveniet
-              quibusdam voluptates delectus doloremque, explicabo tempore dicta
-              adipisci fugit amet dignissimos?
-              <br />
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Consequatur sit commodi beatae optio voluptatum sed eius cumque,
-              delectus saepe repudiandae explicabo nemo nam libero ad,
-              doloribus, voluptas rem alias. Vitae?
+              Inscrivez-vous à notre Newsletter pour recevoir des infos de l'IUT{" "}
             </div>
-            <div className="actions">
-              <Popup
-                trigger={<button className="button"> Trigger </button>}
-                position="top center"
-                nested
-              >
-                <span>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Beatae magni omnis delectus nemo, maxime molestiae dolorem
-                  numquam mollitia, voluptate ea, accusamus excepturi deleniti
-                  ratione sapiente! Laudantium, aperiam doloribus. Odit, aut.
-                </span>
-              </Popup>
+            <div className="content">
+              <form method="post">
+                <div>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    aria-describedby="emailHelp"
+                    placeholder="Votre mail"
+                    name="email"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                    required
+                  ></input>
+                  <br />
+                  <input
+                    type="checkbox"
+                    id="check"
+                    name="check"
+                    value="checkbox"
+                    required
+                  ></input>
+                  <label for="check">
+                    {" "}
+                    J’accepte de recevoir des informations de la part de l’IUT
+                    de Roanne
+                  </label>
+                  <br />
+                  <br />
+                  <input
+                    type="submit"
+                    value="S'inscrire"
+                    name=""
+                    formAction={newsletter}
+                  ></input>
+                </div>
+              </form>
             </div>
           </div>
         )}
@@ -67,41 +85,78 @@ const popup = () => (
             <button className="close" onClick={close}>
               &times;
             </button>
-            <div className="header"> Modal Title </div>
+            <div className="header"> Contactez-nous ! </div>
             <div className="content">
               {" "}
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, a
-              nostrum. Dolorem, repellat quidem ut, minima sint vel eveniet
-              quibusdam voluptates delectus doloremque, explicabo tempore dicta
-              adipisci fugit amet dignissimos?
+              Remplissez ce formulaire si vous souhaitez nous poser une question
+              ou nous contacter.
               <br />
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Consequatur sit commodi beatae optio voluptatum sed eius cumque,
-              delectus saepe repudiandae explicabo nemo nam libero ad,
-              doloribus, voluptas rem alias. Vitae?
-            </div>
-            <div className="actions">
-              <Popup
-                trigger={<button className="button"> Trigger </button>}
-                position="top center"
-                nested
-              >
-                <span>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Beatae magni omnis delectus nemo, maxime molestiae dolorem
-                  numquam mollitia, voluptate ea, accusamus excepturi deleniti
-                  ratione sapiente! Laudantium, aperiam doloribus. Odit, aut.
-                </span>
-              </Popup>
-              <button
-                className="button"
-                onClick={() => {
-                  console.log("modal closed ");
-                  close();
-                }}
-              >
-                close modal
-              </button>
+              <div className="content">
+                <form method="post">
+                  <div>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      aria-describedby="nameHepl"
+                      placeholder="Votre nom"
+                      name="name"
+                      pattern="[A-Za-z]{3,}"
+                      title="Au moins 3 caractères"
+                      required
+                    ></input>
+                    <br />
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Votre Prénom"
+                      id="prenom"
+                      pattern="[A-Za-z]{3,}"
+                      title="Au moins 3 caractères"
+                      required
+                    ></input>
+                    <br />
+                    <br />
+                    <textarea
+                      class="form-control"
+                      placeholder="Votre message"
+                      id="message"
+                      rows="3"
+                      pattern=".{7,}"
+                      title="Au moins 7 caractères"
+                      required
+                    ></textarea>
+                    <br />
+                    <br />
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      aria-describedby="emailHelp"
+                      placeholder="Votre mail"
+                      name="email"
+                      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                      required
+                    ></input>
+                    <br />
+                    <input
+                      type="checkbox"
+                      id="check"
+                      name="check"
+                      value="checkbox"
+                      required
+                    ></input>
+                    <label for="check">
+                      {" "}
+                      J’accepte d’être recontacté ultérieurement par l’IUT de
+                      Roanne
+                    </label>
+                    <br />
+                    <br />
+                    <input type="submit" value="Envoyer" name=""></input>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         )}
