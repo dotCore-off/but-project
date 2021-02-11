@@ -1,40 +1,165 @@
 .partenairesiut {
-    color: $white;
-    font-size: 1rem;
-    font-family: $font-1;
-    width: 100%;
+  color: black;
+  font-size: 1.3rem;
+  font-family: $font-1;
+  width: 100%;
+  text-align: center;
+  transition-duration: 0.6s;
+  transition-property: all;
+  transition-timing-function: ease;
+  h2 {
+    text-decoration: $white underline;
     text-align: center;
-    transition-duration: 0.6s;
-    transition-property: all;
-    transition-timing-function: ease;
-    h2 {
-      text-decoration: $white underline;
-      text-align: center;
-      text-transform: uppercase;
-      font-size: 1.5rem;
-      padding-top: 4rem;
-      letter-spacing: 1px;
-      list-style-type: none;
-      margin-left: 20px;
-      margin-right: 20px;
-    
-    }
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    padding-top: 4rem;
+    letter-spacing: 1px;
+    list-style-type: none;
+    margin-left: 20px;
+    margin-right: 20px;
   }
+}
 
 p {
-    padding-top: 1rem;
-    text-align: center;
+  padding-top: 1rem;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .logopartenaires {
-    width: 35%;
-    padding-top: 3rem;
-    padding-bottom: 6.4rem; /* Just to be clean (remove if it neccesary) */ 
-    margin-left: auto;
-    margin-right: auto; 
-    ul {
-      display: flex;
-      flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  .stage {
+    width: auto;
+    padding-top : 20px;
+    align-items: center;
+    align-content: space-between;
+    vertical-align: middle;
+    margin: auto;
+    .orange,
+    .sfr {
+      width: 250px;
+      height: auto;
+      margin-right: 10px;
+      margin-left: 10px;
     }
+    .axians,
+    .bouyges {
+      width: 250px;
+      height: auto;
+      align-self: flex-end;
+      margin: auto;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.logocertifications {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  .certification {
+    width: auto;
+    padding-top: 20px;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    margin: auto;
+    .cisco,
+    .stormshield {
+      width: 250px;
+      height: auto;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .logopartenaires {
+    .stage {
+      .orange,
+      .sfr,
+      .axians,
+      .bouyges {
+        width: 300px;
+        height: auto;
+      }
+    }
+  }
+
+  .logocertifications {
+    .certification {
+      .cisco,
+      .stormshield {
+        width: 300px;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .logopartenaires {
+    .stage {
+      .orange,
+      .sfr,
+      .axians,
+      .bouyges {
+        width: 200px;
+        height: auto;
+      }
+    }
+  }
+
+  .logocertifications {
+    .certification {
+      .cisco,
+      .stormshield {
+        width: 200px;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logopartenaires {
+    .stage {
+      .orange,
+      .sfr,
+      .axians,
+      .bouyges {
+        width: 150px;
+        height: auto;
+      }
+    }
+  }
+
+  .logocertifications {
+    .certification {
+      .cisco,
+      .stormshield {
+        width: 150px;
+        height: auto;
+      }
+    }
+  }
 }
 

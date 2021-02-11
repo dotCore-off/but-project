@@ -1,5 +1,5 @@
 import React from 'react';
-import image1 from "../../../media/banniere/entree.jpg";
+//import image1 from "../../../media/banniere/entree.jpg";
 
 const ChoisirRoanne = () => {
   return (
