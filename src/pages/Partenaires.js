@@ -2,7 +2,7 @@ import React from 'react';
 import Navigation from '../components/others/Navigation';
 import Footer from '../components/others/Footer';
 import PartenairesIUT from '../components/pages/Partenaires/PartenairesIUT'
-import Popup from '../components/others/Popup';
+//import Popup from '../components/others/Popup';
 
 const Partenaires = () => {
   return (
@@ -10,7 +10,7 @@ const Partenaires = () => {
       <Navigation />
       <div className="partenairesContent">
       <PartenairesIUT />
-      <Popup />
+      {/*<Popup />*/}
       </div>
       <Footer />
     </div>

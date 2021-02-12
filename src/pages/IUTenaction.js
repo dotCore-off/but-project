@@ -4,7 +4,7 @@ import Temoignages from '../components/pages/IUTenaction/Temoignages';
 import Footer from '../components/others/Footer';
 import Photos360 from '../components/pages/IUTenaction/Photos360';
 import IUT360 from '../components/pages/IUTenaction/IUT360';
-import Popup from '../components/others/Popup';
+//import Popup from '../components/others/Popup';
 
 
 const IUTenaction = () => {
@@ -14,7 +14,7 @@ const IUTenaction = () => {
       <Temoignages />
       <IUT360 />
       <Photos360 />
-      <Popup />
+      {/*<Popup />*/}
       <Footer />
     </div>
   );

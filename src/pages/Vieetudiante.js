@@ -5,7 +5,7 @@ import BDE from "../components/pages/Vieetudiante/BDE.js";
 import Maisoncampus from "../components/pages/Vieetudiante/Maisoncampus";
 import Discord from "../components/pages/Vieetudiante/Discord";
 import MC from "../components/pages/Vieetudiante/MC";
-import Popup from '../components/others/Popup';
+//import Popup from '../components/others/Popup';
 
 const Vieetudiante = () => {
   return (
@@ -19,7 +19,7 @@ const Vieetudiante = () => {
         </div>
         <h3 id="etuTitle">La maison du campus en détails !</h3>
           <MC />
-          <Popup />
+          {/*<Popup />*/}
         <Footer />
       </div>
     </div>
