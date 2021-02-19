@@ -45,6 +45,10 @@
     background-color: #303030;
     padding: 10px 10px 10px 10px;
     width: auto;
+    text-align: center;
+    input[type="email"] {
+      margin-bottom: 5px;
+    }
 }
 
 [role=tooltip].popup-content{
@@ -65,7 +69,7 @@
   align-items: flex-end;
   position: fixed;
   padding: 10px 20px 10px 10px;
-  bottom: 160px;
+  bottom: 130px;
   left: 0;
   width: 100%;
   height: 40px;
@@ -86,6 +90,9 @@
       margin: auto;
     }
   }
+  .buttonNewsletter:hover {
+  cursor: pointer;
+  }
   .buttonContact {
     background-color: dodgerblue;
     color: white;
@@ -101,6 +108,9 @@
       margin: auto;
     }
   }
+  .buttonContact:hover {
+    cursor: pointer;
+    }
 }
 
 @media screen and (max-width: 550px) {

@@ -88,8 +88,8 @@ const popup = () => (
             <div className="header"> Contactez-nous ! </div>
             <div className="content">
               {" "}
-              Remplissez ce formulaire si vous souhaitez nous poser une question
-              ou nous contacter.
+              <span>Remplissez ce formulaire si vous souhaitez nous poser une question
+              ou nous contacter.</span>
               <br />
               <div className="content">
                 <form method="post">
