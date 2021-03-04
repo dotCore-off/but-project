@@ -8,6 +8,9 @@ import CYBER from "./CYBER";
 // IMPORTANT you need to include the default styles
 import "react-responsive-tabs/styles.css";
 
+// button:focus{
+//  outline: none: !important
+// }
 
 const année = [
   //{ name: "Résumé", contenu: "..." },
