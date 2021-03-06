@@ -1,10 +1,21 @@
-.BackgroundApreslebut{
+.BackgroundParcourscourt{
   background-color: white;
   padding-top: 100px;
   padding-bottom: 100px;
-  .ApreslebutContent{
+  .ParcourscourtContent{
     overflow: hidden;
     display: flex;
+    .section1{
+      #imgBanner{
+        width: 650px;
+        height: 458px;
+      }
+      img{
+        box-shadow: 0px 5px 25px 5px rgba(196, 196, 196, 0.8);
+        -moz-box-shadow: 0px 5px 25px 5px rgba(196, 196, 196, 0.8);
+        -webkit-box-shadow: 0px 5px 25px 5px rgba(196, 196, 196, 0.8);
+      }
+    }
     .section2{
       padding-right: 10%;
       padding-left: 10%;
@@ -15,20 +26,18 @@
         color: black;
         font-family: $font-1;
         h1{
-          text-align: center;
+          text-transform: uppercase;
           font-size: 1.7rem;
           justify-content: flex-end;
           padding-bottom: 1.5rem;
           letter-spacing: 0.01rem;
         }
         p{
-          text-align: center;
           font-size: 1.3rem;
           padding-top: 0;
-          padding-bottom: 3px;
-        }
-        .firstp{
-          padding-bottom: 70px;
+          text-align: start;
+          padding-bottom: 40px;
+
         }
       }
     }

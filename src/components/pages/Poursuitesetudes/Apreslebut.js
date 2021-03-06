@@ -1,25 +1,22 @@
 import React from 'react';
-import inge from "../../../media/apresBUT/inge.jpg";
-import apres_but from "../../../media/apresBUT/apres_but.jpg";
-import insertion_professionel from "../../../media/apresBUT/insertion_pro.jpg";
+import classes from "../../../media/apresBUT/classes.jpg";
 
 
 const Apreslebut = () => {
   return (
-    <div className="ApreslebutContent">
-      <section className="general">
-        <h2>où se dirige les étudiants à la fin du but</h2>
+    <div className="BackgroundApreslebut">
+      <div className="ApreslebutContent">
 
-      </section>
-      <section className="cycleingenieur">
-        <h2>Title</h2>
-
-      </section>
-      <section className="insertion">
-        <h2>Title</h2>
-
-      </section>
-    </div>
+          <section className="section2"> 
+            <article className="article">
+                <h1>Que faire après le BUT ?</h1>
+                <p className="firstp">En terminant votre BUT, vous obtiendrez le titre
+                de technicien spécialisé qui assure donc votre niveau de BAC+3 et vous donnant un accès direct à l'emploi.
+                </p>
+              </article>
+          </section>
+      </div>
+    </div> 
   );
 };
 
