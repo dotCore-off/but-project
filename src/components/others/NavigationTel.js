@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 import Popup from "reactjs-popup";
-import "reactjs-popup/dist/index.css";
+//import "reactjs-popup/dist/index.css";
 import '../../styles/components/others/_navigationtel.scss';
 
 const Navigationtel = () => {
