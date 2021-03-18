@@ -7,6 +7,9 @@ const Contacts = () => {
         <div className="MapSize">
           <div className="Map">
             <iframe title="map" src="https://www.google.com/maps/d/u/0/embed?mid=1rn1p3fQifjHESv2s4bhmSwbiohDkuQai"></iframe>
+            <div className="imagina">
+            <a href="https://app.imagina.io/location/111087" target="_blank" rel="noreferrer">Notre lien imagina</a>
+            </div>
           </div>
         </div>
         <div className="ContactsText">

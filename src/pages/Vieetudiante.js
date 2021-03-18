@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "../components/others/Navigation";
+import Navigationtel from '../components/others/NavigationTel';
 import Footer from "../components/others/Footer";
 import BDE from "../components/pages/Vieetudiante/BDE.js";
 import Maisoncampus from "../components/pages/Vieetudiante/Maisoncampus";
@@ -11,6 +12,7 @@ const Vieetudiante = () => {
   return (
     <div className="vieEtudiante">
       <Navigation />
+      <Navigationtel />
       <div className="etuContent">
         <div className="composantVieEtu">
           <BDE />
