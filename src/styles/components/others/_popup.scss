@@ -1,67 +1,68 @@
-.modal {
-  font-size: 1rem;
-  background-color: #303030;
-  color: white;
-  font-family: $font-1;
-  border: none;
-  stroke : none;
-}
-.modal > .header {
-  width: 100%;
-  border-bottom: 1px solid gray;
-  font-size: 18px;
-  text-align: center;
-  padding: 5px;
-}
-.modal > .content {
-  width: 100%;
-  padding: 10px 5px;
-  border: none;
-  stroke : none;
-}
-.modal > .actions {
-  width: 100%;
-  padding: 10px 5px;
-  margin: auto;
-  text-align: center;
-  border: none;
-}
-.modal > .close {
-  cursor: pointer;
-  position: absolute;
-  display: block;
-  padding: 2px 5px;
-  line-height: 20px;
-  right: -10px;
-  top: -10px;
-  font-size: 24px;
-  background: #ffffff;
-  border-radius: 18px;
-  border : none
-  //border: 1px solid #cfcece;
-}
-
-.popup-content{
-    background-color: #303030;
-    padding: 10px 10px 10px 10px;
-    width: auto;
-    text-align: center;
-    input[type="email"] {
-      margin-bottom: 5px;
+    .modal {
+      font-size: 1rem;
+      background-color: #303030;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      border: none;
+      stroke: none;
     }
-}
+    .modal > .header {
+      width: 100%;
+      border-bottom: 1px solid gray;
+      font-size: 18px;
+      text-align: center;
+      padding: 5px;
+    }
+    .modal > .content {
+      width: 100%;
+      padding: 10px 5px;
+      border: none;
+      stroke: none;
+    }
+    .modal > .actions {
+      width: 100%;
+      padding: 10px 5px;
+      margin: auto;
+      text-align: center;
+      border: none;
+    }
+    .modal > .close {
+      cursor: pointer;
+      position: absolute;
+      display: block;
+      padding: 2px 5px;
+      line-height: 20px;
+      right: -10px;
+      top: -10px;
+      font-size: 24px;
+      background: #ffffff;
+      border-radius: 18px;
+      border: none;
+      //border: 1px solid #cfcece;
+    }
 
-[role=tooltip].popup-content{
-    border: none;
-    stroke: none;
-    border-radius: 10px;
-}
+    .popup-content {
+      background-color: #303030;
+      padding: 10px 10px 10px 10px;
+      width: auto;
+      text-align: center;
+      input[type="email"] {
+        margin-bottom: 5px;
+      }
+    }
 
-.drop-shadow{
-    stroke: transparent;
-    stroke-width:0px;
-    stroke-dasharray:1px
-}
+    [role="tooltip"].popup-content {
+      border: none;
+      stroke: none;
+      border-radius: 10px;
+    }
+
+    .drop-shadow {
+      stroke: transparent;
+      stroke-width: 0px;
+      stroke-dasharray: 1px;
+    }
+  
 
 .divPopup {
   display: flex;
@@ -91,7 +92,7 @@
     }
   }
   .buttonNewsletter:hover {
-  cursor: pointer;
+    cursor: pointer;
   }
   .buttonContact {
     background-color: dodgerblue;
@@ -110,26 +111,28 @@
   }
   .buttonContact:hover {
     cursor: pointer;
-    }
+  }
 }
 
 @media screen and (max-width: 550px) {
-    .modal {
-        font-size: 0.8rem;
-    }
-    
-    .modal > .header {
-        font-size:0.8rem;
-    }
+  .modal {
+    font-size: 0.8rem;
+  }
+
+  .modal > .header {
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (max-width: 450px) {
-    .popup-content{
-        width: 80%;
-        input[type="email"], input[type="text"], textarea {
-            width: 90%;
-        }
+  .popup-content {
+    width: 80%;
+    input[type="email"],
+    input[type="text"],
+    textarea {
+      width: 90%;
     }
+  }
 }
 
 /* animation */

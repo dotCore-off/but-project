@@ -61,6 +61,7 @@
 // Responsive > 600px
 @media screen and (max-width: 600px) {
   .navigationContent {
+    display: none;
     height: auto;
     padding-top: 0px;
     padding-bottom: 0px;

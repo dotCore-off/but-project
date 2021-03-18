@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from '../components/others/Navigation';
+import Navigationtel from '../components/others/NavigationTel';
 import Footer from '../components/others/Footer';
 // import Banniere from '../components/pages/Home/Banniere';
 import Contacts from '../components/pages/Home/Contacts';
@@ -14,6 +15,7 @@ const Home = () => {
   return (
     <div className="home">
       <Navigation />
+      <Navigationtel />
       <div className="homeContent">
         <Banner />
         <ChoisirRoanne />

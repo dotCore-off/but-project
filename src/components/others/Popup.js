@@ -1,6 +1,7 @@
 import React from "react";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
+import '../../styles/components/others/_popup.scss';
 
 function newsletter() {
   alert("Merci pour votre inscription !");
