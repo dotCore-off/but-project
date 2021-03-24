@@ -7,9 +7,6 @@ const Contacts = () => {
         <div className="MapSize">
           <div className="Map">
             <iframe title="map" src="https://www.google.com/maps/d/u/0/embed?mid=1rn1p3fQifjHESv2s4bhmSwbiohDkuQai"></iframe>
-            <div className="imagina">
-            <a href="https://app.imagina.io/location/111087" target="_blank" rel="noreferrer">Notre lien imagina</a>
-            </div>
           </div>
         </div>
         <div className="ContactsText">
@@ -39,7 +36,7 @@ const Contacts = () => {
                   href="https://iut-roanne.univ-st-etienne.fr/_attachments/plan-d-acces-article/campus_pierre_mendes_france__roanne__plan_acces_1443604325884.pdf?download=true"
                   target="_blank" rel="noreferrer"
                 >
-                  Plan D'accès
+                  Plan d'accès
             </a>
               </li>
               <li>
@@ -47,8 +44,13 @@ const Contacts = () => {
                   href="https://iut-roanne.univ-st-etienne.fr/_attachments/plan-d-acces-article/campus_pierre_mendes_france__roanne__plan_site_1443603911697.pdf?download=true"
                   target="_blank" rel="noreferrer"
                 >
-                  Plan du Campus
+                  Plan du campus
             </a>
+              </li>
+              <li>
+                <a href="https://app.imagina.io/location/111087" target="_blank" rel="noreferrer">
+                  Imagina de l'IUT
+                </a>
               </li>
             </ul>
           </div>
