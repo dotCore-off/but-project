@@ -6,13 +6,13 @@ const videoFormation = () => {
           <article className="article">
             <h1>LE PROGRAMME EN VIDEO</h1>
             <p className="firstp">
-              Le BUT se déroulant en 3 ans, vous verrez de nombreuses choses
-              durant votre BUT. Que ce soit dans le domaine des réseaux ou des
+              Le Bachelor Universitaire de Technologie se déroulant en 3 ans, vous verrez de nombreuses choses
+              durant votre B.U.T. Que ce soit dans le domaine des réseaux ou des
               télécommunications, vous apprendrez de nombreuses choses.
             </p>
             <p>
               Dans cette vidéo, le chef de département monsieur BONNARDOT
-              Frédéric, vous présente le programme qui vous attend durant votre BUT
+              Frédéric, vous présente le programme qui vous attend durant votre B.U.T.
               RT à Roanne.
             </p>
           </article>

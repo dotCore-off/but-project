@@ -14,9 +14,9 @@ import "react-responsive-tabs/styles.css";
 
 const année = [
   //{ name: "Résumé", contenu: "..." },
-  { name: "B.U.T - 1ère année", contenu: <BUT1 /> },
-  { name: "B.U.T - 2ème année", contenu: <BUT2 /> },
-  { name: "B.U.T - 3ème année", contenu: <BUT3 /> },
+  { name: "B.U.T. - 1ère année", contenu: <BUT1 /> },
+  { name: "B.U.T. - 2ème année", contenu: <BUT2 /> },
+  { name: "B.U.T. - 3ème année", contenu: <BUT3 /> },
   { name: "Spécialité - CYBER", contenu: <CYBER /> },
   { name: "Spécialité - ROM", contenu: <ROM /> },
 ];
@@ -35,7 +35,7 @@ function getTabs() {
 const Programme = () => {
   return (
     <div className="divProgramme">
-      <h2>Le programme du B.U.T</h2>
+      <h2>Le programme du B.U.T.</h2>
       <Tabs items={getTabs()}/>
     </div>
   );

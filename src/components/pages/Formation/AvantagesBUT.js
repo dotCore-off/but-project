@@ -3,7 +3,7 @@ import React from "react";
 const AvantagesBUT = () => {
   return (
     <div className="AvantagesBUT">
-      <h2 id="paddingTitleTop">Les caractéristiques du B.U.T</h2>
+      <h2 id="paddingTitleTop">Les caractéristiques du Bachelor Universitaire de Technologie</h2>
       <ul>
         <li className="formAnim">
           <span>Formation en 3 ans</span>
@@ -36,7 +36,7 @@ const AvantagesBUT = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Pour en savoir plus sur le BUT
+              Pour en savoir plus sur le B.U.T.
             </a>
           </li>
           <li className="pdfAnim">
