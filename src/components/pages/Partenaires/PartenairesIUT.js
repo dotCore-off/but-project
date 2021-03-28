@@ -37,7 +37,7 @@ const PartenairesIUT = () => {
           <a href="https://www.cisco.com/c/fr_fr/training-events/certifications.html" target="_blank" rel="noreferrer"><img src={cisco_logo} alt= "cisco_logo" className="cisco" title="Cliquer pour accèder à leur site"></img></a>
         </div>
         <div className="certification">
-          <a href="https://www.stormshield.com/fr/produits-et-services/services/formations/"  targer="_blank" rel="noreferrer"><img src={stormshield_logo} alt= "stormshield_logo" className="stormshield" title="Cliquer pour accèder à leur site"></img></a>
+          <a href="https://www.stormshield.com/fr/produits-et-services/services/formations/"  target="_blank" rel="noreferrer"><img src={stormshield_logo} alt= "stormshield_logo" className="stormshield" title="Cliquer pour accèder à leur site"></img></a>
         </div>
       </div>
     </div>
