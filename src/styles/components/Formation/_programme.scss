@@ -47,12 +47,6 @@
     border-style: solid;
   }
 
-  /*.RRT__tab--selected, .RRT__showmore--selected {
-    background-color: black;
-    border-style: solid;
-    color: black;
-  }*/
-
   .RRT__tab--selected:focus {
     background-color: lighten(orangered, 20%);
     border-color: white;
