@@ -35,35 +35,35 @@
   }
 
   .RRT__tab:hover {
-    background-color: lighten(#303030, 12%);
+    background-color: lighten(orangered, 20%);
     border-style: solid;
     color: lighten(orangered, 20%);
   }
 
   .RRT__tab, .RRT__showmore, .RRT__showmore-label--selected {
     background-position: center;
-    background-color: lighten(#303030, 12%);
+    background-color: lighten(white, 12%);
     background-repeat: no-repeat;
     border-style: solid;
   }
 
-  .RRT__tab--selected, .RRT__showmore--selected {
-    background-color: #303030;
+  /*.RRT__tab--selected, .RRT__showmore--selected {
+    background-color: black;
     border-style: solid;
-    color: lighten(orangered, 20%);
-  }
+    color: black;
+  }*/
 
   .RRT__tab--selected:focus {
-    background-color: #303030;
+    background-color: lighten(orangered, 20%);
     border-color: white;
     border-style: solid;
   }
-
+  
   .RRT__panel {
     border-style: solid;
     border-radius: 5%;
-    border: $greyred solid 3px;
-    background-color: #303030;
+    border: orangered solid 3px;
+    background-color: black;
     background-repeat: no-repeat;
     color: white;
     margin-top: 1%;
@@ -75,14 +75,44 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: orangered;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: orangered solid 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  #tab-0:hover, #tab-1:hover, #tab-2:hover, #tab-3:hover, #tab-4:hover, .RRT__showmore:hover{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
     font-size: 1.3rem;
     font-weight: bold;
     text-align: center;
     text-decoration: underline;
     margin-bottom: 5px;
     margin-top: 5px;
-    border: $greyred solid 3px;
+    border: black solid 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  #tab-0:focus, #tab-1:focus, #tab-2:focus, #tab-3:focus, #tab-4:focus, .RRT__showmore:focus{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: black solid 3px;
     margin-left: 5px;
     margin-right: 5px;
   }
