@@ -34,3 +34,8 @@
 //  background-color: $backgroundcolor;
 //  background-image: $backgroundimg;
 }
+
+// Suppression de la barre de navigation de l'ensemble des pages
+::-webkit-scrollbar {
+  display: none;
+}
