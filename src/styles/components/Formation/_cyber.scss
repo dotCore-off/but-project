@@ -21,16 +21,26 @@
   }
 
   .imgCYBER {
-    width: 50%;
+    // Zoom animation - Base properties
+    -webkit-transform: scale(1);
+    transform: scale(1);      
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;    width: 35%;
     margin: auto;
     .antispam {
       width: 100%;
       height: auto;
     }
     .snmp {
-        width: 100%;
-        height: auto;
-      }
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .imgCYBER:hover{
+    // Launch Zoom animation
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
   }
 }
 
