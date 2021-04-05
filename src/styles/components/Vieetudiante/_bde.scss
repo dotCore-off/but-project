@@ -47,6 +47,17 @@
       height: auto;
       margin: auto;
       border-radius: 120px;
+      transform: scale(1);
+      -webkit-transform: scale(1);
+      -o-transition:.7s;
+      -ms-transition:.7s;
+      -moz-transition:.7s;
+      -webkit-transition:.7s;
+      transition:.7s ease-in-out;
+    }
+    .logoBDE:hover {
+      -webkit-transform: scale(1.2) rotate(360deg);
+      transform: scale(1.2) rotate(360deg);    
     }
   }
   .reseauBDE {
