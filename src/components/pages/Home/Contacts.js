@@ -12,7 +12,7 @@ const Contacts = () => {
         <div className="ContactsText">
           <h2>Où nous trouver ?</h2>
           <div className="coordonates">
-            <h3>Coordonnées :</h3>
+            <h3>Nos coordonnées :</h3>
             <ul className="Adresse">
               <li>IUT de Roanne</li>
               <li>20 Avenue de Paris</li>
