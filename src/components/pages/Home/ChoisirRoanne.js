@@ -8,12 +8,12 @@ const ChoisirRoanne = () => {
         <section className="section1">
           <article className="article">
             <h1>CHOISIR L'IUT DE ROANNE</h1>
-            <p className="firstp">L'IUT de Roanne c'est beaucoup de chose, mais surtout un IUT à taille humaine permettant
+            <p className="firstp">L'université de Roanne, c'est un concentré de connaissances et de savoir-faire, mais c'est aussi et surtout un IUT à taille humaine permettant
             aux élèves de profiter d'un enseignement et d'un accompagnement unique.</p>
-            <p>En effet, la communication est favorisée au sein des DUT et nous avantages nous, les élèves, dans notre
+            <p>En effet, la communication est favorisée au sein des formations et nous avantage nous, les élèves, dans notre
             apprentissage.
             </p>
-            <a href="https://iut-roanne.univ-st-etienne.fr/fr/l-iut/visite-guidee.html" title="rediction_accueil_iut">L'IUT de Roanne en quelques dates...</a>
+            <a href="https://iut-roanne.univ-st-etienne.fr/fr/l-iut/visite-guidee.html" title="rediction_accueil_iut">Découvrez l'IUT de Roanne en quelques dates !</a>
           </article>
         </section>
         <section className="section2">
