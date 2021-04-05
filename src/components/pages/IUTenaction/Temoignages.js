@@ -16,7 +16,7 @@ const Temoignages = () => {
             allowfullscreen
             className="videoTemoignage"
           ></iframe>
-          <h2>Témoignages 2017</h2>
+          <h2>Témoignages de 2017</h2>
         </div>
         <div className="video2019">
           <iframe
@@ -29,7 +29,7 @@ const Temoignages = () => {
             allowfullscreen
             className="videoTemoignage"
           ></iframe>
-          <h2>Témoignages 2019</h2>
+          <h2>Témoignages de 2019</h2>
         </div>
       </div>
     </div>

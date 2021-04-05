@@ -25,21 +25,21 @@ function G2() {
         preview={pG02}
         title="Salle G02"
         onLoad={() => {
-          console.log("panorama loaded");
+          console.log("[Panorama] Panorama correctement chargé !");
         }}
       >
         <Pannellum.Hotspot
           type="info"
           pitch={-10}
           yaw={110}
-          text="Osciloscope et générateur de signal utilisé lors des TP d'électronique ou de signal"
+          text="Osciloscope et générateur de signal utilisés lors des travaux pratiques d'électronique ou de signal"
         />
 
         <Pannellum.Hotspot
           type="info"
           pitch={-20}
           yaw={-120}
-          text="TP de téléphonie de première année"
+          text="Travaux pratiques de téléphonie de première année"
         />
       </Pannellum>
     </div>
@@ -60,7 +60,7 @@ function G4() {
         preview={pG04}
         title="Salle G04"
         onLoad={() => {
-          console.log("panorama loaded");
+          console.log("[Panorama] Panorama correctement chargé !");
         }}
       >
         <Pannellum.Hotspot
@@ -88,7 +88,7 @@ function G7() {
         preview={pG07}
         title="Salle G07"
         onLoad={() => {
-          console.log("panorama loaded");
+          console.log("[Panorama] Panorama correctement chargé !");
         }}
       >
         <Pannellum.Hotspot
