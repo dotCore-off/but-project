@@ -30,22 +30,16 @@ const AvantagesBUT = () => {
       <br></br>
       <div className="infoBUT">
         <ul>
-          <li>
-            <a
-              href="https://iut-roanne.univ-st-etienne.fr/fr/tous-les-faits-marquants/annee-2020-2021-2/zoom-sur/but.html"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Pour en savoir plus sur le B.U.T.
+          <li className="plusInfos">
+            <a href="https://iut-roanne.univ-st-etienne.fr/fr/tous-les-faits-marquants/annee-2020-2021-2/zoom-sur/but.html" target="_blank" rel="noreferrer">      
+              <i class="fas fa-globe"></i>
+              <span>Zoom sur le B.U.T.</span>
             </a>
           </li>
           <li className="pdfAnim">
-            <a
-              href="https://dossier.univ-st-etienne.fr/roa-jpo/www/Visite_Virtuelle/files/B.U.T.%20IUT%20ROANNE%202021.pdf"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://dossier.univ-st-etienne.fr/roa-jpo/www/Visite_Virtuelle/files/B.U.T.%20IUT%20ROANNE%202021.pdf" target="_blank" rel="noreferrer" >
               <i class="fas fa-file-pdf"></i>
+              <span>Document d'information (PDF)</span>
             </a>
           </li>
         </ul>
