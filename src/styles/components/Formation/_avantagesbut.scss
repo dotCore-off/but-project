@@ -73,15 +73,28 @@
         width: auto;
         height: auto;
         color: black;
-        i{
+        i {
           color: black;
           font-size: 7rem;
         }
-        a:hover{
+        a:hover {
           color: orangered;
-          i:hover{
+          i:hover {
             color: orangered;
           }
+        }
+      }
+
+      .plusInfos {
+        width: auto;
+        height: auto;
+        color: black;
+        i {
+          color: black;
+          font-size: 7rem;
+        }
+        i:hover {
+          color: orangered;
         }
       }
     }
@@ -103,12 +116,24 @@
       flex-direction: column;
     }
   }
+
+  .infoBUT {
+    font-size: 0.8rem;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    ul {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 }
 
 /* Style - Animations */
 
 // Animations pour les icônes des caractéristiques du BUT
-.formAnim:hover, .bacAnim:hover, .ectsAnim:hover, .cursAnim:hover, .speAnim:hover, .pdfAnim:hover {
+.formAnim:hover, .bacAnim:hover, .ectsAnim:hover, .cursAnim:hover, .speAnim:hover, .pdfAnim:hover, .plusInfos:hover {
   // Changement de l'alignement du texte
   text-align: center;
   // Changement de la couleur des icônes
