@@ -106,31 +106,27 @@
 }
 
 /* Style - Animations */
-// Animation for third list of icons
-.formAnim:hover,
-.bacAnim:hover,
-.ectsAnim:hover,
-.cursAnim:hover,
-.speAnim:hover,
-.pdfAnim:hover {
-  // Change text alignment
+
+// Animations pour les icônes des caractéristiques du BUT
+.formAnim:hover, .bacAnim:hover, .ectsAnim:hover, .cursAnim:hover, .speAnim:hover, .pdfAnim:hover {
+  // Changement de l'alignement du texte
   text-align: center;
-  // Change color of icon
-  //color: orangered;
-  // Animation's properties
+  // Changement de la couleur des icônes
+  color: orangered;
+  // Déclaration du nom et de la durée de l'animation
   animation-name: floatingImg;
   animation-duration: 2s;
-  // Check this property on internet if you want to know more about it (flemme d'expliquer mdrrr)
+  // Diverses propriétés de l'animation
   animation-timing-function: cubic-bezier(0.2, 0, 0.8, 1);
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  // Integrate the color to the link bellow
+  // Intégration de la couleur au lien
   a {
     color: orangered;
   }
 }
 
-// Animation movement
+// Animation de flottement
 @keyframes floatingImg {
   /*
     Ici, on peut mettre une valeur entre 0 et 100 qui détermine à quel moment de l'animation cette dernière s'initie.
@@ -141,8 +137,8 @@
     Vous pouvez toujours tester en changeant de valeur au cas où vous comprenez pas.
   */
   100% {
-    // We set the movement - Translate the class by 5px on vertical axe
-    // Increase the value for bigger movement, decrease for lower ones
+    // On met en place le mouvement - La translation se fera de 5px verticalement
+    // Augmenter la valeur pour un plus grand déplacement, la baisser pour un plus petit déplacement
     transform: translateY(5px);
   }
 }
