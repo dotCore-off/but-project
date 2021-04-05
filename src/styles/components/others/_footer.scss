@@ -1,26 +1,28 @@
-.footer{
+.footer {
     width: 100%;
     height: 80px;
+    font-size: 1.25rem;
     font-family: $font-1;
     background-color: black;
     border-top: orangered solid 2px;     
     color: $white;
     overflow: hidden;
-    ul{
+    ul {
         display: flex;
         justify-content: space-around;
         align-items: center;
         width: 100%;
         height: 100%;
+        padding-bottom: 5px;
         flex-wrap: wrap;
         text-align: center;
-        li{
+        li {
             list-style-type: none;
             letter-spacing: 1px;
-            img{
+            img {
                 width: 100px;
             }
-            i{
+            i {
                 font-size: 50px;
             }
         }
@@ -57,15 +59,15 @@
     }
 }
 
-// Animation for facebook icon
+// Animation pour l'icône Facebook + IUT
 .image:hover, #fbFooter:hover {
-    // Change type of cursor
+    // Changement du type de curseur
     cursor: pointer;
     text-align: center;
-    // Animation's properties
+    // Déclaration du nom + durée de l'animation
     animation-name: floatingImg;
     animation-duration: 2s;
-    // Check this property on internet if you want to know more about it (flemme d'expliquer mdrrr)
+    // Quelques propriétés diverses
     animation-timing-function: cubic-bezier(.2, 0, .8, 1);
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -74,26 +76,27 @@
     }
 }
 
-// Animation for Instagram icon
+// Animation pour l'icône d'Instagram
 #instaFooter:hover {
-    // Change type of cursor
+    // Changement du type de curseur
     cursor: pointer;
     text-align: center;
+    // Dégradé de couleur
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-    // Fixed webkit issue
+    // Correction des problèmes de webkit
     background-clip: none;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    // Animation's properties
+    // Déclaration du nom + durée de l'animation
     animation-name: floatingImg;
     animation-duration: 2s;
-    // Check this property on internet if you want to know more about it (flemme d'expliquer mdrrr)
+    // Quelques propriétés diverses
     animation-timing-function: cubic-bezier(.2, 0, .8, 1);
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
-// Animation movement
+// Définition de l'animation floatingImg
 @keyframes floatingImg {
     100% {
         transform: translateY(10px);
@@ -101,5 +104,5 @@
 }
 
 .afooter:hover, .panfooter:hover {
-    color: rgb(112, 182, 247);
+    color: orangered;
 }
