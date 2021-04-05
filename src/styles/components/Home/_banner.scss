@@ -43,6 +43,9 @@
           font-size: 1.2rem;
           text-decoration: underline;
         }
+        a:hover {
+          color: rgb(255, 135, 66);
+        }
       }
     }
   }
@@ -90,6 +93,9 @@
             font-family: $font-1;
             font-size: 1.2rem;
             text-decoration: underline;
+          }
+          a:hover {
+            color: rgb(255, 135, 66);
           }
         }
       }
@@ -139,6 +145,9 @@
             font-family: $font-1;
             font-size: 1.2rem;
             text-decoration: underline;
+          }
+          a:hover {
+            color: rgb(255, 135, 66);
           }
         }
       }
