@@ -22,7 +22,6 @@
   }
   h3 {
     width: 50%;
-    font-family: $font-2;
     margin: 20px auto;
   }
 
@@ -100,7 +99,6 @@
     .RRT__panel {
       border-radius: 5%;
       border: none;
-      // background: #6e1e3c;
       background-color: transparent;
       margin-bottom: 5%;
       margin-top: 1%;
@@ -130,7 +128,7 @@
       text-decoration: underline;
       margin-bottom: 5px;
       margin-top: 5px;
-      border: $greyred solid 3px;
+      border: orangered solid 3px;
       margin-left: 10px;
       margin-right: 10px;
     }
@@ -148,7 +146,7 @@
       text-decoration: underline;
       margin-bottom: 5px;
       margin-top: 5px;
-      border: $greyred solid 3px;
+      border: orangered solid 3px;
       margin-left: 10px;
       margin-right: 10px;
     }
@@ -166,7 +164,7 @@
       text-decoration: underline;
       margin-top: 5px;
       margin-bottom: 5px;
-      border: $greyred solid 3px;
+      border: orangered solid 3px;
       margin-left: 10px;
       margin-right: 10px;
     }
