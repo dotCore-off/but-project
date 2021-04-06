@@ -1,36 +1,83 @@
-.BackgroundvideoFormation{
+.BackgroundvideoFormation {
+  background-color: black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .videoFormationContent {
+    overflow: hidden;
+    display: flex;
+    .section2 {
+      #videoPresentationBUT {
+        width: 650px;
+        height: 458px;
+        iframe {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    .section1 {
+      padding-right: 10%;
+      padding-left: 10%;
+      padding-top: 60px;
+      width: 100%;
+      display: block;
+      article {
+        color: white;
+        font-family: $font-1;
+        h1 {
+          font-size: 1.7rem;
+          justify-content: flex-end;
+          padding-bottom: 1.5rem;
+          letter-spacing: 0.01rem;
+        }
+        p {
+          font-size: 1.3rem;
+          padding-top: 0;
+          text-align: start;
+          padding-bottom: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .BackgroundvideoFormation {
     background-color: black;
     padding-top: 100px;
     padding-bottom: 100px;
-    .videoFormationContent{
+    .videoFormationContent {
       overflow: hidden;
-      display: flex;
-      .section2{
-        #videoPresentationBUT{
+      display: block;
+      .section2 {
+        display: flex;
+        justify-content: center;
+        #videoPresentationBUT {
           width: 650px;
           height: 458px;
-          iframe{
+          iframe {
             width: 100%;
             height: 100%;
           }
         }
       }
-      .section1{
+      .section1 {
         padding-right: 10%;
         padding-left: 10%;
-        padding-top: 60px;
+        padding-top: 0px;
+        padding-bottom: 60px;
         width: 100%;
         display: block;
-        article{
+        article {
           color: white;
           font-family: $font-1;
-          h1{
+          h1 {
             font-size: 1.7rem;
             justify-content: flex-end;
             padding-bottom: 1.5rem;
             letter-spacing: 0.01rem;
           }
-          p{
+          p {
             font-size: 1.3rem;
             padding-top: 0;
             text-align: start;
@@ -40,53 +87,21 @@
       }
     }
   }
-  
-  @media screen and (max-width: 1400px) {
-    .BackgroundvideoFormation{
-      background-color: black;
-      padding-top: 100px;
-      padding-bottom: 100px;
-      .videoFormationContent{
-        overflow: hidden;
-        display: block;
-        .section2{
-          display: flex;
-          justify-content: center;
-          #videoPresentationBUT{
-            width: 650px;
-            height: 458px;
-            iframe{
-              width: 100%;
-              height: 100%;
-            }
-          }
-        }
-        .section1{
-          padding-right: 10%;
-          padding-left: 10%;
-          padding-top: 0px;
-          padding-bottom: 60px;
-          width: 100%;
-          display: block;
-          article{
-            color: white;
-            font-family: $font-1;
-            h1{
-              font-size: 1.7rem;
-              justify-content: flex-end;
-              padding-bottom: 1.5rem;
-              letter-spacing: 0.01rem;
-            }
-            p{
-              font-size: 1.3rem;
-              padding-top: 0;
-              text-align: start;
-              padding-bottom: 40px;
-            }
+}
+
+@media screen and (max-width: 650px) {
+  .BackgroundvideoFormation {
+    .videoFormationContent {
+      .section2 {
+        #videoPresentationBUT {
+          width: 90vw;
+          height: 50vh;
+          iframe {
+            width: 100%;
+            height: 100%;
           }
         }
       }
     }
   }
-  
-  
+}
