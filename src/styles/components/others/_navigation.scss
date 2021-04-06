@@ -20,9 +20,15 @@
       a:active {
         opacity: 0.3;
       }
+      .navActive{
+        color: orangered;
+        font-weight: bold;
+      }
     }
   }
 }
+
+
 
 // Responsive > 1200px
 @media screen and (max-width: 1250px) {
@@ -50,12 +56,11 @@
     padding-left: 0%;
     padding-right: 0%;
     font-size: 1rem;
-    ul{
+    ul {
       flex-wrap: wrap;
     }
   }
 }
-
 
 // Responsive > 600px
 @media screen and (max-width: 600px) {
@@ -64,10 +69,10 @@
     height: auto;
     padding-top: 0px;
     padding-bottom: 0px;
-    ul{
+    ul {
       flex-direction: column;
       text-align: center;
-      a{
+      a {
         padding-right: 0px;
       }
     }
@@ -80,9 +85,9 @@
     height: auto;
     padding-top: 0px;
     padding-bottom: 0px;
-    ul{
+    ul {
       text-align: center;
-      a{
+      a {
         padding: 0px;
       }
     }
