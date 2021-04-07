@@ -22,8 +22,8 @@ const videoFormation = () => {
             <iframe
               alt="BUT_video_presentation"
               title="videoPresentation"
-              width="560"
-              height="315"
+              width="1020"
+              height="630"
               src="https://www.youtube.com/embed/bZRNvouAA6c"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

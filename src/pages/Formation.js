@@ -10,7 +10,7 @@ import AvantagesBUT from '../components/pages/Formation/AvantagesBUT';
 const Formation = () => {
   return (
     <div className="formationContent">
-      <Navigation />
+      <Navigation className="navFormation" />
       <Navigationtel />
       <AvantagesBUT />
       <Video />
