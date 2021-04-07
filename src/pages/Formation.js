@@ -5,7 +5,7 @@ import Footer from '../components/others/Footer';
 import Programme from '../components/pages/Formation/Programme';
 import Video from '../components/pages/Formation/videoFormation';
 import AvantagesBUT from '../components/pages/Formation/AvantagesBUT';
-//import Popup from '../components/others/Popup';
+import Popup from '../components/others/Popup';
 
 const Formation = () => {
   return (
@@ -15,7 +15,7 @@ const Formation = () => {
       <AvantagesBUT />
       <Video />
       <Programme />
-      {/*<Popup />*/}
+      <Popup />
       <Footer />
     </div>
   );
