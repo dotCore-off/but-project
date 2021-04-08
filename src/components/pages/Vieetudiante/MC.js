@@ -9,7 +9,7 @@ const MC = () => {
     <div className="divMC">
       <div className="MPU">
         <div className="imgMPU">
-          <img src={MPU} alt="MPU" />
+          <img src={MPU} alt="MPU" className="photoMPU"/>
         </div>
         <div className="textMC">
           <h2>La médecine préventive Universitaire</h2>
